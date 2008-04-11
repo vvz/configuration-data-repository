@@ -66,7 +66,16 @@ class RelationController extends JsecAuthBase {
     def create = {
         def relation = new Relation()
         relation.properties = params
-        return ['relation':relation]
+        println params
+        return ['relation':relation, ciList: ConfigurationItem.list(sort: "name", order: "desc")]
+    }
+
+    def relationForm = {
+        if(params.name){
+            return [ciList: ConfigurationItem.findAllByNameIlike("%${params.name}%", [sort: "name", order: "desc"])]
+        } else{
+            return [ciList: ConfigurationItem.list(sort: "name", order: "desc")]
+        }
     }
 
     def save = {

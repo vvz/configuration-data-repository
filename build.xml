@@ -1,4 +1,4 @@
-<project name="CDR" default="test">
+<project name="cdr" default="test">
 
     <condition property="grails" value="grails.bat">
         <os family="windows"/>

@@ -172,7 +172,7 @@ class JsecDbRealm {
 
     def findConstructor(className) {
         // Load the required permission class.
-        def clazz = Class.forName(className)
+        def clazz = this.class.classLoader.loadClass(className)
 
         // Check the available constructors. If any take two
         // string parameters, we use that one and pass in the

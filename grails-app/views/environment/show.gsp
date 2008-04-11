@@ -81,16 +81,64 @@
                             <td valign="top" class="name">Hardware:</td>
                             <td valign="top" class=value>
                                 <ul class="subItems">
-                                    <%
-                                        environment.configurationItems.each {item ->
-                                    %>
+                                    <g:each var="item" in="${Hardware.getAll(environment.configurationItems.collect{it.id})}">
                                     <li><g:link controller="hardware" action="show" params='["environment.id":params.id]' id="${item?.id}">${item}</g:link></li>
-                                    <%
-                                        }
-                                    %>
+                                    </g:each>
                                 </ul>
                             </td>
                         </tr>
+                        <tr class="prop">
+                            <td valign="top" class="name">Software:</td>
+                            <td valign="top" class=value>
+                                <ul class="subItems">
+                                    <g:each var="item" in="${Software.getAll(environment.configurationItems.collect{it.id})}">
+                                    <li><g:link controller="software" action="show" params='["environment.id":params.id]' id="${item?.id}">${item}</g:link></li>
+                                    </g:each>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="prop">
+                            <td valign="top" class="name">Network:</td>
+                            <td valign="top" class=value>
+                                <ul class="subItems">
+                                    <g:each var="item" in="${Network.getAll(environment.configurationItems.collect{it.id})}">
+                                    <li><g:link controller="network" action="show" params='["environment.id":params.id]' id="${item?.id}">${item}</g:link></li>
+                                    </g:each>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="prop">
+                            <td valign="top" class="name">Documentation:</td>
+                            <td valign="top" class=value>
+                                <ul class="subItems">
+                                    <g:each var="item" in="${Documentation.getAll(environment.configurationItems.collect{it.id})}">
+                                    <li><g:link controller="documentation" action="show" params='["environment.id":params.id]' id="${item?.id}">${item}</g:link></li>
+                                    </g:each>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="prop">
+                            <td valign="top" class="name">Change Request:</td>
+                            <td valign="top" class=value>
+                                <ul class="subItems">
+                                    <g:each var="item" in="${ChangeRequest.getAll(environment.configurationItems.collect{it.id})}">
+                                    <li><g:link controller="changeRequest" action="show" params='["environment.id":params.id]' id="${item?.id}">${item}</g:link></li>
+                                    </g:each>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="prop">
+                            <td valign="top" class="name">Test Result:</td>
+                            <td valign="top" class=value>
+                                <ul class="subItems">
+                                    <g:each var="item" in="${TestResult.getAll(environment.configurationItems.collect{it.id})}">
+                                    <li><g:link controller="testResult" action="show" params='["environment.id":params.id]' id="${item?.id}">${item}</g:link></li>
+                                    </g:each>
+                                </ul>
+                            </td>
+                        </tr>
+
+
                     </tbody>
                 </table>
             </div>
