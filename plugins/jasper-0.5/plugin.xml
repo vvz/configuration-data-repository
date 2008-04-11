@@ -1,0 +1,7 @@
+<plugin name='jasper' version='0.5'>
+  <resources>
+    <resource>JasperController</resource>
+    <resource>JasperService</resource>
+    <resource>JasperTagLib</resource>
+  </resources>
+</plugin>
