@@ -14,7 +14,7 @@
     <g:if test="${flash.message}">
         <div class="message">${flash.message}</div>
     </g:if>
-    <div>
+    <div class="remoteField">
         Name: <g:remoteField id="${environment?.id}" action="relationForm" update="sub_form" paramName="name"  name="name" value="${params?.name}"/>
     </div>
 <div id="configuration_list">
@@ -57,7 +57,7 @@
 
 
         <div class="paginateButtons">
-            <g:paginate id="${environment?.id}" action="addRelation" total="${ciListSize}" params="[name:params.name]"/>
+            <g:paginate id="${environment?.id}" action="addRelation" total="${ciListSize}" params="[name:params?.name]"/>
         </div>
         <div class="buttons">
             <span class="button"><input class="save" type="submit" value="Add"/></span>

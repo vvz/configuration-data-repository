@@ -17,19 +17,19 @@
     <div id="login_top_container">Login</div>
 	<!-- Container for login form -->
 	<div id="login_container">
-	
+
         <div id="spinner" class="spinner" style="display:none;">
             <img src="${createLinkTo(dir: 'images', file: 'spinner.gif')}" alt="Spinner"/>
         </div>
-		
+
         <g:if test="${flash.message}">
             <div class="message">${flash.message}</div>
         </g:if>
-		
+
 		<!-- Login Form Begins here -->
         <g:form action="signIn" name="loginform" id="loginform" method="post">
             <input type="hidden" name="targetUri" value="${targetUri}"/>
-			
+
 			<p>
 			<label>Username:<br>
 			<input name="username" id="user_login" class="input" value="${username}" size="30" tabindex="10" type="text"></label>
@@ -42,12 +42,12 @@
 			<a href="#">Trouble with login?</a>
 			<input value="Login >" id="login_submit" tabindex="100" type="submit">
 			</p>
-			
+
         </g:form>
 		<!-- Login form Ends here -->
-		
+
     </div>
-	
+
 	<!-- Centered Login Page Footer -->
     <div id="login_footer">
     &copy; 2007 Delegata Corporation. All Rights Reserved.

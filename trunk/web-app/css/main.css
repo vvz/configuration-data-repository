@@ -734,4 +734,89 @@ ul.subItems {
     padding: 0;
 }*/
 
-#mymenubar { position: absolute; };
+#mymenubar { position: absolute; }
+
+.ci_name{
+    font-size: 16px;
+}
+
+/*
+div.ci_list {
+    position: absolute;
+    height: 285px;
+	overflow: auto;
+	width: 700px
+}
+
+html>body div.ci_list {
+	overflow: hidden;
+	width: 700px
+}
+
+div.ci_list table {
+	float: left;
+	width: 684px
+}
+
+thead.fixedHeader tr {
+	position: relative
+}
+
+html>body thead.fixedHeader tr {
+	display: block
+}
+
+html>body tbody.scrollContent {
+	display: block;
+	height: 262px;
+	overflow: auto;
+	width: 100%
+}
+
+html>body thead.fixedHeader th {
+	width: 20px
+}
+
+html>body thead.fixedHeader th + th {
+	width: 136px
+}
+
+html>body thead.fixedHeader th + th + th {
+	width: 136px
+}
+
+html>body thead.fixedHeader th + th + th + th {
+	width: 136px
+}
+html>body thead.fixedHeader th + th + th + th + th {
+	width: 136px
+}
+html>body thead.fixedHeader th + th + th + th + th + th {
+	width: 136px
+}
+
+html>body tbody.scrollContent td {
+	width: 20px
+}
+
+html>body tbody.scrollContent td + td {
+	width: 136px
+}
+
+html>body tbody.scrollContent td + td + td {
+	width: 136px
+}
+
+html>body tbody.scrollContent td + td + td + td {
+	width: 136px
+}
+html>body tbody.scrollContent td + td + td + td + td {
+	width: 136px
+}
+html>body tbody.scrollContent td + td + td + td + td + td {
+	width: 120px
+}*/
+
+.remoteField {
+    padding-bottom: 8px;
+}

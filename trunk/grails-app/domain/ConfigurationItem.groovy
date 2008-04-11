@@ -14,7 +14,7 @@ class ConfigurationItem
     Set thatRelations*/
 
     static hasMany = [thisRelations: Relation, thatRelations: Relation, environments: Environment, statuses: Status, configurationItems: ConfigurationItem]
-    static mappedBy = [thisRelations: 'thisCI', thatRelations: 'thatCI']
+    static mappedBy = [thisRelations: 'thisCI', thatRelations: 'thatCI', configurationItems: 'parent']
     static belongsTo = [Environment, ConfigurationItem]
     static constraints = {
         name(nullable: false)
