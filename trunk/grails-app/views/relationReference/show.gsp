@@ -3,15 +3,15 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <meta name="layout" content="main" />
-        <title>Show RelationReference</title>
+        <title>Show Relation Reference</title>
     </head>
     <body>
         <div class="body">
-            <h1>Show RelationReference</h1>
+            <h1>Show Relation Reference</h1>
             <div class="nav">
                 %{--<span class="menuButton"><a class="home" href="${createLinkTo(dir:'')}">Home</a></span>--}%
-                %{--<span class="menuButton"><g:link class="list" action="list">RelationReference List</g:link></span>--}%
-                <span class="menuButton"><g:link class="create" action="create">New RelationReference</g:link></span>
+                %{--<span class="menuButton"><g:link class="list" action="list">Relation Reference List</g:link></span>--}%
+                <span class="menuButton"><g:link class="create" action="create">New Relation Reference</g:link></span>
             </div>
             <g:if test="${flash.message}">
             <div class="message">${flash.message}</div>

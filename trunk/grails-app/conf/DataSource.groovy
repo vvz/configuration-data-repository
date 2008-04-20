@@ -32,6 +32,9 @@ environments {
             username = "cdr"
             password = "caldoj1"
             url = "jdbc:oracle:thin:@//ora1-vip:1521/btst"
+            /*username = "cdrtest"
+            password = "cdrtest"
+            url = "jdbc:oracle:thin:@//192.168.0.235:1521/COAPS"*/
             
         }
     }

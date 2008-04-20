@@ -25,14 +25,15 @@
 
 	<parameter name="STATUS_DATE" isForPrompting="true" class="java.util.Date"/>
 	<parameter name="ENVIRONMENT_ID" isForPrompting="true" class="java.lang.Integer"/>
+	<parameter name="REPORTS_DIR" isForPrompting="true" class="java.lang.String"/>
 	<queryString><![CDATA[SELECT DISTINCT
      R_CI_TYPE."TYPE" AS R_CI_TYPE_TYPE
 FROM
-     "CDRTEST"."ENVIRONMENT" ENVIRONMENT INNER JOIN "CDRTEST"."ENVIRONMENT_CONFIGURATION_ITEM" ENVIRONMENT_CONFIGURATION_ITEM ON ENVIRONMENT."ID" = ENVIRONMENT_CONFIGURATION_ITEM."CONFIGURATION_ITEMS_ID"
-     INNER JOIN "CDRTEST"."CONFIGURATION_ITEM" CONFIGURATION_ITEM ON ENVIRONMENT_CONFIGURATION_ITEM."ENVIRONMENTS_ID" = CONFIGURATION_ITEM."ID"
-     INNER JOIN "CDRTEST"."STATUS" STATUS ON CONFIGURATION_ITEM."ID" = STATUS."CONFIGURATION_ITEM_ID"
-     INNER JOIN "CDRTEST"."STATUS_REFERENCE" STATUS_REFERENCE ON STATUS."REFERENCE_ID" = STATUS_REFERENCE."ID",
-     "CDRTEST"."R_CI_TYPE" R_CI_TYPE
+     "ENVIRONMENT" ENVIRONMENT INNER JOIN "ENVIRONMENT_CONFIGURATION_ITEM" ENVIRONMENT_CONFIGURATION_ITEM ON ENVIRONMENT."ID" = ENVIRONMENT_CONFIGURATION_ITEM."CONFIGURATION_ITEMS_ID"
+     INNER JOIN "CONFIGURATION_ITEM" CONFIGURATION_ITEM ON ENVIRONMENT_CONFIGURATION_ITEM."ENVIRONMENTS_ID" = CONFIGURATION_ITEM."ID"
+     INNER JOIN "STATUS" STATUS ON CONFIGURATION_ITEM."ID" = STATUS."CONFIGURATION_ITEM_ID"
+     INNER JOIN "STATUS_REFERENCE" STATUS_REFERENCE ON STATUS."REFERENCE_ID" = STATUS_REFERENCE."ID",
+     "R_CI_TYPE" R_CI_TYPE
 WHERE
      STATUS_REFERENCE.DESCRIPTION = 'Active'
      AND STATUS.START_DATE <= $P{STATUS_DATE}
@@ -107,11 +108,14 @@ WHERE
 					<subreportParameter  name="ENVIRONMENT_ID">
 						<subreportParameterExpression><![CDATA[$P{ENVIRONMENT_ID}]]></subreportParameterExpression>
 					</subreportParameter>
+					<subreportParameter  name="REPORTS_DIR">
+						<subreportParameterExpression><![CDATA[$P{REPORTS_DIR}]]></subreportParameterExpression>
+					</subreportParameter>
 					<subreportParameter  name="CATEGORY_TYPE">
 						<subreportParameterExpression><![CDATA[$F{R_CI_TYPE_TYPE}]]></subreportParameterExpression>
 					</subreportParameter>
 					<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
-					<subreportExpression  class="java.lang.String"><![CDATA[".\\Type.jasper"]]></subreportExpression>
+					<subreportExpression  class="java.lang.String"><![CDATA[$P{REPORTS_DIR} + "\\Type.jasper"]]></subreportExpression>
 				</subreport>
 			</band>
 		</detail>

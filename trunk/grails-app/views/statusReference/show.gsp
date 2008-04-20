@@ -3,15 +3,15 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <meta name="layout" content="main" />
-        <title>Show StatusReference</title>
+        <title>Show Status Reference</title>
     </head>
     <body>
         <div class="body">
-            <h1>Show StatusReference</h1>
+            <h1>Show Status Reference</h1>
             <div class="nav">
                 %{--<span class="menuButton"><a class="home" href="${createLinkTo(dir:'')}">Home</a></span>--}%
-                %{--<span class="menuButton"><g:link class="list" action="list">StatusReference List</g:link></span>--}%
-                <span class="menuButton"><g:link class="create" action="create">New StatusReference</g:link></span>
+                %{--<span class="menuButton"><g:link class="list" action="list">Status Reference List</g:link></span>--}%
+                <span class="menuButton"><g:link class="create" action="create">New Status Reference</g:link></span>
             </div>
             <g:if test="${flash.message}">
             <div class="message">${flash.message}</div>

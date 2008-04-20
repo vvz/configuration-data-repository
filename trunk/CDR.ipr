@@ -707,19 +707,16 @@
     <option name="ADDITIONAL_OPTIONS_STRING" value="" />
   </component>
   <component name="VcsDirectoryMappings">
-    <mapping directory="" vcs="CVS" />
-    <mapping directory="$PROJECT_DIR$" vcs="CVS" />
+    <mapping directory="$PROJECT_DIR$" vcs="svn" />
   </component>
   <component name="WebServicesPlugin" addRequiredLibraries="true" />
   <component name="libraryTable">
     <library name="plugins">
       <CLASSES>
         <root url="file://$PROJECT_DIR$/plugins/jsecurity-0.2-SNAPSHOT/lib" />
-        <root url="file://$PROJECT_DIR$/plugins/jasper-0.5/lib" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
-      <jarDirectory url="file://$PROJECT_DIR$/plugins/jasper-0.5/lib" recursive="false" />
       <jarDirectory url="file://$PROJECT_DIR$/plugins/jsecurity-0.2-SNAPSHOT/lib" recursive="false" />
     </library>
   </component>

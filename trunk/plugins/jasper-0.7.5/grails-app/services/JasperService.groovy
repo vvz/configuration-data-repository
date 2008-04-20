@@ -75,6 +75,9 @@ class JasperService {
         throw new Exception("Unknown Report File: ${jasperFile}${parameters._file}.jasper or .jrxml")
       }
     }
+    catch(Exception e){
+        e.printStackTrace()
+    }
     finally {
       conn.close()
     }

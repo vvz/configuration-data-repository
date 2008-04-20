@@ -25,11 +25,12 @@
 
 	<parameter name="ENVIRONMENT_ID" isForPrompting="true" class="java.lang.Integer"/>
 	<parameter name="STATUS_DATE" isForPrompting="true" class="java.util.Date"/>
-	<queryString><![CDATA[SELECT
+    <parameter name="REPORTS_DIR" isForPrompting="true" class="java.lang.String"/>
+    <queryString><![CDATA[SELECT
      PROJECT."NAME" AS PROJECT_NAME,
      ENVIRONMENT."NAME" AS ENVIRONMENT_NAME
 FROM
-     "CDRTEST"."PROJECT" PROJECT INNER JOIN "CDRTEST"."ENVIRONMENT" ENVIRONMENT ON PROJECT."ID" = ENVIRONMENT."PROJECT_ID"
+     "PROJECT" PROJECT INNER JOIN "ENVIRONMENT" ENVIRONMENT ON PROJECT."ID" = ENVIRONMENT."PROJECT_ID"
 WHERE
      ENVIRONMENT.ID = $P{ENVIRONMENT_ID}]]></queryString>
 
@@ -80,9 +81,13 @@ WHERE
 					<subreportParameter  name="ENVIRONMENT_ID">
 						<subreportParameterExpression><![CDATA[$P{ENVIRONMENT_ID}]]></subreportParameterExpression>
 					</subreportParameter>
-					<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
-					<subreportExpression  class="java.lang.String"><![CDATA[".\\Category.jasper"]]></subreportExpression>
-				</subreport>
+                    <subreportParameter  name="REPORTS_DIR">
+						<subreportParameterExpression><![CDATA[$P{REPORTS_DIR}]]></subreportParameterExpression>
+					</subreportParameter>
+                    <connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					<!--<subreportExpression  class="java.lang.String"><![CDATA[".\\Category.jrxml"]]></subreportExpression>-->
+                    <subreportExpression  class="java.lang.String"><![CDATA[$P{REPORTS_DIR} + "\\Category.jasper"]]></subreportExpression>
+                </subreport>
 			</band>
 		</detail>
 		<columnFooter>

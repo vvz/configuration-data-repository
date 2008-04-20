@@ -3,15 +3,15 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <meta name="layout" content="main" />
-        <title>Edit SoftwareType</title>
+        <title>Edit Software Type</title>
     </head>
     <body>
         <div class="body">
-            <h1>Edit SoftwareType</h1>
+            <h1>Edit Software Type</h1>
             <div class="nav">
                 %{--<span class="menuButton"><a class="home" href="${createLinkTo(dir:'')}">Home</a></span>--}%
-                %{--<span class="menuButton"><g:link class="list" action="list">SoftwareType List</g:link></span>--}%
-                <span class="menuButton"><g:link class="create" action="create">New SoftwareType</g:link></span>
+                %{--<span class="menuButton"><g:link class="list" action="list">Software Type List</g:link></span>--}%
+                <span class="menuButton"><g:link class="create" action="create">New Software Type</g:link></span>
             </div>
             <g:if test="${flash.message}">
             <div class="message">${flash.message}</div>
