@@ -3,14 +3,14 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <meta name="layout" content="main"/>
-        <title>Create TestResultType</title>
+        <title>Create Test Result Type</title>
     </head>
     <body>
         <div class="body">
-            <h1>Create TestResultType</h1>
+            <h1>Create Test Result Type</h1>
             <div class="nav">
                 %{--<span class="menuButton"><a class="home" href="${createLinkTo(dir:'')}">Home</a></span>--}%
-                <span class="menuButton"><g:link class="list" action="list">TestResultType List</g:link></span>
+                <span class="menuButton"><g:link class="list" action="list">Test Result Type List</g:link></span>
             </div>
             <g:if test="${flash.message}">
                 <div class="message">${flash.message}</div>

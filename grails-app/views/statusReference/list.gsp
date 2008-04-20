@@ -3,14 +3,14 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <meta name="layout" content="main" />
-        <title>StatusReference List</title>
+        <title>Status Reference List</title>
     </head>
     <body>
         <div class="body">
-            <h1>StatusReference List</h1>
+            <h1>Status Reference List</h1>
             <div class="nav">%{----}%
                 %{--<span class="menuButton"><a class="home" href="${createLinkTo(dir:'')}">Home</a></span>--}%
-                <span class="menuButton"><g:link class="create" action="create">New StatusReference</g:link></span>
+                <span class="menuButton"><g:link class="create" action="create">New Status Reference</g:link></span>
             </div>
             <g:if test="${flash.message}">
             <div class="message">${flash.message}</div>

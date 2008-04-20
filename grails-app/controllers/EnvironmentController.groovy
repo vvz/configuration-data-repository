@@ -102,6 +102,7 @@ class EnvironmentController extends JsecAuthBase {
     def save = {
         def environment = new Environment()
         environment.properties = params
+        println environment
         if (environment.save()) {
             flash.message = "Environment ${environment.id} created."
             redirect(action: show, id: environment.id)

@@ -17,7 +17,7 @@
 		 whenNoDataType="NoPages"
 		 isTitleNewPage="false"
 		 isSummaryNewPage="false">
-	<property name="ireport.scriptlethandling" value="2" />
+	<property name="ireport.scriptlethandling" value="0" />
 	<property name="ireport.encoding" value="UTF-8" />
 	<import value="java.util.*" />
 	<import value="net.sf.jasperreports.engine.*" />
@@ -26,14 +26,15 @@
 	<parameter name="STATUS_DATE" isForPrompting="true" class="java.util.Date"/>
 	<parameter name="ENVIRONMENT_ID" isForPrompting="true" class="java.lang.Integer"/>
 	<parameter name="CATEGORY_TYPE" isForPrompting="true" class="java.lang.String"/>
+	<parameter name="REPORTS_DIR" isForPrompting="true" class="java.lang.String"/>
 	<queryString><![CDATA[SELECT DISTINCT
      R_CI_TYPE."DESCRIPTION" AS R_CI_TYPE_DESCRIPTION
 FROM
-     "CDRTEST"."ENVIRONMENT" ENVIRONMENT INNER JOIN "CDRTEST"."ENVIRONMENT_CONFIGURATION_ITEM" ENVIRONMENT_CONFIGURATION_ITEM ON ENVIRONMENT."ID" = ENVIRONMENT_CONFIGURATION_ITEM."CONFIGURATION_ITEMS_ID"
-     INNER JOIN "CDRTEST"."CONFIGURATION_ITEM" CONFIGURATION_ITEM ON ENVIRONMENT_CONFIGURATION_ITEM."ENVIRONMENTS_ID" = CONFIGURATION_ITEM."ID"
-     INNER JOIN "CDRTEST"."STATUS" STATUS ON CONFIGURATION_ITEM."ID" = STATUS."CONFIGURATION_ITEM_ID"
-     INNER JOIN "CDRTEST"."STATUS_REFERENCE" STATUS_REFERENCE ON STATUS."REFERENCE_ID" = STATUS_REFERENCE."ID",
-     "CDRTEST"."R_CI_TYPE" R_CI_TYPE
+     "ENVIRONMENT" ENVIRONMENT INNER JOIN "ENVIRONMENT_CONFIGURATION_ITEM" ENVIRONMENT_CONFIGURATION_ITEM ON ENVIRONMENT."ID" = ENVIRONMENT_CONFIGURATION_ITEM."CONFIGURATION_ITEMS_ID"
+     INNER JOIN "CONFIGURATION_ITEM" CONFIGURATION_ITEM ON ENVIRONMENT_CONFIGURATION_ITEM."ENVIRONMENTS_ID" = CONFIGURATION_ITEM."ID"
+     INNER JOIN "STATUS" STATUS ON CONFIGURATION_ITEM."ID" = STATUS."CONFIGURATION_ITEM_ID"
+     INNER JOIN "STATUS_REFERENCE" STATUS_REFERENCE ON STATUS."REFERENCE_ID" = STATUS_REFERENCE."ID",
+     "R_CI_TYPE" R_CI_TYPE
 WHERE
      STATUS_REFERENCE.DESCRIPTION = 'Active'
      AND STATUS.START_DATE <= $P{STATUS_DATE}
@@ -97,8 +98,11 @@ WHERE
 					<subreportParameter  name="TYPE_DESCRIPTION">
 						<subreportParameterExpression><![CDATA[$F{R_CI_TYPE_DESCRIPTION}]]></subreportParameterExpression>
 					</subreportParameter>
+					<subreportParameter  name="REPORTS_DIR">
+						<subreportParameterExpression><![CDATA[$P{REPORTS_DIR}]]></subreportParameterExpression>
+					</subreportParameter>
 					<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
-					<subreportExpression  class="java.lang.String"><![CDATA[".\\Configuration_Item.jasper"]]></subreportExpression>
+					<subreportExpression  class="java.lang.String"><![CDATA[$P{REPORTS_DIR} + "\\Configuration_Item.jasper"]]></subreportExpression>
 				</subreport>
 			</band>
 		</detail>

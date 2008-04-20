@@ -266,6 +266,14 @@ input:focus, select:focus, textarea:focus {
 #login_submit {font-size: 12px; margin-left: 10px; margin-top: 10px;}
 .submit {text-align: right;}
 
+.report label{
+width: 7em;
+float: left;
+text-align: right;
+margin-right: 0.5em;
+display: block
+}
+
 /* TOP NAVIGATION */
 
 #top_nav_wrapper {
