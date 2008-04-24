@@ -14,12 +14,6 @@ environments {
     development {
         dataSource {
             dbCreate = "create-drop" // one of 'create', 'create-drop','update'
-            /*pooled = true
-            driverClassName = "com.mysql.jdbc.Driver"
-            username = "root"
-            password = "delegata"
-            dialect = org.hibernate.dialect.MySQLInnoDBDialect 
-            url = "jdbc:mysql://localhost:3306/cdr_dev_db"*/
             url = "jdbc:hsqldb:mem:devDB"
         }
     }
@@ -29,12 +23,9 @@ environments {
             dbCreate = "create-drop"
             /*url = "jdbc:hsqldb:mem:testDb"*/
             driverClassName = "oracle.jdbc.driver.OracleDriver"
-            username = "cdr"
-            password = "caldoj1"
-            url = "jdbc:oracle:thin:@//ora1-vip:1521/btst"
-            /*username = "cdrtest"
+            username = "cdrtest"
             password = "cdrtest"
-            url = "jdbc:oracle:thin:@//192.168.0.235:1521/COAPS"*/
+            url = "jdbc:oracle:thin:@//192.168.0.235:1521/COAPS"
             
         }
     }
