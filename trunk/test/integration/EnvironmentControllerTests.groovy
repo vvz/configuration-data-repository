@@ -42,12 +42,12 @@ class EnvironmentControllerTests extends GroovyTestCase
         def controller = new EnvironmentController()
         controller.params.id = testEnvironment.id
         assert controller.addRelation()?.environment == testEnvironment
-        assert controller.addRelation()?.hardwareList != null
+        assert controller.addRelation()?.ciList != null
     }
 
     public void testSaveRelation(){
         def controller = new EnvironmentController()
-        controller.params.hardwareId = solutions.id
+        controller.params.ciId = solutions.id
         controller.params.id = testEnvironment.id
         controller.saveRelation()
         assert testEnvironment.configurationItems != null

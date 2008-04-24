@@ -36,7 +36,7 @@
                             
                             <tr class='prop'>
                                 <td valign='top' class='name'>
-                                    <label for='passwordHash'>Password Hash:</label>
+                                    <label for='passwordHash'>Password:</label>
                                 </td>
                                 <td valign='top' class='value ${hasErrors(bean:jsecUser,field:'passwordHash','errors')}'>
                             <input type="text" id='passwordHash' name='passwordHash' value="${fieldValue(bean:jsecUser,field:'passwordHash')}"/>
