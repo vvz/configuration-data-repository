@@ -714,10 +714,12 @@
     <library name="plugins">
       <CLASSES>
         <root url="file://$PROJECT_DIR$/plugins/jsecurity-0.2-SNAPSHOT/lib" />
+        <root url="file://$PROJECT_DIR$/plugins/webtest-0.3/test/webtest/lib" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
       <jarDirectory url="file://$PROJECT_DIR$/plugins/jsecurity-0.2-SNAPSHOT/lib" recursive="false" />
+      <jarDirectory url="file://$PROJECT_DIR$/plugins/webtest-0.3/test/webtest/lib" recursive="false" />
     </library>
   </component>
 </project>

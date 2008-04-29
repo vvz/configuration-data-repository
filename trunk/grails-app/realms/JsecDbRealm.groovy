@@ -1,6 +1,7 @@
 import org.jsecurity.authc.AccountException
-import org.jsecurity.authc.IncorrectCredentialException
+import org.jsecurity.authc.IncorrectCredentialsException
 import org.jsecurity.authc.UnknownAccountException
+import org.jsecurity.authc.SimpleAccount
 
 class JsecDbRealm {
     static authTokenClass = org.jsecurity.authc.UsernamePasswordToken
@@ -20,19 +21,21 @@ class JsecDbRealm {
         // found, then they don't have an account and we throw an
         // exception.
         def user = JsecUser.findByUsername(username)
-        log.info "Found user '${user.username}' in DB"
         if (!user) {
             throw new UnknownAccountException("No account found for user [${username}]")
         }
 
+        log.info "Found user '${user.username}' in DB"
+
         // Now check the user's password against the hashed value stored
         // in the database.
-        if (!credentialMatcher.doCredentialsMatch(authToken.password, user.passwordHash)) {
+        def account = new SimpleAccount(username, user.passwordHash, "JsecDbRealm")
+        if (!credentialMatcher.doCredentialsMatch(authToken, account)) {
             log.info 'Invalid password (DB realm)'
-            throw new IncorrectCredentialException("Invalid password for user '${username}'")
+            throw new IncorrectCredentialsException("Invalid password for user '${username}'")
         }
 
-        return username
+        return account
     }
 
     def hasRole(principal, roleName) {
@@ -81,7 +84,7 @@ class JsecDbRealm {
 
         // Try each of the permissions found and see whether any of
         // them confer the required permission.
-        def retval = permissions.find { rel ->
+        def retval = permissions?.find { rel ->
             // Create a real permission instance from the database
             // permission.
             def perm = null

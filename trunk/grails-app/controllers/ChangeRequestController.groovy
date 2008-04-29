@@ -1,4 +1,4 @@
-class ChangeRequestController extends JsecAuthBase {
+class ChangeRequestController {
 
     static accessControl = {
         // All actions require the 'Observer' role.

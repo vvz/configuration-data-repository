@@ -1,5 +1,5 @@
             
-class RelationController extends JsecAuthBase {
+class RelationController {
     /*def scaffold = Relation*/
 
     static accessControl = {

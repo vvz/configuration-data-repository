@@ -1,4 +1,4 @@
-class ProjectController extends JsecAuthBase{
+class ProjectController{
     /*def scaffold = Project*/
     static accessControl = {
         // All actions require the 'Observer' role.

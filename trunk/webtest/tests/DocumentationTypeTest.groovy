@@ -16,8 +16,8 @@ class DocumentationTypeTest extends grails.util.WebTest {
 
             clickLink   (label:'New DocumentationType')
             verifyText  (text: 'Create DocumentationType')
-            setInputField(forLabel: "Description:", value: "whatever")
-            setInputField(forLabel: "Order:", value: "1")
+            setInputField(label: "Description:", value: "whatever")
+            setInputField(label: "Order:", value: "1")
             clickButton (label:'Create')
             verifyText  (text: 'Show DocumentationType', description:'Detail page')
             clickLink   (label:'Documentation', description:'Back to list view')

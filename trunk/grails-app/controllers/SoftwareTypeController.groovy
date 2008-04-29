@@ -1,4 +1,4 @@
-class SoftwareTypeController extends JsecAuthBase{
+class SoftwareTypeController{
     /*def scaffold = SoftwareType*/
     static accessControl = {
         // All actions require the 'Observer' role.

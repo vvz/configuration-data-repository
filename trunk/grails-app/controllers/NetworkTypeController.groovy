@@ -1,4 +1,4 @@
-class NetworkTypeController extends JsecAuthBase{
+class NetworkTypeController{
     def scaffold = NetworkType
     static accessControl = {
         // All actions require the 'Observer' role.

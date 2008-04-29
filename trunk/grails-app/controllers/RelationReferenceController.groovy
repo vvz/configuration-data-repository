@@ -1,5 +1,5 @@
             
-class RelationReferenceController extends JsecAuthBase{
+class RelationReferenceController{
 
     static accessControl = {
         // All actions require the 'Observer' role.
