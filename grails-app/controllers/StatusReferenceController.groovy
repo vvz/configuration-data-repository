@@ -1,4 +1,4 @@
-class StatusReferenceController extends JsecAuthBase{
+class StatusReferenceController{
     def scaffold = StatusReference
     static accessControl = {
         // All actions require the 'Observer' role.

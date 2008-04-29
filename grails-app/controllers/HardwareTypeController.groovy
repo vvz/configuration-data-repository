@@ -1,4 +1,4 @@
-class HardwareTypeController extends JsecAuthBase{
+class HardwareTypeController{
     /*def scaffold = HardwareType*/
     static accessControl = {
         // All actions require the 'Observer' role.

@@ -16,8 +16,8 @@ class TestResultTypeTest extends grails.util.WebTest {
 
             clickLink   (label:'New TestResultType')
             verifyText  (text: 'Create TestResultType')
-            setInputField(forLabel: "Description:", value: "whatever")
-            setInputField(forLabel: "Order:", value: "1")
+            setInputField(label: "Description:", value: "whatever")
+            setInputField(label: "Order:", value: "1")
             clickButton (label:'Create')
             verifyText  (text: 'Show TestResultType', description:'Detail page')
             clickLink   (label:'Test Result', description:'Back to list view')

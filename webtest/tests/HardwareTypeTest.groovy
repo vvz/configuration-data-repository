@@ -16,8 +16,8 @@ class HardwareTypeTest extends grails.util.WebTest {
 
             clickLink   (label:'New HardwareType')
             verifyText  (text: 'Create HardwareType')
-            setInputField(forLabel: "Description:", value: "whatever")
-            setInputField(forLabel: "Order:", value: "1")
+            setInputField(label: "Description:", value: "whatever")
+            setInputField(label: "Order:", value: "1")
             clickButton (label:'Create')
             verifyText  (text: 'Show HardwareType', description:'Detail page')
             clickLink   (label:'Hardware', description:'Back to list view')

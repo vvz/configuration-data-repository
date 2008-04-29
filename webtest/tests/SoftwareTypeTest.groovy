@@ -16,8 +16,8 @@ class SoftwareTypeTest extends grails.util.WebTest {
 
             clickLink   (label:'New SoftwareType')
             verifyText  (text: 'Create SoftwareType')
-            setInputField(forLabel: "Description:", value: "whatever")
-            setInputField(forLabel: "Order:", value: "1")
+            setInputField(label: "Description:", value: "whatever")
+            setInputField(label: "Order:", value: "1")
             clickButton (label:'Create')
             verifyText  (text: 'Show SoftwareType', description:'Detail page')
             clickLink   (label:'Software', description:'Back to list view')

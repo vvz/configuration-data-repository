@@ -1,4 +1,4 @@
-class RequestTypeController extends JsecAuthBase{
+class RequestTypeController{
     def scaffold = RequestType
     static accessControl = {
         // All actions require the 'Observer' role.

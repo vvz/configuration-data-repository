@@ -1,4 +1,4 @@
-class DocumentationTypeController extends JsecAuthBase{
+class DocumentationTypeController{
     /*def scaffold = DocumentationType*/
 
     static accessControl = {

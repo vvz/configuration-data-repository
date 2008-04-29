@@ -9,6 +9,13 @@ class ChangeRequestTest extends grails.util.WebTest {
 
     def testChangeRequestListNewDelete() {
         webtest('ChangeRequest basic operations: view list, create new entry, view, edit, delete, view') {
+            invoke(url: 'auth')
+            verifyText(text:'Login')
+            setInputField(name: "username", value: "admin")
+            setInputField(name:"password",value: "changeit")
+            clickButton(label: 'Login >')
+            verifyText(text: 'Project List')
+
             invoke(url: 'changeRequest')
             verifyText(text: 'Home')
 
@@ -16,8 +23,8 @@ class ChangeRequestTest extends grails.util.WebTest {
 
             clickLink(label: 'New ChangeRequest')
             verifyText(text: 'Create ChangeRequest')
-            setInputField(forLabel: "Name:", value: "request 1")
-            setInputField(forLabel: "Author:", value: "Steve Holmes")
+            setInputField(name: "name", value: "request 1")
+            setInputField(name: "description", value: "Steve Holmes")
             clickButton(label: 'Create')
             verifyText(text: 'Show ChangeRequest', description: 'Detail page')
             clickLink(label: 'Request', description: 'Back to list view')

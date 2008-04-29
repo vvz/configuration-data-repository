@@ -1,6 +1,6 @@
 import grails.converters.*
 
-class HardwareController extends JsecAuthBase {
+class HardwareController {
     /*def scaffold = Hardware*/
     /*static accessControl = {
         // All actions require the 'Observer' role.

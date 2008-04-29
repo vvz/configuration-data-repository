@@ -16,10 +16,10 @@ class ProjectTest extends grails.util.WebTest {
 
             clickLink(label: 'New Project')
             verifyText(text: 'Create Project')
-            setInputField(forLabel: "Name:", value: "APS")
+            setInputField(label: "Name:", value: "APS")
             setInputField(name: "description", value: "APS Project")
-            setInputField(forLabel: "Owner Name:", value: "Steve Holmes")
-            setInputField(forLabel: "Owner Email:", value: "sholmes@delegata.com")
+            setInputField(label: "Owner Name:", value: "Steve Holmes")
+            setInputField(label: "Owner Email:", value: "sholmes@delegata.com")
             clickButton(label: "Create")
             verifyText(text: "Show Project", description: "Verify that text is contained in the page")
             clickLink(label: "Project", description: 'Back to List view')

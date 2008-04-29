@@ -16,9 +16,9 @@ class NetworkTest extends grails.util.WebTest {
 
             clickLink   (label:'New Network')
             verifyText  (text: 'Create Network')
-            setInputField(forLabel: "Name:", value: "Windows XP Pro #56")
+            setInputField(label: "Name:", value: "Windows XP Pro #56")
             setInputField(name: "description", value: "sdfsdf")
-            setInputField(forLabel: "Author:", value: "Steve Holmes")
+            setInputField(label: "Author:", value: "Steve Holmes")
             clickButton (label:'Create')
             verifyText  (text: 'Show Network', description:'Detail page')
             clickLink   (label:'Network', description:'Back to list view')

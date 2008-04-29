@@ -1,4 +1,4 @@
-class EnvironmentController extends JsecAuthBase {
+class EnvironmentController {
     /*def scaffold = Environment*/
     static accessControl = {
         // All actions require the 'Observer' role.

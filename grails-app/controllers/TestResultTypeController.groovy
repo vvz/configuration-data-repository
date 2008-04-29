@@ -1,4 +1,4 @@
-class TestResultTypeController extends JsecAuthBase{
+class TestResultTypeController{
     def scaffold = TestResultType
     static accessControl = {
         // All actions require the 'Observer' role.

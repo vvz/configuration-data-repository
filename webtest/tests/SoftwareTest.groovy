@@ -16,9 +16,9 @@ class SoftwareTest extends grails.util.WebTest {
 
             clickLink   (label:'New Software')
             verifyText  (text: 'Create Software')
-            setInputField(forLabel: "Name:", value: "Windows XP Pro #56")
+            setInputField(label: "Name:", value: "Windows XP Pro #56")
             setInputField(name: "description", value: "sdfsdf")
-            setInputField(forLabel: "Author:", value: "Steve Holmes")
+            setInputField(label: "Author:", value: "Steve Holmes")
             clickButton (label:'Create')
             verifyText  (text: 'Show Software', description:'Detail page')
             clickLink   (label:'Software', description:'Back to list view')

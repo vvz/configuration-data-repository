@@ -1,5 +1,5 @@
             
-class StatusController extends JsecAuthBase{
+class StatusController{
     StatusService statusService
 
     static accessControl = {

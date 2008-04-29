@@ -16,8 +16,8 @@ class RequestTypeTest extends grails.util.WebTest {
 
             clickLink   (label:'New RequestType')
             verifyText  (text: 'Create RequestType')
-            setInputField(forLabel: "Description:", value: "whatever")
-            setInputField(forLabel: "Order:", value: "1")
+            setInputField(label: "Description:", value: "whatever")
+            setInputField(label: "Order:", value: "1")
             clickButton (label:'Create')
             verifyText  (text: 'Show RequestType', description:'Detail page')
             clickLink   (label:'Request', description:'Back to list view')

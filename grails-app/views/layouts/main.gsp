@@ -15,7 +15,7 @@
     <!-- Source File -->
     <g:layoutHead/>
     <g:javascript library="prototype"/>
-    <g:javascript library="application"/>
+    <g:javascript src="application.js"/>
     <!--[if gte IE 5.5]>
     <g:javascript library="menu"/>
     <![endif]-->
@@ -41,7 +41,7 @@
 <!-- Main Wrapper Contains all content in a centered fixed column of 760px -->
 <div id="main_wrapper">
     <!-- Container with BG image of Company Header, Application, Name, etc. with space for Hello User -->
-    <div id="logo_container">Logged in as <jsec:userName/> | <g:link controller="auth" action="signOut">Logout</g:link></div>
+    <div id="logo_container">Logged in as <jsec:principal/> | <g:link controller="auth" action="signOut">Logout</g:link></div>
     <!-- Main Dropdown Navigation -->
     <g:render template="/shared/tabs"/>
     <g:render template="breadcrumbs"/>
