@@ -16,52 +16,74 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webtest/tests/SoftwareTypeTest.groovy" afterPath="$PROJECT_DIR$/webtest/tests/SoftwareTypeTest.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webtest/tests/ChangeRequestTest.groovy" afterPath="$PROJECT_DIR$/webtest/tests/ChangeRequestTest.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/src/templates/artifacts/domain/JsecUserPermissionRel.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/src/groovy/org/jsecurity/grails/RealmWrapper.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CDR.iws" afterPath="$PROJECT_DIR$/CDR.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/SoftwareTypeController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/SoftwareTypeController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webtest/tests/NetworkTypeTest.groovy" afterPath="$PROJECT_DIR$/webtest/tests/NetworkTypeTest.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webtest/tests/ProjectTest.groovy" afterPath="$PROJECT_DIR$/webtest/tests/ProjectTest.groovy" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/domain/JsecUser.groovy" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/StatusController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/StatusController.groovy" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/domain/JsecRole.groovy" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/DocumentationController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/DocumentationController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/HardwareController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/HardwareController.groovy" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/domain/JsecUserPermissionRel.groovy" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/TestResultController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/TestResultController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/StatusReferenceController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/StatusReferenceController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webtest/tests/TestResultTest.groovy" afterPath="$PROJECT_DIR$/webtest/tests/TestResultTest.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webtest/tests/TestResultTypeTest.groovy" afterPath="$PROJECT_DIR$/webtest/tests/TestResultTypeTest.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" afterPath="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CDR.iml" afterPath="$PROJECT_DIR$/CDR.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application.properties" afterPath="$PROJECT_DIR$/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/NetworkTypeController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/NetworkTypeController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/WEB-INF/plugins/jsecurity-0.2-SNAPSHOT/grails-app/views/auth/login.gsp" afterPath="$PROJECT_DIR$/web-app/WEB-INF/plugins/jsecurity-0.2-SNAPSHOT/grails-app/views/auth/login.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/EnvironmentController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/EnvironmentController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/NetworkController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/NetworkController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webtest/tests/RequestTypeTest.groovy" afterPath="$PROJECT_DIR$/webtest/tests/RequestTypeTest.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/RequestTypeController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/RequestTypeController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/SoftwareController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/SoftwareController.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/src/java/org/jsecurity/grails/RealmGrailsClass.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/lib/jug-native.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/src/templates/artifacts/views/auth/login.gsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/src/java/org/jsecurity/grails/RealmAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/src/templates/artifacts/views/auth" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/src/templates/artifacts/domain" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/scripts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/scripts/CreateLdapRealm.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/src/groovy/org/jsecurity/grails" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/src" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/controllers/ReportController.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/grails-app/controllers/JsecAuthBase.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/src/templates/artifacts/domain/JsecUser.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/src/groovy/org/jsecurity/grails/AccessControlBuilder.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/grails-app/controllers" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/lib/jsecurity-jdk14.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/TestResultTypeController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/TestResultTypeController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CDR.ipr" afterPath="$PROJECT_DIR$/CDR.ipr" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/changeRequest/create.gsp" afterPath="$PROJECT_DIR$/grails-app/views/changeRequest/create.gsp" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/domain/JsecUserRoleRel.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/domain/JsecPermission.groovy" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/ChangeRequestController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/ChangeRequestController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/DocumentationTypeController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/DocumentationTypeController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/realms/JsecDbRealm.groovy" afterPath="$PROJECT_DIR$/grails-app/realms/JsecDbRealm.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webtest/tests/HardwareTypeTest.groovy" afterPath="$PROJECT_DIR$/webtest/tests/HardwareTypeTest.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webtest/tests/RelationReferenceTest.groovy" afterPath="$PROJECT_DIR$/webtest/tests/RelationReferenceTest.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/RelationReferenceController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/RelationReferenceController.groovy" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/domain/JsecRolePermissionRel.groovy" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webtest/tests/SoftwareTest.groovy" afterPath="$PROJECT_DIR$/webtest/tests/SoftwareTest.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webtest/tests/NetworkTest.groovy" afterPath="$PROJECT_DIR$/webtest/tests/NetworkTest.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/RelationController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/RelationController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webtest/tests/HardwareTest.groovy" afterPath="$PROJECT_DIR$/webtest/tests/HardwareTest.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webtest/tests/DocumentationTypeTest.groovy" afterPath="$PROJECT_DIR$/webtest/tests/DocumentationTypeTest.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/HardwareTypeController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/HardwareTypeController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/ProjectController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/ProjectController.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/src/java/org/jsecurity/grails/DefaultRealmGrailsClass.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/scripts/CreateAuthController.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/grails-app/i18n/messages.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/application.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/lib/quartz.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/auth/login.gsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/src/templates/artifacts/controllers/AuthController.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/src/java/org" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/plugin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/grails-app/taglib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/src/groovy/org/jsecurity" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/controllers/AuthController.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/src/templates/artifacts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/src/templates/artifacts/domain/JsecRole.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/src/templates/artifacts/domain/JsecRolePermissionRel.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/auth" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/scripts/CreateDbRealm.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/src/templates/artifacts/domain/JsecPermission.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/scripts/_Install.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/JsecurityGrailsPlugin.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/lib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/scripts/_Upgrade.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/src/java/org/jsecurity" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/src/templates" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/src/templates/artifacts/domain/JsecUserRoleRel.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/src/groovy/org/jsecurity/grails/FilterAccessControlBuilder.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/grails-app/taglib/JsecTagLib.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/lib/retroweaver-rt.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/src/groovy/org" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/src/templates/artifacts/controllers" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/lib/grails-jsecurity-annotations.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/grails-app/conf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/grails-app/i18n" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/src/java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/lib/commons-codec.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/grails-app/conf/JsecurityFilters.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/scripts/_Internal.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/scripts/QuickStart.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/lib/jug.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/src/templates/artifacts/JsecLdapRealm.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/src/templates/artifacts/JsecDbRealm.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/src/java/org/jsecurity/grails" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/src/groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/src/java/org/jsecurity/grails/JsecBasicPermission.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/src/java/org/jsecurity/grails/RealmArtefactHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/src/templates/artifacts/views" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jsecurity-0.2/grails-app" />
     </list>
     <ignored path="CDR.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -150,7 +172,7 @@
       <file leaf-file-name="ChangeRequestTest.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webtest/tests/ChangeRequestTest.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="44" selection-start="657" selection-end="657" vertical-scroll-proportion="0.31326783">
+            <state line="33" column="85" selection-start="1327" selection-end="1327" vertical-scroll-proportion="0.6891892">
               <folding />
             </state>
           </provider>
@@ -242,6 +264,46 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\plugins" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="CDR" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="CDR" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\plugins" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="CDR" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="CDR" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
           <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\grails-app" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
@@ -273,6 +335,32 @@
         </PATH_ELEMENT>
         <PATH_ELEMENT>
           <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\grails-app\views\changeRequest" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="CDR" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="CDR" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\grails-app" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\grails-app\views" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\grails-app\views\auth" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -736,7 +824,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webtest/tests/ChangeRequestTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="44" selection-start="657" selection-end="657" vertical-scroll-proportion="0.31326783">
+        <state line="33" column="85" selection-start="1327" selection-end="1327" vertical-scroll-proportion="0.6891892">
           <folding />
         </state>
       </provider>
