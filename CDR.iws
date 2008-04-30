@@ -16,14 +16,333 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/domain/JsecUser.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/domain/JsecUserPermissionRel.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/domain/JsecRolePermissionRel.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/domain/JsecRole.groovy" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\menuarodwn9_clk_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\src\java\org\jsecurity\grails\RealmArtefactHandler.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CDR.iws" afterPath="$PROJECT_DIR$/CDR.iws" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/domain/JsecUserRoleRel.groovy" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\menu\dash.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\grails-app\controllers\AuthController.groovy" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\dom-min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\animation-min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\slider-min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\check\vline.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\prototype\slider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jsecurity-0.2-SNAPSHOT/src/groovy" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\default\tn.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\slider-min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\menuarorght9_nrm_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jsecurity-0.2-SNAPSHOT/src/java" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\default\loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\qmiddle.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\folders\vline.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\tm.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jsecurity-0.2-SNAPSHOT/grails-app/taglib" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\check\tmh.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\connection-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jsecurity-0.2-SNAPSHOT/web-app/css/tree/menu" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\tph.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/plugins/jsecurity-0.2-SNAPSHOT/js/yahoo" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\calx.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\menu\expand.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\greybg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jsecurity-0.2-SNAPSHOT/web-app/js" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\bullet.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\spinner.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jsecurity-0.2-SNAPSHOT/lib" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\grails_logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\yahoo-min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\default\tmh.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\calendar-min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\folders\tp.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jsecurity-0.2-SNAPSHOT/src/groovy/org/jsecurity/grails" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\folders\ln.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\greybg.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\check\lmh.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\default\lp.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\check\lp.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\folders\tmh.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\lmh.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jsecurity-0.2-SNAPSHOT/web-app/js/prototype" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\menu\collapse.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/plugins/jsecurity-0.2-SNAPSHOT/js" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\close12_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\menu-min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\lp.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\menu\expand.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\hlp16_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\src\templates\artifacts\JsecDbRealm.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/plugins/jsecurity-0.2-SNAPSHOT/js/yahoo/assets" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\grails_logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/plugins/jsecurity-0.2-SNAPSHOT" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\check\tm.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\event-min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\prototype\unittest.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\tmh.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\css\tree\folders\tree.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\menu\expandh.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\folders\tph.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\menuarorght9_hov_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\index.gsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/plugins/jsecurity-0.2-SNAPSHOT/css/tree/menu" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\default\ln.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\grails-app\views\auth\login.gsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\prototype\rico.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\connection-min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\info16_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\tn.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\menu\collapse.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/plugins/jsecurity-0.2-SNAPSHOT/js/prototype" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\prototype\prototype.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\prototype\unittest.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\navHover2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jsecurity-0.2-SNAPSHOT/web-app/css/tree" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jsecurity-0.2-SNAPSHOT/grails-app/views/auth" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\prototype\controls.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\callt.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\check\check2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/plugins/jsecurity-0.2-SNAPSHOT/images" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\prototype\animation.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\vline.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\menu\collapseh.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\tree.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\qmiddle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jsecurity-0.2-SNAPSHOT/web-app/css/tree/folders" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jsecurity-0.2-SNAPSHOT/src/java/org/jsecurity/grails" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jsecurity-0.2-SNAPSHOT/src/templates" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\css\tree\check\tree.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\grails-app\views\layouts\main.gsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\check\tph.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\prototype\prototype.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jsecurity-0.2-SNAPSHOT/src/templates/artifacts" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\logo.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\default\lm.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\src\groovy\org\jsecurity\grails\RealmWrapper.groovy" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\check\tn.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\menuarodwn9_dim_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/plugins/jsecurity-0.2-SNAPSHOT/images/tree/menu" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\prototype\effects.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\blck16_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\check\tp.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\prototype\slider.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\check\lmh.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\lib\retroweaver-rt.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\src\templates\artifacts\JsecUserPermissionRel.groovy" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\ln.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\vline.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\folders\tp.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\src\templates\artifacts\JsecRolePermissionRel.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jsecurity-0.2-SNAPSHOT/grails-app/controllers" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\folders\tm.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/plugins/jsecurity-0.2-SNAPSHOT/css/tree" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\check\tph.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jsecurity-0.2-SNAPSHOT/web-app/images/tree/check" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\folders\lp.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\check\lp.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\folders\tph.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\menu.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\check\ln.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jsecurity-0.2-SNAPSHOT/grails-app/views/layouts" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\src\groovy\org\jsecurity\grails\AccessControlBuilder.groovy" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\check\check0.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\menu\loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\calrt.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\event-min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\css\main.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\grails-app\taglib\JsecTagLib.groovy" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\treeview-min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\navHover2.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\container.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\lph.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\default\tm.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\folders\lm.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\check\loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\css\tree\default\tree.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\menuarodwn9_clk_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jsecurity-0.2-SNAPSHOT/web-app/css/tree/check" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\src\templates\artifacts\JsecUserRoleRel.groovy" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\bullet.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\dom-min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\tmh.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\lib\grails-jsecurity-annotations.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\prototype\builder.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\menuarodwn9_nrm_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\scripts\CreateDbRealm.groovy" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\check\tm.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\src\java\org\jsecurity\grails\RealmGrailsClass.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jsecurity-0.2-SNAPSHOT/web-app/css" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\default\lph.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jsecurity-0.2-SNAPSHOT/web-app/images/tree" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/plugins/jsecurity-0.2-SNAPSHOT/images/tree/check" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\scripts\_Install.groovy" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\folders\loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\calrt.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\dragdrop-min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\menu\expandh.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\calx.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\css\tree\check\tree.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\lib\quartz.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\menuarorght9_dim_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\container_core-min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\container-min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\prototype\rico.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\alrt16_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\default\tph.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jsecurity-0.2-SNAPSHOT/web-app/js/yahoo/assets" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\folders\lmh.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\default\lmh.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\css\tree\menu\tree.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\JsecurityGrailsPlugin.groovy" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\default\tn.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\menuarorght9_dim_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/plugins/jsecurity-0.2-SNAPSHOT/images/tree/folders" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jsecurity-0.2-SNAPSHOT/src/java/org/jsecurity" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\treeview-min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\folders\tmh.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\prototype\sound.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\menuarodwn9_nrm_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\tn.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\tph.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\check\lm.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jsecurity-0.2-SNAPSHOT/web-app/images" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\alrt16_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\lm.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\tip16_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\check\tmh.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jsecurity-0.2-SNAPSHOT/web-app" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\menuarorght9_nrm_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\css\tree\menu\tree.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\logo.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\animation-min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\folders\ln.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\lph.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\lib\jug-native.zip" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\check\lm.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\check\check1.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\css\tree\folders\tree.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\container_core-min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\menu\expandon.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\grails-app\conf\JSecurityFilters.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/plugins/jsecurity-0.2-SNAPSHOT/images/tree" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\menu\collapseon.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\check\lph.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\css\main.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\prototype\controls.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\lp.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\menu\collapseh.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\tp.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\check\tn.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\prototype\animation.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\check\loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jsecurity-0.2-SNAPSHOT/grails-app/views" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jsecurity-0.2-SNAPSHOT/src" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/plugins/jsecurity-0.2-SNAPSHOT/css/tree/folders" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\default\tph.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\index.gsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jsecurity-0.2-SNAPSHOT/web-app/images/tree/default" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\info16_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\src\templates\artifacts\JsecUser.groovy" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\folders\tn.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\qbottom.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\folders\lm.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\check\vline.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\menuarorght9_hov_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/plugins/jsecurity-0.2-SNAPSHOT/css" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\folders\tm.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jsecurity-0.2-SNAPSHOT/grails-app/i18n" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\calendar.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\default\lmh.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\lmh.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jsecurity-0.2-SNAPSHOT/src/java/org" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\prototype\scriptaculous.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\default\tmh.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\qtop.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\yahoo-min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\folders\tn.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\menu-min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\folders\lph.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\prototype\dragdrop.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\src\templates\artifacts\JsecRole.groovy" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\check\lph.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\check\tp.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\lib\jsecurity-jdk14.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\header.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\prototype\dragdrop.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\check\check0.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\default\lp.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\menuarodwn9_dim_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\default\tp.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jsecurity-0.2-SNAPSHOT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jsecurity-0.2-SNAPSHOT/web-app/css/tree/default" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\folders\lph.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\default\vline.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\folders\vline.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jsecurity-0.2-SNAPSHOT/web-app/images/tree/folders" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\tree.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\lib\jug.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\default\lm.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\application.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\default\vline.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\container.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/domain/JsecPermission.groovy" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\lm.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\calendar-min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\menu\loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\folders\lmh.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\default\loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\close12_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/plugins/jsecurity-0.2-SNAPSHOT/css/tree/check" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jsecurity-0.2-SNAPSHOT/web-app/js/yahoo" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\tm.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/plugins/jsecurity-0.2-SNAPSHOT/css/tree/default" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\menu\dash.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jsecurity-0.2-SNAPSHOT/web-app/images/tree/menu" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jsecurity-0.2-SNAPSHOT/src/groovy/org" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\folders\loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\warn16_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\lib\commons-codec.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\callt.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\menu.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\default\lph.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\check\ln.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jsecurity-0.2-SNAPSHOT/scripts" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\src\java\org\jsecurity\grails\DefaultRealmGrailsClass.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\tp.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\check\check2.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\grails-app\i18n\messages.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\prototype\builder.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\tip16_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\prototype\scriptaculous.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\hlp16_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\qbottom.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\menu\expandon.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\spinner.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\src\templates\artifacts\JsecPermission.groovy" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\ln.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\qtop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jsecurity-0.2-SNAPSHOT/src/groovy/org/jsecurity" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\default\tm.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\grails-app\controllers\JsecAuthBase.groovy" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\menu\collapseon.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\warn16_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jsecurity-0.2-SNAPSHOT/grails-app/conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/plugins/jsecurity-0.2-SNAPSHOT/images/tree/default" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\dragdrop-min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\default\tp.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\check\check1.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\prototype\effects.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jsecurity-0.2-SNAPSHOT/grails-app" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\blck16_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\container-min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\default\ln.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\scripts\_Upgrade.groovy" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\calendar.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\css\tree\default\tree.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\header.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\folders\lp.gif" afterPath="" />
     </list>
     <ignored path="CDR.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -112,7 +431,7 @@
       <file leaf-file-name="ChangeRequestTest.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webtest/tests/ChangeRequestTest.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="85" selection-start="1327" selection-end="1327" vertical-scroll-proportion="0.21253072">
+            <state line="40" column="101" selection-start="1659" selection-end="1659" vertical-scroll-proportion="0.35872236">
               <folding />
             </state>
           </provider>
@@ -204,6 +523,72 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\web-app" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="CDR" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="CDR" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\web-app" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\web-app\plugins" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="CDR" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="CDR" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\web-app" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\web-app\plugins" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\web-app\plugins\jasper-0.7.5" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="CDR" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="CDR" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
           <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\plugins" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
@@ -278,6 +663,421 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+  </component>
+  <component name="RestoreUpdateTree">
+    <UpdateInfo date="4/30/08 2:19 PM" ActionInfo="_Update">
+      <UpdatedFiles>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated from server" />
+          <option name="myStatusName" value="Changed on server" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CHANGED_ON_SERVER" />
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Updated" />
+            <option name="myStatusName" value="Changed" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="UPDATED" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Created" />
+            <option name="myStatusName" value="Created" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="CREATED" />
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\grails-app</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\grails-app\i18n</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\grails-app\i18n\messages.properties</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\grails-app\taglib</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\grails-app\taglib\JsecTagLib.groovy</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\grails-app\conf</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\grails-app\conf\JSecurityFilters.groovy</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\grails-app\controllers</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\grails-app\controllers\JsecAuthBase.groovy</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\grails-app\controllers\AuthController.groovy</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\grails-app\views</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\grails-app\views\layouts</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\grails-app\views\layouts\main.gsp</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\grails-app\views\auth</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\grails-app\views\auth\login.gsp</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\JsecurityGrailsPlugin.groovy</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\lib</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\lib\jug.jar</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\lib\commons-codec.jar</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\lib\quartz.jar</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\lib\retroweaver-rt.jar</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\lib\grails-jsecurity-annotations.jar</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\lib\jsecurity-jdk14.jar</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\lib\jug-native.zip</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\scripts</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\scripts\_Install.groovy</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\scripts\_Upgrade.groovy</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\scripts\CreateDbRealm.groovy</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\src</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\src\java</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\src\java\org</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\src\java\org\jsecurity</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\src\java\org\jsecurity\grails</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\src\java\org\jsecurity\grails\RealmArtefactHandler.java</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\src\java\org\jsecurity\grails\RealmGrailsClass.java</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\src\java\org\jsecurity\grails\DefaultRealmGrailsClass.java</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\src\groovy</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\src\groovy\org</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\src\groovy\org\jsecurity</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\src\groovy\org\jsecurity\grails</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\src\groovy\org\jsecurity\grails\RealmWrapper.groovy</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\src\groovy\org\jsecurity\grails\AccessControlBuilder.groovy</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\src\templates</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\src\templates\artifacts</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\src\templates\artifacts\JsecDbRealm.groovy</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\src\templates\artifacts\JsecPermission.groovy</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\src\templates\artifacts\JsecUserPermissionRel.groovy</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\src\templates\artifacts\JsecRolePermissionRel.groovy</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\src\templates\artifacts\JsecUser.groovy</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\src\templates\artifacts\JsecRole.groovy</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\src\templates\artifacts\JsecUserRoleRel.groovy</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\index.gsp</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\greybg.png</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\qmiddle.png</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\default</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\default\lp.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\default\tph.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\default\loading.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\default\vline.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\default\lmh.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\default\tm.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\default\tn.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\default\lph.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\default\tp.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\default\lm.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\default\tmh.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\default\ln.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\logo.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\menu</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\menu\expandon.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\menu\loading.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\menu\collapseon.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\menu\dash.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\menu\expand.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\menu\collapse.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\menu\expandh.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\menu\collapseh.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\qtop.png</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\qbottom.png</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\bullet.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\header.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\check</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\check\lp.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\check\tph.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\check\check0.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\check\loading.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\check\vline.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\check\check1.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\check\check2.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\check\lmh.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\check\tm.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\check\tn.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\check\lph.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\check\tp.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\check\lm.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\check\tmh.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\check\ln.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\navHover2.png</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\folders</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\folders\lp.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\folders\tph.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\folders\loading.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\folders\vline.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\folders\lmh.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\folders\tm.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\folders\tn.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\folders\lph.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\folders\tp.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\folders\lm.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\folders\tmh.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\tree\folders\ln.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\grails_logo.jpg</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\images\spinner.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\css</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\css\tree</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\css\tree\default</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\css\tree\default\tree.css</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\css\tree\menu</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\css\tree\menu\tree.css</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\css\tree\check</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\css\tree\check\tree.css</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\css\tree\folders</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\css\tree\folders\tree.css</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\css\main.css</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\menu-min.js</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\loading.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\menuarorght9_hov_1.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\menuarodwn9_dim_1.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\info16_1.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\lph.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\calx.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\alrt16_1.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\tph.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\calendar.css</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\warn16_1.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\lm.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\ln.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\lp.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\vline.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\tm.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\menuarorght9_nrm_1.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\lmh.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\menuarodwn9_clk_1.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\tn.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\Thumbs.db</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\tree.css</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\tip16_1.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\tp.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\menu.css</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\tmh.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\close12_1.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\menuarorght9_dim_1.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\callt.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\blck16_1.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\menuarodwn9_nrm_1.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\calrt.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\container.css</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\assets\hlp16_1.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\calendar-min.js</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\container_core-min.js</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\treeview-min.js</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\animation-min.js</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\connection-min.js</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\dom-min.js</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\yahoo-min.js</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\event-min.js</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\container-min.js</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\dragdrop-min.js</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\yahoo\slider-min.js</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\prototype</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\prototype\prototype.js</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\prototype\builder.js</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\prototype\rico.js</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\prototype\animation.js</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\prototype\effects.js</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\prototype\unittest.js</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\prototype\scriptaculous.js</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\prototype\dragdrop.js</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\prototype\slider.js</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\web-app\js\prototype\controls.js</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\plugin.xml</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\plugins\jsecurity-0.2-SNAPSHOT\application.properties</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\index.gsp</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\greybg.png</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\qmiddle.png</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\default</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\default\lp.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\default\tph.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\default\loading.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\default\vline.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\default\lmh.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\default\tm.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\default\tn.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\default\lph.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\default\tp.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\default\lm.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\default\tmh.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\default\ln.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\logo.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\menu</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\menu\expandon.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\menu\loading.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\menu\collapseon.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\menu\dash.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\menu\expand.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\menu\collapse.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\menu\expandh.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\menu\collapseh.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\qtop.png</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\qbottom.png</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\bullet.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\header.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\check</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\check\lp.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\check\tph.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\check\check0.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\check\loading.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\check\vline.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\check\check1.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\check\check2.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\check\lmh.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\check\tm.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\check\tn.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\check\lph.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\check\tp.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\check\lm.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\check\tmh.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\check\ln.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\navHover2.png</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\folders</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\folders\lp.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\folders\tph.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\folders\loading.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\folders\vline.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\folders\lmh.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\folders\tm.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\folders\tn.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\folders\lph.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\folders\tp.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\folders\lm.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\folders\tmh.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\tree\folders\ln.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\grails_logo.jpg</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\images\spinner.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\css</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\css\tree</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\css\tree\default</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\css\tree\default\tree.css</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\css\tree\menu</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\css\tree\menu\tree.css</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\css\tree\check</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\css\tree\check\tree.css</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\css\tree\folders</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\css\tree\folders\tree.css</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\css\main.css</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\menu-min.js</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\loading.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\menuarorght9_hov_1.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\menuarodwn9_dim_1.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\info16_1.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\lph.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\calx.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\alrt16_1.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\tph.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\calendar.css</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\warn16_1.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\lm.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\ln.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\lp.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\vline.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\tm.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\menuarorght9_nrm_1.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\lmh.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\menuarodwn9_clk_1.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\tn.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\Thumbs.db</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\tree.css</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\tip16_1.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\tp.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\menu.css</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\tmh.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\close12_1.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\menuarorght9_dim_1.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\callt.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\blck16_1.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\menuarodwn9_nrm_1.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\calrt.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\container.css</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\assets\hlp16_1.gif</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\calendar-min.js</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\container_core-min.js</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\treeview-min.js</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\animation-min.js</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\connection-min.js</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\dom-min.js</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\yahoo-min.js</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\event-min.js</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\container-min.js</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\dragdrop-min.js</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\yahoo\slider-min.js</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\prototype</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\prototype\prototype.js</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\prototype\builder.js</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\prototype\sound.js</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\prototype\rico.js</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\prototype\animation.js</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\prototype\effects.js</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\prototype\unittest.js</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\prototype\scriptaculous.js</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\prototype\dragdrop.js</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\prototype\slider.js</PATH>
+            <PATH vcs="svn" revision="18">C:\backup\projects\CDR_repo\CDR\web-app\plugins\jsecurity-0.2-SNAPSHOT\js\prototype\controls.js</PATH>
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Deleted" />
+            <option name="myStatusName" value="Deleted" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="true" />
+            <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Restored" />
+            <option name="myStatusName" value="Will be restored" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="RESTORED" />
+          </FILE-GROUP>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Modified" />
+          <option name="myStatusName" value="Modified" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MODIFIED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Skipped" />
+          <option name="myStatusName" value="Skipped" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="SKIPPED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with conflicts" />
+          <option name="myStatusName" value="Will be merged with conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_CONFLICTS" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged" />
+          <option name="myStatusName" value="Will be merged" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Not in repository" />
+          <option name="myStatusName" value="Not in repository" />
+          <option name="mySupportsDeletion" value="true" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UNKNOWN" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally added" />
+          <option name="myStatusName" value="Locally added" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_ADDED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally removed" />
+          <option name="myStatusName" value="Locally removed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_REMOVED" />
+        </FILE-GROUP>
+      </UpdatedFiles>
+    </UpdateInfo>
   </component>
   <component name="RunManager" selected="Grails Application.Run CDR">
     <configuration default="true" type="GroovyScriptRunConfigurationType" factoryName="Groovy Script">
@@ -668,7 +1468,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webtest/tests/ChangeRequestTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="85" selection-start="1327" selection-end="1327" vertical-scroll-proportion="0.21253072">
+        <state line="40" column="101" selection-start="1659" selection-end="1659" vertical-scroll-proportion="0.35872236">
           <folding />
         </state>
       </provider>
