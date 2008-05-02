@@ -9,28 +9,35 @@ class TestResultTypeTest extends grails.util.WebTest {
 
     def testTestResultTypeListNewDelete() {
         webtest('TestResultType basic operations: view list, create new entry, view, edit, delete, view') {
+            invoke(url: 'auth')
+            verifyText(text:'Login')
+            setInputField(name: "username", value: "admin")
+            setInputField(name:"password",value: "changeit")
+            clickButton(label: 'Login >')
+            verifyText(text: 'Project List')
+            
             invoke      (url: 'testResultType')
             verifyText  (text:'Home')
 
             verifyListSize 0
 
-            clickLink   (label:'New TestResultType')
-            verifyText  (text: 'Create TestResultType')
-            setInputField(label: "Description:", value: "whatever")
-            setInputField(label: "Order:", value: "1")
+            clickLink   (label:'New Test Result Type')
+            verifyText  (text: 'Create Test Result Type')
+            setInputField(name: "description", value: "whatever")
+            setInputField(name: "order", value: "1")
             clickButton (label:'Create')
-            verifyText  (text: 'Show TestResultType', description:'Detail page')
-            clickLink   (label:'Test Result', description:'Back to list view')
+            verifyText  (text: 'Show Test Result Type', description:'Detail page')
+            clickLink   (label:'Test Result Type', description:'Back to list view')
 
             verifyListSize 1
 
             group(description:'edit the one element') {
                 showFirstElementDetails()
                 clickButton (label:'Edit')
-                verifyText  (text: 'Edit TestResultType')
+                verifyText  (text: 'Edit Test Result Type')
                 clickButton (label:'Update')
-                verifyText  (text: 'Show TestResultType')
-                clickLink   (label:'Test Result', description:'Back to list view')
+                verifyText  (text: 'Show Test Result Type')
+                clickLink   (label:'Test Result Type', description:'Back to list view')
             }
 
             verifyListSize 1
@@ -48,8 +55,8 @@ class TestResultTypeTest extends grails.util.WebTest {
     String ROW_COUNT_XPATH = "count(//div[@class='list']//tbody/tr)"
 
     def verifyListSize(int size) {
-        ant.group(description:"verify TestResultType list view with $size row(s)") {
-            verifyText  (text:'TestResultType List')
+        ant.group(description:"verify Test Result Type list view with $size row(s)") {
+            verifyText  (text:'Test Result Type List')
             /*verifyXPath (xpath:ROW_COUNT_XPATH, text:size, description:"$size row(s) of data expected")*/
         }
     }

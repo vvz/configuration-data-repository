@@ -9,28 +9,35 @@ class HardwareTypeTest extends grails.util.WebTest {
 
     def testHardwareTypeListNewDelete() {
         webtest('HardwareType basic operations: view list, create new entry, view, edit, delete, view') {
+            invoke(url: 'auth')
+            verifyText(text:'Login')
+            setInputField(name: "username", value: "admin")
+            setInputField(name:"password",value: "changeit")
+            clickButton(label: 'Login >')
+            verifyText(text: 'Project List')
+
             invoke      (url: 'hardwareType')
             verifyText  (text:'Home')
 
             verifyListSize 0
 
-            clickLink   (label:'New HardwareType')
-            verifyText  (text: 'Create HardwareType')
-            setInputField(label: "Description:", value: "whatever")
-            setInputField(label: "Order:", value: "1")
+            clickLink   (label:'New Hardware Type')
+            verifyText  (text: 'Create Hardware Type')
+            setInputField(name: "description", value: "whatever")
+            setInputField(name: "order", value: "1")
             clickButton (label:'Create')
-            verifyText  (text: 'Show HardwareType', description:'Detail page')
-            clickLink   (label:'Hardware', description:'Back to list view')
+            verifyText  (text: 'Show Hardware Type', description:'Detail page')
+            clickLink   (label:'Hardware Type', description:'Back to list view')
 
             verifyListSize 1
 
             group(description:'edit the one element') {
                 showFirstElementDetails()
                 clickButton (label:'Edit')
-                verifyText  (text: 'Edit HardwareType')
+                verifyText  (text: 'Edit Hardware Type')
                 clickButton (label:'Update')
-                verifyText  (text: 'Show HardwareType')
-                clickLink   (label:'Hardware', description:'Back to list view')
+                verifyText  (text: 'Show Hardware Type')
+                clickLink   (label:'Hardware Type', description:'Back to list view')
             }
 
             verifyListSize 1
@@ -48,8 +55,8 @@ class HardwareTypeTest extends grails.util.WebTest {
     String ROW_COUNT_XPATH = "count(//div[@class='list']//tbody/tr)"
 
     def verifyListSize(int size) {
-        ant.group(description:"verify HardwareType list view with $size row(s)") {
-            verifyText  (text:'HardwareType List')
+        ant.group(description:"verify Hardware Type list view with $size row(s)") {
+            verifyText  (text:'Hardware Type List')
             /*verifyXPath (xpath:ROW_COUNT_XPATH, text:size, description:"$size row(s) of data expected")*/
         }
     }

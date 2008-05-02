@@ -1,4 +1,4 @@
-// Suite for all webtests in this application.
+  // Suite for all webtests in this application.
 
 import grails.util.WebTest
 
@@ -13,7 +13,7 @@ class TestSuite extends WebTest {
     */
     void suite() {
         def scanner = ant.fileScanner {
-            fileset(dir: 'webtest/tests', includes: '**/*Test.groovy')
+            fileset(dir:'webtest/tests', includes:'**/*Test.groovy')
         }
         for (file in scanner) {
             def test = getClass().classLoader.parseClass(file).newInstance()
@@ -23,14 +23,14 @@ class TestSuite extends WebTest {
         }
     }
 
-    /*
-        You can alternatively define your suite manually by calling a MyTest.groovy like so
-        instead of the suite impl. above:
+/*
+    You can alternatively define your suite manually by calling a MyTest.groovy like so
+    instead of the suite impl. above:
 
-            new MyTest(ant:ant, configMap:configMap).suite()
-            new MyOtherTest(ant:ant, configMap:configMap).suite()
+        new MyTest(ant:ant, configMap:configMap).suite()
+        new MyOtherTest(ant:ant, configMap:configMap).suite()
 
-        This gives you more fine-grained control over the sequence of test execution.
-    */
+    This gives you more fine-grained control over the sequence of test execution.
+*/
 
 }

@@ -9,31 +9,38 @@ class DocumentationTypeTest extends grails.util.WebTest {
 
     def testDocumentationTypeListNewDelete() {
         webtest('DocumentationType basic operations: view list, create new entry, view, edit, delete, view') {
+
+            invoke(url: 'auth')
+            verifyText(text:'Login')
+            setInputField(name: "username", value: "admin")
+            setInputField(name:"password",value: "changeit")
+            clickButton(label: 'Login >')
+            verifyText(text: 'Project List')
+            
             invoke      (url: 'documentationType')
-            verifyText  (text:'Home')
-
-            verifyListSize 0
-
-            clickLink   (label:'New DocumentationType')
-            verifyText  (text: 'Create DocumentationType')
-            setInputField(label: "Description:", value: "whatever")
-            setInputField(label: "Order:", value: "1")
-            clickButton (label:'Create')
-            verifyText  (text: 'Show DocumentationType', description:'Detail page')
-            clickLink   (label:'Documentation', description:'Back to list view')
+            verifyText  (text:'Documentation Type List')
 
             verifyListSize 1
+
+            clickLink   (label:'New Documentation Type')
+            verifyText  (text: 'Create Documentation Type')
+            setInputField(name: "description", value: "description")
+            clickButton (label:'Create')
+            verifyText  (text: 'Show Documentation Type', description:'Detail page')
+            clickLink   (label:'Documentation Type', description:'Back to list view')
+
+            verifyListSize 2
 
             group(description:'edit the one element') {
                 showFirstElementDetails()
                 clickButton (label:'Edit')
-                verifyText  (text: 'Edit DocumentationType')
+                verifyText  (text: 'Edit Documentation Type')
                 clickButton (label:'Update')
-                verifyText  (text: 'Show DocumentationType')
-                clickLink   (label:'Documentation', description:'Back to list view')
+                verifyText  (text: 'Show Documentation Type')
+                clickLink   (label:'Documentation Type', description:'Back to list view')
             }
 
-            verifyListSize 1
+            verifyListSize 2
 
             group(description:'delete the only element') {
                 showFirstElementDetails()
@@ -41,7 +48,7 @@ class DocumentationTypeTest extends grails.util.WebTest {
                 verifyXPath (xpath:"//div[@class='message']", text:/.*DocumentationType.*deleted.*/, regex:true)
             }
 
-            verifyListSize 0
+            verifyListSize 1
         }
     }
 
@@ -49,12 +56,12 @@ class DocumentationTypeTest extends grails.util.WebTest {
 
     def verifyListSize(int size) {
         ant.group(description:"verify DocumentationType list view with $size row(s)") {
-            verifyText  (text:'DocumentationType List')
-            /*verifyXPath (xpath:ROW_COUNT_XPATH, text:size, description:"$size row(s) of data expected")*/
+            verifyText  (text:'Documentation Type List')
+            verifyXPath (xpath:ROW_COUNT_XPATH, text:size, description:"$size row(s) of data expected")
         }
     }
 
     def showFirstElementDetails() {
-        ant.clickLink(label:'whatever', description:'go to detail view')
+        ant.clickLink(label:'description', description:'go to detail view')
     }
 }

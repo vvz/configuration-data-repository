@@ -9,6 +9,13 @@ class SoftwareTest extends grails.util.WebTest {
 
     def testSoftwareListNewDelete() {
         webtest('Software basic operations: view list, create new entry, view, edit, delete, view') {
+            invoke(url: 'auth')
+            verifyText(text:'Login')
+            setInputField(name: "username", value: "admin")
+            setInputField(name:"password",value: "changeit")
+            clickButton(label: 'Login >')
+            verifyText(text: 'Project List')
+            
             invoke      (url: 'software')
             verifyText  (text:'Home')
 
@@ -16,9 +23,9 @@ class SoftwareTest extends grails.util.WebTest {
 
             clickLink   (label:'New Software')
             verifyText  (text: 'Create Software')
-            setInputField(label: "Name:", value: "Windows XP Pro #56")
+            setInputField(name: "name", value: "Windows XP Pro #56")
             setInputField(name: "description", value: "sdfsdf")
-            setInputField(label: "Author:", value: "Steve Holmes")
+            setInputField(name: "author", value: "Steve Holmes")
             clickButton (label:'Create')
             verifyText  (text: 'Show Software', description:'Detail page')
             clickLink   (label:'Software', description:'Back to list view')

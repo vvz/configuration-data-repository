@@ -9,28 +9,35 @@ class SoftwareTypeTest extends grails.util.WebTest {
 
     def testSoftwareTypeListNewDelete() {
         webtest('SoftwareType basic operations: view list, create new entry, view, edit, delete, view') {
+            invoke(url: 'auth')
+            verifyText(text:'Login')
+            setInputField(name: "username", value: "admin")
+            setInputField(name:"password",value: "changeit")
+            clickButton(label: 'Login >')
+            verifyText(text: 'Project List')
+            
             invoke      (url: 'softwareType')
             verifyText  (text:'Home')
 
             verifyListSize 0
 
-            clickLink   (label:'New SoftwareType')
-            verifyText  (text: 'Create SoftwareType')
-            setInputField(label: "Description:", value: "whatever")
-            setInputField(label: "Order:", value: "1")
+            clickLink   (label:'New Software Type')
+            verifyText  (text: 'Create Software Type')
+            setInputField(name: "description", value: "whatever")
+            setInputField(name: "order", value: "1")
             clickButton (label:'Create')
-            verifyText  (text: 'Show SoftwareType', description:'Detail page')
-            clickLink   (label:'Software', description:'Back to list view')
+            verifyText  (text: 'Show Software Type', description:'Detail page')
+            clickLink   (label:'Software Type', description:'Back to list view')
 
             verifyListSize 1
 
             group(description:'edit the one element') {
                 showFirstElementDetails()
                 clickButton (label:'Edit')
-                verifyText  (text: 'Edit SoftwareType')
+                verifyText  (text: 'Edit Software Type')
                 clickButton (label:'Update')
-                verifyText  (text: 'Show SoftwareType')
-                clickLink   (label:'Software', description:'Back to list view')
+                verifyText  (text: 'Show Software Type')
+                clickLink   (label:'Software Type', description:'Back to list view')
             }
 
             verifyListSize 1
@@ -48,8 +55,8 @@ class SoftwareTypeTest extends grails.util.WebTest {
     String ROW_COUNT_XPATH = "count(//div[@class='list']//tbody/tr)"
 
     def verifyListSize(int size) {
-        ant.group(description:"verify SoftwareType list view with $size row(s)") {
-            verifyText  (text:'SoftwareType List')
+        ant.group(description:"verify Software Type list view with $size row(s)") {
+            verifyText  (text:'Software Type List')
             /*verifyXPath (xpath:ROW_COUNT_XPATH, text:size, description:"$size row(s) of data expected")*/
         }
     }

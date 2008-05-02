@@ -9,17 +9,24 @@ class TestResultTest extends grails.util.WebTest {
 
     def testTestResultListNewDelete() {
         webtest('TestResult basic operations: view list, create new entry, view, edit, delete, view') {
+            invoke(url: 'auth')
+            verifyText(text:'Login')
+            setInputField(name: "username", value: "admin")
+            setInputField(name:"password",value: "changeit")
+            clickButton(label: 'Login >')
+            verifyText(text: 'Project List')
+            
             invoke      (url: 'testResult')
             verifyText  (text:'Home')
 
             verifyListSize 0
 
-            clickLink   (label:'New TestResult')
-            verifyText  (text: 'Create TestResult')
-            setInputField(label: "Name:", value: "result 1")
-            setInputField(label: "Author:", value: "Steve Holmes")
+            clickLink   (label:'New Test Result')
+            verifyText  (text: 'Create Test Result')
+            setInputField(name: "name", value: "result 1")
+            setInputField(name: "author", value: "Steve Holmes")
             clickButton (label:'Create')
-            verifyText  (text: 'Show TestResult', description:'Detail page')
+            verifyText  (text: 'Show Test Result', description:'Detail page')
             clickLink   (label:'Test Result', description:'Back to list view')
 
             verifyListSize 1
@@ -27,9 +34,9 @@ class TestResultTest extends grails.util.WebTest {
             group(description:'edit the one element') {
                 showFirstElementDetails()
                 clickButton (label:'Edit')
-                verifyText  (text: 'Edit TestResult')
+                verifyText  (text: 'Edit Test Result')
                 clickButton (label:'Update')
-                verifyText  (text: 'Show TestResult')
+                verifyText  (text: 'Show Test Result')
                 clickLink   (label:'Test Result', description:'Back to list view')
             }
 
@@ -48,8 +55,8 @@ class TestResultTest extends grails.util.WebTest {
     String ROW_COUNT_XPATH = "count(//div[@class='list']//tbody/tr)"
 
     def verifyListSize(int size) {
-        ant.group(description:"verify TestResult list view with $size row(s)") {
-            verifyText  (text:'TestResult List')
+        ant.group(description:"verify Test Result list view with $size row(s)") {
+            verifyText  (text:'Test Result List')
             /*verifyXPath (xpath:ROW_COUNT_XPATH, text:size, description:"$size row(s) of data expected")*/
         }
     }

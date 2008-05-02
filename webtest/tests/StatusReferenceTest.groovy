@@ -9,6 +9,13 @@ class StatusReferenceTest extends grails.util.WebTest {
 
     def testStatusReferenceListNewDelete() {
         webtest('StatusReference basic operations: view list, create new entry, view, edit, delete, view') {
+            invoke(url: 'auth')
+            verifyText(text:'Login')
+            setInputField(name: "username", value: "admin")
+            setInputField(name:"password",value: "changeit")
+            clickButton(label: 'Login >')
+            verifyText(text: 'Project List')
+            
             /*invoke(url: 'statusReference')
             verifyText(text: 'Home')
 
