@@ -9,28 +9,35 @@ class HardwareTest extends grails.util.WebTest {
 
     def testHardwareListNewDelete() {
         webtest('Hardware basic operations: view list, create new entry, view, edit, delete, view') {
-            invoke(url: 'hardware')
-            verifyText(text: 'Home')
+            invoke(url: 'auth')
+            verifyText(text:'Login')
+            setInputField(name: "username", value: "admin")
+            setInputField(name:"password",value: "changeit")
+            clickButton(label: 'Login >')
+            verifyText(text: 'Project List')
 
-            verifyListSize 0
+            invoke(url: 'hardware')
+            verifyText(text: 'Hardware List')
+
+            //verifyListSize 0
 
             /*clickLink(label: 'New Hardware')
             verifyText(text: 'Create Hardware')
             clickButton(label: 'Create')
             verifyText(text: 'Show Hardware', description: 'Detail page')*/
-            clickLink(label: "Hardware")
             clickLink(label: "New Hardware")
-            setInputField(label: "Name:", value: "Solutions")
+            verifyText(text: 'Create Hardware')
+            setInputField(name: "name", value: "Solutions")
             setInputField(name: "description", value: "Solutions Server")
-            setInputField(label: "Author:", value: "Steve Holmes")
-            setInputField(label: "Owner Name:", value: "Steve Holmes")
-            setInputField(label: "Owner Email:", value: "sholmes@delegata.com")
+            setInputField(name: "author", value: "Steve Holmes")
+            setInputField(name: "ownerName", value: "Steve Holmes")
+            setInputField(name: "ownerEmail", value: "sholmes@delegata.com")
             clickButton(label: "Create")
             verifyText(description: "Verify that text is contained in the page", text: "Create Hardware")
             clickLink(label: "Hardware")
-            /*clickLink(label: 'List', description: 'Back to list view')*/
+            verifyText(text: 'Hardware List')
 
-            verifyListSize 1
+            //verifyListSize 1
 
             group(description: 'edit the one element') {
                 showFirstElementDetails()
@@ -43,25 +50,26 @@ class HardwareTest extends grails.util.WebTest {
                 clickLink(label: "Hardware")
             }
 
-            verifyListSize 1
+            //verifyListSize 1
 
             //Create Relation Reference
             /*clickLink(label: "Solutions")*/
             showFirstElementDetails()
             invoke(url: "http://localhost:8080/CDR/relationReference/list")
-            clickLink(label: "New RelationReference")
-            setInputField(label: "Name:", value: "exists in")
-            setInputField(label: "Description:", value: "exists in")
-            setInputField(label: "Order:", value: "1")
+            clickLink(label: "New Relation Reference")
+            setInputField(name: "name", value: "exists in")
+            setInputField(name: "description", value: "exists in")
+            setInputField(name: "order", value: "1")
             clickButton(label: "Create")
-            verifyText(description: "Verify that text is contained in the page", text: "Show RelationReference")
+            verifyText(description: "Verify that text is contained in the page", text: "Show Relation Reference")
 
             //Test Create Relation
             clickLink(label:'Home')
             clickLink(label: "Hardware")
             /*clickLink(label: "Solutions")*/
             showFirstElementDetails()
-            clickLink(label: "New Relation")                                                
+            clickLink(label: "New Relation")
+            setRadioButton(description: "Check radio button thatCI.id: 1", name: "thatCI.id", value: "1")
             clickButton(label: "Create")
             verifyText(description: "Verify that text is contained in the page", text: "Show Relation")
 
@@ -71,10 +79,6 @@ class HardwareTest extends grails.util.WebTest {
             /*clickLink(label: "Solutions")*/
             showFirstElementDetails()
             clickLink(label: "Solutions depends on Solutions")
-            clickButton(label: "Edit")
-            verifyText(description: "Verify that text is contained in the page", text: "Edit Relation")
-            clickButton(label: "Update")
-            verifyText(description: "Verify that text is contained in the page", text: "updated")
 
             group(description: 'delete the only element') {
                 showFirstElementDetails()
@@ -82,7 +86,7 @@ class HardwareTest extends grails.util.WebTest {
                 verifyXPath(xpath: "//div[@class='message']", text: /.*Hardware.*deleted.*/, regex: true)
             }
 
-            verifyListSize 0
+            //verifyListSize 0
         }
     }
 
@@ -91,7 +95,7 @@ class HardwareTest extends grails.util.WebTest {
     def verifyListSize(int size) {
         ant.group(description: "verify Hardware list view with $size row(s)") {
             verifyText(text: 'Hardware List')
-            /*verifyXPath(xpath: ROW_COUNT_XPATH, text: size, description: "$size row(s) of data expected")*/
+            verifyXPath(xpath: ROW_COUNT_XPATH, text: size, description: "$size row(s) of data expected")
         }
     }
 

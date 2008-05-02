@@ -9,6 +9,14 @@ class EnvironmentTest extends grails.util.WebTest {
 
     def testEnvironmentListNewDelete() {
         webtest('Environment basic operations: view list, create new entry, view, edit, delete, view') {
+
+            invoke(url: 'auth')
+            verifyText(text:'Login')
+            setInputField(name: "username", value: "admin")
+            setInputField(name:"password",value: "changeit")
+            clickButton(label: 'Login >')
+            verifyText(text: 'Project List')
+
             invoke(url: 'environment')
             verifyText(text: 'Home')
 

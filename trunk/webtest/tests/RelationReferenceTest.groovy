@@ -9,28 +9,35 @@ class RelationReferenceTest extends grails.util.WebTest {
 
     def testRelationReferenceListNewDelete() {
         webtest('RelationReference basic operations: view list, create new entry, view, edit, delete, view') {
+            invoke(url: 'auth')
+            verifyText(text:'Login')
+            setInputField(name: "username", value: "admin")
+            setInputField(name:"password",value: "changeit")
+            clickButton(label: 'Login >')
+            verifyText(text: 'Project List')
+            
             invoke(url: 'relationReference')
             verifyText(text: 'Home')
 
             verifyListSize 0
 
-            clickLink(label: 'New RelationReference')
-            verifyText(text: 'Create RelationReference')
-            setInputField(label: "Name:", value: "thisReference")
-            setInputField(label: "Description:", value: "this")
-            setInputField(label: "Order:", value: "1")
+            clickLink(label: 'New Relation Reference')
+            verifyText(text: 'Create Relation Reference')
+            setInputField(name: "name", value: "thisReference")
+            setInputField(name: "description", value: "this")
+            setInputField(name: "order", value: "1")
             clickButton(label: 'Create')
-            verifyText(text: 'Show RelationReference', description: 'Detail page')
-            clickLink(label: 'Relation', description: 'Back to list view')
+            verifyText(text: 'Show Relation Reference', description: 'Detail page')
+            clickLink(label: 'Relation Reference', description: 'Back to list view')
 
             verifyListSize 1
 
             group(description: 'edit the one element') {
                 showFirstElementDetails()
                 clickButton(label: 'Edit')
-                verifyText(text: 'Edit RelationReference')
+                verifyText(text: 'Edit Relation Reference')
                 clickButton(label: 'Update')
-                verifyText(text: 'Show RelationReference')
+                verifyText(text: 'Show Relation Reference')
                 clickLink(label: 'Relation', description: 'Back to list view')
             }
 
@@ -50,7 +57,7 @@ class RelationReferenceTest extends grails.util.WebTest {
 
     def verifyListSize(int size) {
         ant.group(description: "verify RelationReference list view with $size row(s)") {
-            verifyText(text: 'RelationReference List')
+            verifyText(text: 'Relation Reference List')
             /*verifyXPath(xpath: ROW_COUNT_XPATH, text: size, description: "$size row(s) of data expected")*/
         }
     }

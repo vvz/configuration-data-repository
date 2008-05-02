@@ -9,6 +9,13 @@ class ProjectTest extends grails.util.WebTest {
 
     def testProjectListNewDelete() {
         webtest('Project basic operations: view list, create new entry, view, edit, delete, view') {
+            invoke(url: 'auth')
+            verifyText(text:'Login')
+            setInputField(name: "username", value: "admin")
+            setInputField(name:"password",value: "changeit")
+            clickButton(label: 'Login >')
+            verifyText(text: 'Project List')
+
             invoke(url: 'project')
             verifyText(text: 'Home')
 
@@ -16,10 +23,10 @@ class ProjectTest extends grails.util.WebTest {
 
             clickLink(label: 'New Project')
             verifyText(text: 'Create Project')
-            setInputField(label: "Name:", value: "APS")
+            setInputField(name: "name", value: "APS")
             setInputField(name: "description", value: "APS Project")
-            setInputField(label: "Owner Name:", value: "Steve Holmes")
-            setInputField(label: "Owner Email:", value: "sholmes@delegata.com")
+            setInputField(name: "ownerName", value: "Steve Holmes")
+            setInputField(name: "ownerEmail", value: "sholmes@delegata.com")
             clickButton(label: "Create")
             verifyText(text: "Show Project", description: "Verify that text is contained in the page")
             clickLink(label: "Project", description: 'Back to List view')

@@ -3,15 +3,15 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <meta name="layout" content="main" />
-        <title>Show TestResult</title>
+        <title>Show Test Result</title>
     </head>
     <body>
         <div class="body">
-            <h1>Show TestResult</h1>
+            <h1>Show Test Result</h1>
             <div class="nav">
                 %{--<span class="menuButton"><a class="home" href="${createLinkTo(dir:'')}">Home</a></span>--}%
-                %{--<span class="menuButton"><g:link class="list" action="list">TestResult List</g:link></span>--}%
-                %{--<span class="menuButton"><g:link class="create" action="create">New TestResult</g:link></span>--}%
+                %{--<span class="menuButton"><g:link class="list" action="list">Test Result List</g:link></span>--}%
+                %{--<span class="menuButton"><g:link class="create" action="create">New Test Result</g:link></span>--}%
                 <span class="menuButton">
                     <g:link controller="status" params='["configurationItem.id":params.id]' class="create" action="create">New Status</g:link>
                 </span>

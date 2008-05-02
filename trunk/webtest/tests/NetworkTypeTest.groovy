@@ -9,28 +9,35 @@ class NetworkTypeTest extends grails.util.WebTest {
 
     def testNetworkTypeListNewDelete() {
         webtest('NetworkType basic operations: view list, create new entry, view, edit, delete, view') {
+            invoke(url: 'auth')
+            verifyText(text:'Login')
+            setInputField(name: "username", value: "admin")
+            setInputField(name:"password",value: "changeit")
+            clickButton(label: 'Login >')
+            verifyText(text: 'Project List')
+
             invoke      (url: 'networkType')
             verifyText  (text:'Home')
 
             verifyListSize 0
 
-            clickLink   (label:'New NetworkType')
-            verifyText  (text: 'Create NetworkType')
-            setInputField(label: "Description:", value: "whatever")
-            setInputField(label: "Order:", value: "1")
+            clickLink   (label:'New Network Type')
+            verifyText  (text: 'Create Network Type')
+            setInputField(name: "description", value: "whatever")
+            setInputField(name: "order", value: "1")
             clickButton (label:'Create')
-            verifyText  (text: 'Show NetworkType', description:'Detail page')
-            clickLink   (label:'Network', description:'Back to list view')
+            verifyText  (text: 'Show Network Type', description:'Detail page')
+            clickLink   (label:'Network Type', description:'Back to list view')
 
             verifyListSize 1
 
             group(description:'edit the one element') {
                 showFirstElementDetails()
                 clickButton (label:'Edit')
-                verifyText  (text: 'Edit NetworkType')
+                verifyText  (text: 'Edit Network Type')
                 clickButton (label:'Update')
-                verifyText  (text: 'Show NetworkType')
-                clickLink   (label:'Network', description:'Back to list view')
+                verifyText  (text: 'Show Network Type')
+                clickLink   (label:'Network Type', description:'Back to list view')
             }
 
             verifyListSize 1
@@ -48,8 +55,8 @@ class NetworkTypeTest extends grails.util.WebTest {
     String ROW_COUNT_XPATH = "count(//div[@class='list']//tbody/tr)"
 
     def verifyListSize(int size) {
-        ant.group(description:"verify NetworkType list view with $size row(s)") {
-            verifyText  (text:'NetworkType List')
+        ant.group(description:"verify Network Type list view with $size row(s)") {
+            verifyText  (text:'Network Type List')
             /*verifyXPath (xpath:ROW_COUNT_XPATH, text:size, description:"$size row(s) of data expected")*/
         }
     }
