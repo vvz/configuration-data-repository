@@ -32,6 +32,7 @@
       <sourceFolder url="file://$MODULE_DIR$/plugins/jsecurity-0.2/src/groovy" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/jsecurity-0.2/src/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/webtest-0.3/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/webtest-0.4/src/groovy" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/groovy" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test/integration" isTestSource="true" />
