@@ -55,7 +55,7 @@ class HardwareTest extends grails.util.WebTest {
             //Create Relation Reference
             /*clickLink(label: "Solutions")*/
             showFirstElementDetails()
-            invoke(url: "http://localhost:8080/CDR/relationReference/list")
+            invoke(url: "relationReference/list")
             clickLink(label: "New Relation Reference")
             setInputField(name: "name", value: "exists in")
             setInputField(name: "description", value: "exists in")

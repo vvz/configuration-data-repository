@@ -63,6 +63,6 @@ class RelationReferenceTest extends grails.util.WebTest {
     }
 
     def showFirstElementDetails() {
-        ant.clickLink(label: 'thisReference', description: 'go to detail view')
+        ant.clickLink(label: 'depends on', description: 'go to detail view')
     }
 }
