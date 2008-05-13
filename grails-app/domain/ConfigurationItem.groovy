@@ -17,9 +17,9 @@ class ConfigurationItem
     static mappedBy = [thisRelations: 'thisCI', thatRelations: 'thatCI', configurationItems: 'parent']
     static belongsTo = [Environment, ConfigurationItem]
     static constraints = {
-        name(nullable: false)
+        name(nullable: false, blank:false)
         description(nullable: true, maxSize: 1000)
-        author(nullable: false)
+        author(nullable: false, blank:false)
         ownerName(nullable: true)
         ownerEmail(nullable: true, email: true)
         parent(nullable: true)

@@ -6,9 +6,9 @@ class RelationReference
     Set relations
     static hasMany = [relations: Relation]
     static constraints = {
-        name(nullable: false)
+        name(nullable: false, blank:false)
         description(nullable: true)
-        order(nullable: false)
+        order(nullable: false, blank:false)
         relations(nullable: true)
     }
 

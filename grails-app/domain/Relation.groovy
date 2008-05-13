@@ -7,9 +7,9 @@ class Relation
     //static hasMany = []
     static belongsTo = [ConfigurationItem, RelationReference]
     static constraints = {
-        thisCI(nullable: false)
-        reference(nullable: false)
-        thatCI(nullable: false)
+        thisCI(nullable: false, blank:false)
+        reference(nullable: false, blank:false)
+        thatCI(nullable: false, blank:false)
     }
 
     String toString() {

@@ -8,10 +8,10 @@ class Status
     //static hasMany = []
     static belongsTo = [ConfigurationItem, StatusReference]
     static constraints = {
-        startDate(nullable: false)
-        endDate(nullable: false)
-        configurationItem(nullable: false)
-        reference(nullable: false)
+        startDate(nullable: false, blank:false)
+        endDate(nullable: false, blank:false)
+        configurationItem(nullable: false, blank:false)
+        reference(nullable: false, blank:false)
     }
 
     String toString() {
