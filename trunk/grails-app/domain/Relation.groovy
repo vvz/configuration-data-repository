@@ -4,7 +4,9 @@ class Relation
     ConfigurationItem thisCI
     ConfigurationItem thatCI
 
-    //static hasMany = []
+    Date dateCreated
+    Date lastUpdated
+
     static belongsTo = [ConfigurationItem, RelationReference]
     static constraints = {
         thisCI(nullable: false, blank:false)

@@ -8,6 +8,9 @@ class Documentation extends ConfigurationItem{
     String abstraction
     DocumentationType documentationType
 
+    Date dateCreated
+    Date lastUpdated
+
     static belongsTo = DocumentationType
     static constraints = {
         docVersion(nullable:true)

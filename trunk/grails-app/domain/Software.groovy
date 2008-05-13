@@ -5,6 +5,9 @@ class Software extends ConfigurationItem{
     String releaseNum
     SoftwareType softwareType
 
+    Date dateCreated
+    Date lastUpdated
+
     static belongsTo = SoftwareType
     static constraints = {
         versionNum(nullable:true)

@@ -5,6 +5,9 @@ class Hardware extends ConfigurationItem{
     String hostName
     HardwareType hardwareType
 
+    Date dateCreated
+    Date lastUpdated
+
     static belongsTo = HardwareType
     static constraints = {
         purchaseDate(nullable: true)

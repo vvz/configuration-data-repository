@@ -6,6 +6,9 @@ class Network extends ConfigurationItem{
 
     NetworkType networkType
 
+    Date dateCreated
+    Date lastUpdated
+
     static constraints = {
         internetProtocolAddress(nullable:true)
         macAddress(nullable:true)

@@ -3,6 +3,9 @@ class RequestType{
     String type = 'Change Request'
     Set requests
 
+    Date dateCreated
+    Date lastUpdated
+
     static hasMany = [requests:ChangeRequest]
     static constraints = {
         description(nullable:false, blank:false)

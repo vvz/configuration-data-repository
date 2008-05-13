@@ -8,6 +8,9 @@ class Environment
 
     Set configurationItems
 
+    Date dateCreated
+    Date lastUpdated
+
     static hasMany = [configurationItems: ConfigurationItem]
     static belongsTo = [Project]
     static constraints = {

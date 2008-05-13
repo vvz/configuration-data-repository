@@ -3,6 +3,9 @@ class TestResultType{
     Set results
     String type = 'Test Result'
 
+    Date dateCreated
+    Date lastUpdated
+
     static hasMany = [results:TestResult]
     static constraints = {
         description(nullable:false, blank:false)

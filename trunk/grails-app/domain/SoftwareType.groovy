@@ -4,6 +4,9 @@ class SoftwareType
     Set softwares
     String type = 'Software'
 
+    Date dateCreated
+    Date lastUpdated
+
     static hasMany = [softwares:Software]
     static constraints = {
         description(nullable:false, blank:false)

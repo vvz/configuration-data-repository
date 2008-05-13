@@ -5,6 +5,9 @@ class DocumentationType{
 
     Set documents
 
+    Date dateCreated
+    Date lastUpdated
+
     static hasMany = [documents:Documentation]
     static constraints = {
         description(nullable:false, blank:false)

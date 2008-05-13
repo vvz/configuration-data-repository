@@ -16,67 +16,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/Network.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/Network.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/RequestType.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/RequestType.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webtest/tests/SoftwareTypeTest.groovy" afterPath="$PROJECT_DIR$/webtest/tests/SoftwareTypeTest.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/requestType/show.gsp" afterPath="$PROJECT_DIR$/grails-app/views/requestType/show.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/softwareType/edit.gsp" afterPath="$PROJECT_DIR$/grails-app/views/softwareType/edit.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CDR.iws" afterPath="$PROJECT_DIR$/CDR.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/softwareType/show.gsp" afterPath="$PROJECT_DIR$/grails-app/views/softwareType/show.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/relationReference/list.gsp" afterPath="$PROJECT_DIR$/grails-app/views/relationReference/list.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/statusReference/create.gsp" afterPath="$PROJECT_DIR$/grails-app/views/statusReference/create.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/hardwareType/show.gsp" afterPath="$PROJECT_DIR$/grails-app/views/hardwareType/show.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/relationReference/show.gsp" afterPath="$PROJECT_DIR$/grails-app/views/relationReference/show.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/RelationReference.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/RelationReference.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/requestType/list.gsp" afterPath="$PROJECT_DIR$/grails-app/views/requestType/list.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/changeRequest/edit.gsp" afterPath="$PROJECT_DIR$/grails-app/views/changeRequest/edit.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/networkType/show.gsp" afterPath="$PROJECT_DIR$/grails-app/views/networkType/show.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/integration/EnvironmentControllerTests.groovy" afterPath="$PROJECT_DIR$/test/integration/EnvironmentControllerTests.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/testResultType/create.gsp" afterPath="$PROJECT_DIR$/grails-app/views/testResultType/create.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/statusReference/list.gsp" afterPath="$PROJECT_DIR$/grails-app/views/statusReference/list.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/requestType/create.gsp" afterPath="$PROJECT_DIR$/grails-app/views/requestType/create.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/relationReference/edit.gsp" afterPath="$PROJECT_DIR$/grails-app/views/relationReference/edit.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/hardwareType/list.gsp" afterPath="$PROJECT_DIR$/grails-app/views/hardwareType/list.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/documentationType/edit.gsp" afterPath="$PROJECT_DIR$/grails-app/views/documentationType/edit.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/documentationType/list.gsp" afterPath="$PROJECT_DIR$/grails-app/views/documentationType/list.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/changeRequest/create.gsp" afterPath="$PROJECT_DIR$/grails-app/views/changeRequest/create.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/integration/StatusTests.groovy" afterPath="$PROJECT_DIR$/test/integration/StatusTests.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webtest/tests/HardwareTypeTest.groovy" afterPath="$PROJECT_DIR$/webtest/tests/HardwareTypeTest.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/SoftwareType.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/SoftwareType.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/statusReference/edit.gsp" afterPath="$PROJECT_DIR$/grails-app/views/statusReference/edit.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/documentationType/create.gsp" afterPath="$PROJECT_DIR$/grails-app/views/documentationType/create.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/integration/StatusReferenceTests.groovy" afterPath="$PROJECT_DIR$/test/integration/StatusReferenceTests.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/NetworkType.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/NetworkType.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/testResultType/edit.gsp" afterPath="$PROJECT_DIR$/grails-app/views/testResultType/edit.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/networkType/list.gsp" afterPath="$PROJECT_DIR$/grails-app/views/networkType/list.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webtest/tests/HardwareTest.groovy" afterPath="$PROJECT_DIR$/webtest/tests/HardwareTest.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/requestType/edit.gsp" afterPath="$PROJECT_DIR$/grails-app/views/requestType/edit.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webtest/tests/ChangeRequestTest.groovy" afterPath="$PROJECT_DIR$/webtest/tests/ChangeRequestTest.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webtest/tests/NetworkTypeTest.groovy" afterPath="$PROJECT_DIR$/webtest/tests/NetworkTypeTest.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/changeRequest/list.gsp" afterPath="$PROJECT_DIR$/grails-app/views/changeRequest/list.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/hardwareType/create.gsp" afterPath="$PROJECT_DIR$/grails-app/views/hardwareType/create.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/softwareType/create.gsp" afterPath="$PROJECT_DIR$/grails-app/views/softwareType/create.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/DocumentationType.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/DocumentationType.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/HardwareType.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/HardwareType.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/hardwareType/edit.gsp" afterPath="$PROJECT_DIR$/grails-app/views/hardwareType/edit.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/TestResultType.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/TestResultType.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/relationReference/create.gsp" afterPath="$PROJECT_DIR$/grails-app/views/relationReference/create.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/networkType/edit.gsp" afterPath="$PROJECT_DIR$/grails-app/views/networkType/edit.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/integration/RelationReferenceTests.groovy" afterPath="$PROJECT_DIR$/test/integration/RelationReferenceTests.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/documentationType/show.gsp" afterPath="$PROJECT_DIR$/grails-app/views/documentationType/show.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/integration/HardwareTests.groovy" afterPath="$PROJECT_DIR$/test/integration/HardwareTests.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webtest/tests/TestResultTypeTest.groovy" afterPath="$PROJECT_DIR$/webtest/tests/TestResultTypeTest.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/softwareType/list.gsp" afterPath="$PROJECT_DIR$/grails-app/views/softwareType/list.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/testResultType/list.gsp" afterPath="$PROJECT_DIR$/grails-app/views/testResultType/list.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/statusReference/show.gsp" afterPath="$PROJECT_DIR$/grails-app/views/statusReference/show.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webtest/tests/RequestTypeTest.groovy" afterPath="$PROJECT_DIR$/webtest/tests/RequestTypeTest.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/Software.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/Software.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/TestResult.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/TestResult.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/StatusReference.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/StatusReference.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/testResultType/show.gsp" afterPath="$PROJECT_DIR$/grails-app/views/testResultType/show.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/networkType/create.gsp" afterPath="$PROJECT_DIR$/grails-app/views/networkType/create.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/integration/HardwareControllerTests.groovy" afterPath="$PROJECT_DIR$/test/integration/HardwareControllerTests.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webtest/tests/RelationReferenceTest.groovy" afterPath="$PROJECT_DIR$/webtest/tests/RelationReferenceTest.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/changeRequest/show.gsp" afterPath="$PROJECT_DIR$/grails-app/views/changeRequest/show.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CDR.iws" afterPath="$PROJECT_DIR$/CDR.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/ChangeRequest.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/ChangeRequest.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/DocumentationType.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/DocumentationType.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/Project.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/Project.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/HardwareType.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/HardwareType.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/Relation.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/Relation.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/SoftwareType.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/SoftwareType.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/Hardware.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/Hardware.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/TestResultType.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/TestResultType.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/Documentation.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/Documentation.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/RelationReference.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/RelationReference.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/NetworkType.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/NetworkType.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/Environment.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/Environment.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/ConfigurationItem.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/ConfigurationItem.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/Status.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/Status.groovy" />
     </list>
     <ignored path="CDR.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -153,93 +113,123 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="show.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/documentationType/show.gsp">
+      <file leaf-file-name="Project.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/Project.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="21" selection-start="263" selection-end="263" vertical-scroll-proportion="0.20184697">
+            <state line="11" column="48" selection-start="211" selection-end="211" vertical-scroll-proportion="0.41280353">
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChangeRequestTest.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webtest/tests/ChangeRequestTest.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="39" selection-start="1088" selection-end="1088" vertical-scroll-proportion="0.48091602">
-              <folding />
-            </state>
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HardwareTypeTest.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webtest/tests/HardwareTypeTest.groovy">
+      <file leaf-file-name="Relation.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/Relation.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
+            <state line="8" column="0" selection-start="150" selection-end="150" vertical-scroll-proportion="0.30022076">
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HardwareTest.groovy" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/webtest/tests/HardwareTest.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="96" column="0" selection-start="4029" selection-end="4029" vertical-scroll-proportion="0.8742294">
-              <folding />
-            </state>
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/changeRequest/create.gsp">
+      <file leaf-file-name="RelationReference.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/RelationReference.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="62" selection-start="3939" selection-end="3939" vertical-scroll-proportion="1.2516824">
+            <state line="8" column="4" selection-start="130" selection-end="130" vertical-scroll-proportion="0.30022076">
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/changeRequest/edit.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="76" selection-start="548" selection-end="548" vertical-scroll-proportion="0.2745626">
-              <folding />
-            </state>
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/changeRequest/list.gsp">
+      <file leaf-file-name="RequestType.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/RequestType.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="65" selection-start="472" selection-end="472" vertical-scroll-proportion="0.31398416">
+            <state line="6" column="20" selection-start="136" selection-end="136" vertical-scroll-proportion="0.22516556">
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/changeRequest/show.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="152" column="94" selection-start="5899" selection-end="5899" vertical-scroll-proportion="3.4777927">
-              <folding />
-            </state>
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CDR.ipr" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CDR.ipr">
+      <file leaf-file-name="Software.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/Software.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="458" column="63" selection-start="28158" selection-end="28158" vertical-scroll-proportion="0.33291456">
+            <state line="8" column="20" selection-start="175" selection-end="175" vertical-scroll-proportion="0.30022076">
               <folding />
             </state>
           </provider>
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="_breadcrumbs.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/changeRequest/_breadcrumbs.gsp">
+      <file leaf-file-name="SoftwareType.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/SoftwareType.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="32" selection-start="340" selection-end="340" vertical-scroll-proportion="0.17941953">
+            <state line="7" column="20" selection-start="133" selection-end="133" vertical-scroll-proportion="0.26269317">
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Status.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/Status.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="0" selection-start="164" selection-end="164" vertical-scroll-proportion="0.33774835">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StatusReference.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/StatusReference.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="39" selection-start="163" selection-end="163" vertical-scroll-proportion="0.33774835">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestResult.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/TestResult.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="20" selection-start="200" selection-end="200" vertical-scroll-proportion="0.30022076">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestResultType.groovy" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/TestResultType.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="87" selection-start="409" selection-end="409" vertical-scroll-proportion="0.7505519">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
           </provider>
         </entry>
       </file>
@@ -311,29 +301,7 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\webtest" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\webtest\tests" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="CDR" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="CDR" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\webtest" />
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\grails-app" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -352,6 +320,10 @@
         </PATH_ELEMENT>
         <PATH_ELEMENT>
           <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\grails-app" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\grails-app\domain" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -561,7 +533,7 @@
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="10" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.3325444" order="11" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32781065" order="12" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32779098" order="12" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.3289941" order="7" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.2495935" order="1" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="0" />
@@ -668,116 +640,164 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/views/testResultType/edit.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/DocumentationType.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="68" selection-start="2257" selection-end="2257" vertical-scroll-proportion="0.64116096">
+        <state line="8" column="20" selection-start="148" selection-end="148" vertical-scroll-proportion="0.18478261">
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/testResultType/list.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/Environment.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="92" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.58311343">
+        <state line="11" column="20" selection-start="196" selection-end="196" vertical-scroll-proportion="0.2540761">
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/testResultType/show.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/Hardware.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="61" selection-start="847" selection-end="847" vertical-scroll-proportion="0.560686">
+        <state line="8" column="20" selection-start="217" selection-end="217" vertical-scroll-proportion="0.18478261">
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/softwareType/edit.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/HardwareType.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="34" selection-start="1827" selection-end="1827" vertical-scroll-proportion="0.24274406">
+        <state line="6" column="20" selection-start="119" selection-end="119" vertical-scroll-proportion="0.13858695">
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/softwareType/list.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/Network.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="71" selection-start="1063" selection-end="1063" vertical-scroll-proportion="0.65039575">
+        <state line="9" column="20" selection-start="212" selection-end="212" vertical-scroll-proportion="0.20788044">
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/softwareType/show.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/NetworkType.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="83" selection-start="457" selection-end="457" vertical-scroll-proportion="0.29155672">
+        <state line="6" column="20" selection-start="133" selection-end="133" vertical-scroll-proportion="0.13858695">
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CDR.ipr">
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/Project.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="458" column="63" selection-start="28158" selection-end="28158" vertical-scroll-proportion="0.33291456">
+        <state line="11" column="48" selection-start="211" selection-end="211" vertical-scroll-proportion="0.41280353">
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/changeRequest/_breadcrumbs.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/Relation.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="32" selection-start="340" selection-end="340" vertical-scroll-proportion="0.17941953">
+        <state line="8" column="0" selection-start="150" selection-end="150" vertical-scroll-proportion="0.30022076">
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/changeRequest/edit.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/RelationReference.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="76" selection-start="548" selection-end="548" vertical-scroll-proportion="0.2745626">
+        <state line="8" column="4" selection-start="130" selection-end="130" vertical-scroll-proportion="0.30022076">
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/changeRequest/show.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/RequestType.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="152" column="94" selection-start="5899" selection-end="5899" vertical-scroll-proportion="3.4777927">
+        <state line="6" column="20" selection-start="136" selection-end="136" vertical-scroll-proportion="0.22516556">
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/changeRequest/list.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/Software.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="65" selection-start="472" selection-end="472" vertical-scroll-proportion="0.31398416">
+        <state line="8" column="20" selection-start="175" selection-end="175" vertical-scroll-proportion="0.30022076">
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/changeRequest/create.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/SoftwareType.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="62" selection-start="3939" selection-end="3939" vertical-scroll-proportion="1.2516824">
+        <state line="7" column="20" selection-start="133" selection-end="133" vertical-scroll-proportion="0.26269317">
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/documentationType/show.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/Status.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="21" selection-start="263" selection-end="263" vertical-scroll-proportion="0.20184697">
+        <state line="9" column="0" selection-start="164" selection-end="164" vertical-scroll-proportion="0.33774835">
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webtest/tests/ChangeRequestTest.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/StatusReference.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="39" selection-start="1088" selection-end="1088" vertical-scroll-proportion="0.48091602">
+        <state line="9" column="39" selection-start="163" selection-end="163" vertical-scroll-proportion="0.33774835">
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webtest/tests/HardwareTypeTest.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/TestResult.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
+        <state line="8" column="20" selection-start="200" selection-end="200" vertical-scroll-proportion="0.30022076">
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webtest/tests/HardwareTest.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/TestResultType.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="0" selection-start="4029" selection-end="4029" vertical-scroll-proportion="0.8742294">
+        <state line="20" column="87" selection-start="409" selection-end="409" vertical-scroll-proportion="0.7505519">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
       </provider>
     </entry>
   </component>
