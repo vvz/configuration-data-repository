@@ -6,18 +6,18 @@ class Documentation extends ConfigurationItem{
     String fileSize
     String title
     String abstraction
-    DocumentationType DocumentationType
+    DocumentationType documentationType
 
     static belongsTo = DocumentationType
     static constraints = {
-        docVersion(nullable:false)
+        docVersion(nullable:true)
         document(nullable:true)
-        fileType(nullable:false)
-        fileName(nullable:false)
-        fileSize(nullable:false)
+        fileType(nullable:true)
+        fileName(nullable:true)
+        fileSize(nullable:true)
         title(nullable:true)
         abstraction(nullable:true)
-        documentationType(nullable:false)
+        documentationType(nullable:true)
     }
 
     String toString(){

@@ -7,8 +7,8 @@ class SoftwareType
 
     static hasMany = [softwares:Software]
     static constraints = {
-        description(nullable:false)
-        order(nullable:false)
+        description(nullable:false, blank:false)
+        order(nullable:false, blank:false)
         softwares(nullable:true)
     }
 

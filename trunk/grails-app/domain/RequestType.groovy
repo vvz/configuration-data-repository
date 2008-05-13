@@ -6,8 +6,8 @@ class RequestType{
 
     static hasMany = [requests:ChangeRequest]
     static constraints = {
-        description(nullable:false)
-        order(nullable:false)
+        description(nullable:false, blank:false)
+        order(nullable:false, blank:false)
         requests(nullable:true)
     }
 

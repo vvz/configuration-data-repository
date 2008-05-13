@@ -10,7 +10,7 @@ class Software extends ConfigurationItem{
         versionNum(nullable:true)
         port(nullable:true)
         releaseNum(nullable:true)
-        softwareType(nullable:false)
+        softwareType(nullable:false, blank:false)
     }
 
     static mapping = {

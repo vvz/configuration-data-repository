@@ -6,8 +6,8 @@ class TestResultType{
 
     static hasMany = [results:TestResult]
     static constraints = {
-        description(nullable:false)
-        order(nullable:false)
+        description(nullable:false, blank:false)
+        order(nullable:false, blank:false)
         results(nullable:true)
     }
 

@@ -8,10 +8,10 @@ class TestResult extends ConfigurationItem{
     static belongsTo = TestResultType
     static constraints = {
         document(nullable:true)
-        fileType(nullable:false)
-        fileName(nullable:false)
-        fileSize(nullable:false)
-        testResultType(nullable:false)
+        fileType(nullable:true)
+        fileName(nullable:true)
+        fileSize(nullable:true)
+        testResultType(nullable:false, blank:false)
     }
 
     String toString(){
