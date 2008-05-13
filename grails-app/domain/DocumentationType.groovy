@@ -1,7 +1,6 @@
 class DocumentationType{
 
     String description
-    int order
     String type = 'Documentation'
 
     Set documents
@@ -9,15 +8,11 @@ class DocumentationType{
     static hasMany = [documents:Documentation]
     static constraints = {
         description(nullable:false, blank:false)
-        order(nullable:false, blank:false)
         documents(nullable:true)
     }
 
     static mapping = {
         table 'R_CI_TYPE'
-        columns {
-            order column:'order_num'
-        }
     }
 
     String toString(){
