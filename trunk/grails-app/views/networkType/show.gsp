@@ -20,24 +20,10 @@
                 <table>
                     <tbody>
                     
-                        %{--<tr class="prop">
-                            <td valign="top" class="name">Id:</td>
-                            
-                            <td valign="top" class="value">${networkType.id}</td>
-                            
-                        </tr>--}%
-                    
                         <tr class="prop">
                             <td valign="top" class="name">Description:</td>
                             
                             <td valign="top" class="value">${networkType.description}</td>
-                            
-                        </tr>
-                    
-                        <tr class="prop">
-                            <td valign="top" class="name">Order:</td>
-                            
-                            <td valign="top" class="value">${networkType.order}</td>
                             
                         </tr>
                     

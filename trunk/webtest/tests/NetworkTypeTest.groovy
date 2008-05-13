@@ -24,7 +24,6 @@ class NetworkTypeTest extends grails.util.WebTest {
             clickLink   (label:'New Network Type')
             verifyText  (text: 'Create Network Type')
             setInputField(name: "description", value: "whatever")
-            setInputField(name: "order", value: "1")
             clickButton (label:'Create')
             verifyText  (text: 'Show Network Type', description:'Detail page')
             clickLink   (label:'Network Type', description:'Back to list view')

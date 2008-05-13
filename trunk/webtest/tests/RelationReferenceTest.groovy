@@ -25,7 +25,6 @@ class RelationReferenceTest extends grails.util.WebTest {
             verifyText(text: 'Create Relation Reference')
             setInputField(name: "name", value: "thisReference")
             setInputField(name: "description", value: "this")
-            setInputField(name: "order", value: "1")
             clickButton(label: 'Create')
             verifyText(text: 'Show Relation Reference', description: 'Detail page')
             clickLink(label: 'Relation Reference', description: 'Back to list view')

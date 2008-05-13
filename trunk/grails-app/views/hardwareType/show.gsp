@@ -20,24 +20,10 @@
                 <table>
                     <tbody>
                     
-                        %{--<tr class="prop">
-                            <td valign="top" class="name">Id:</td>
-                            
-                            <td valign="top" class="value">${hardwareType.id}</td>
-                            
-                        </tr>--}%
-                    
                         <tr class="prop">
                             <td valign="top" class="name">Description:</td>
                             
                             <td valign="top" class="value">${hardwareType.description}</td>
-                            
-                        </tr>
-                    
-                        <tr class="prop">
-                            <td valign="top" class="name">Order:</td>
-                            
-                            <td valign="top" class="value">${hardwareType.order}</td>
                             
                         </tr>
                     

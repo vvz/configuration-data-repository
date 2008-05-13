@@ -8,8 +8,7 @@
     <body>
         <div class="body">
             <h1>Relation Reference List</h1>
-            <div class="nav">%{----}%
-                %{--<span class="menuButton"><a class="home" href="${createLinkTo(dir:'')}">Home</a></span>--}%
+            <div class="nav">
                 <span class="menuButton"><g:link class="create" action="create">New Relation Reference</g:link></span>
             </div>
             <g:if test="${flash.message}">
@@ -24,21 +23,14 @@
                         
                    	        <g:sortableColumn property="description" title="Description" />
                         
-                   	        <g:sortableColumn property="order" title="Order" />
-                        
                         </tr>
                     </thead>
                     <tbody>
                     <g:each in="${relationReferenceList}" status="i" var="relationReference">
                         <tr class="${(i % 2) == 0 ? 'odd' : 'even'}">
-                        
-                            %{--<td><g:link action="show" id="${relationReference.id}">${relationReference.id?.encodeAsHTML()}</g:link></td>--}%
-                        
                             <td><g:link action="show" id="${relationReference.id}">${relationReference.name?.encodeAsHTML()}</g:link></td>
                         
                             <td>${relationReference.description?.encodeAsHTML()}</td>
-                        
-                            <td>${relationReference.order?.encodeAsHTML()}</td>
                         
                         </tr>
                     </g:each>

@@ -18,13 +18,6 @@ class HardwareTest extends grails.util.WebTest {
 
             invoke(url: 'hardware')
             verifyText(text: 'Hardware List')
-
-            //verifyListSize 0
-
-            /*clickLink(label: 'New Hardware')
-            verifyText(text: 'Create Hardware')
-            clickButton(label: 'Create')
-            verifyText(text: 'Show Hardware', description: 'Detail page')*/
             clickLink(label: "New Hardware")
             verifyText(text: 'Create Hardware')
             setInputField(name: "name", value: "Solutions")
@@ -59,7 +52,6 @@ class HardwareTest extends grails.util.WebTest {
             clickLink(label: "New Relation Reference")
             setInputField(name: "name", value: "exists in")
             setInputField(name: "description", value: "exists in")
-            setInputField(name: "order", value: "1")
             clickButton(label: "Create")
             verifyText(description: "Verify that text is contained in the page", text: "Show Relation Reference")
 

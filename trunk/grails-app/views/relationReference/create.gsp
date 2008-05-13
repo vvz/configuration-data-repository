@@ -43,15 +43,6 @@
                             </td>
                             </tr>
                             
-                            <tr class='prop'>
-                                <td valign='top' class='name'>
-                                    <label for='order'>Order:</label>
-                                </td>
-                                <td valign='top' class='value ${hasErrors(bean:relationReference,field:'order','errors')}'>
-                            <input type='text' id='order' name='order' value="${fieldValue(bean:relationReference,field:'order')}" />
-                            </td>
-                            </tr>
-                            
                         </tbody>
                     </table>
                 </div>

@@ -2,15 +2,15 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="layout" content="main"/>
-    <title>Edit ChangeRequest</title>
+    <title>Edit Change Request</title>
 </head>
 <body>
 <div class="body">
-    <h1>Edit ChangeRequest</h1>
+    <h1>Edit Change Request</h1>
     <div class="nav">
         %{--<span class="menuButton"><a class="home" href="${createLinkTo(dir:'')}">Home</a></span>--}%
-        %{--<span class="menuButton"><g:link class="list" action="list">ChangeRequest List</g:link></span>--}%
-        <span class="menuButton"><g:link class="create" action="create">New ChangeRequest</g:link></span>
+        %{--<span class="menuButton"><g:link class="list" action="list">Change Request List</g:link></span>--}%
+        <span class="menuButton"><g:link class="create" action="create">New Change Request</g:link></span>
     </div>
     <g:if test="${flash.message}">
         <div class="message">${flash.message}</div>

@@ -11,7 +11,7 @@ class EnvironmentControllerTests extends GroovyTestCase
         assert testEnvironment.validate()
         testEnvironment.save(flush:true)
         new Environment(name:"Development", description:"Development", ownerName:"Steve Holmes", ownerEmail:"sholmes@delegata.com", project:aps).save(flush:true)
-        def hardwareType = new HardwareType(description:'Server', order:1)
+        def hardwareType = new HardwareType(description:'Server')
         assert hardwareType.validate()
         hardwareType.save(flush:true)
         solutions = new Hardware(name:'Solutions',author:'Steve Holmes', hardwareType:hardwareType)

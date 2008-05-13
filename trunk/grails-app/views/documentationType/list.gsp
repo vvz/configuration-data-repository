@@ -22,20 +22,13 @@
                         
                    	        <g:sortableColumn property="description" title="Description" />
                         
-                   	        <g:sortableColumn property="order" title="Order" />
-                        
                         </tr>
                     </thead>
                     <tbody>
                     <g:each in="${documentationTypeList}" status="i" var="documentationType">
                         <tr class="${(i % 2) == 0 ? 'odd' : 'even'}">
                         
-                            %{--<td><g:link action="show" id="${documentationType.id}">${documentationType.id?.encodeAsHTML()}</g:link></td>--}%
-                        
                             <td><g:link action="show" id="${documentationType.id}">${documentationType.description?.encodeAsHTML()}</g:link></td>
-                        
-                            <td>${documentationType.order?.encodeAsHTML()}</td>
-                        
                         </tr>
                     </g:each>
                     </tbody>

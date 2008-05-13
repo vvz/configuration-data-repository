@@ -22,19 +22,12 @@
                         
                    	        <g:sortableColumn property="description" title="Description" />
                         
-                   	        <g:sortableColumn property="order" title="Order" />
-                        
                         </tr>
                     </thead>
                     <tbody>
                     <g:each in="${networkTypeList}" status="i" var="networkType">
                         <tr class="${(i % 2) == 0 ? 'odd' : 'even'}">
-                        
-                            %{--<td><g:link action="show" id="${networkType.id}">${networkType.id?.encodeAsHTML()}</g:link></td>--}%
-                        
                             <td><g:link action="show" id="${networkType.id}">${networkType.description?.encodeAsHTML()}</g:link></td>
-                        
-                            <td>${networkType.order?.encodeAsHTML()}</td>
                         
                         </tr>
                     </g:each>

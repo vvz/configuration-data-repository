@@ -1,21 +1,16 @@
 class RequestType{
     String description
-    int order
     String type = 'Change Request'
     Set requests
 
     static hasMany = [requests:ChangeRequest]
     static constraints = {
         description(nullable:false, blank:false)
-        order(nullable:false, blank:false)
         requests(nullable:true)
     }
 
     static mapping = {
         table 'R_CI_TYPE'
-        columns {
-            order column:'order_num'
-        }
     }
 
     String toString(){

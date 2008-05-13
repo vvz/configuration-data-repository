@@ -38,15 +38,6 @@
                         
                             <tr class='prop'>
                                 <td valign='top' class='name'>
-                                    <label for='order'>Order:</label>
-                                </td>
-                                <td valign='top' class='value ${hasErrors(bean:networkType,field:'order','errors')}'>
-                                    <input type='text' id='order' name='order' value="${fieldValue(bean:networkType,field:'order')}" />
-                                </td>
-                            </tr> 
-                        
-                            <tr class='prop'>
-                                <td valign='top' class='name'>
                                     <label for='networks'>Networks:</label>
                                 </td>
                                 <td valign='top' class='value ${hasErrors(bean:networkType,field:'networks','errors')}'>

@@ -2,14 +2,13 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="layout" content="main"/>
-    <title>Create ChangeRequest</title>
+    <title>Create Change Request</title>
 </head>
 <body>
 <div class="body">
-    <h1>Create ChangeRequest</h1>
+    <h1>Create Change Request</h1>
     <div class="nav">
-        %{--<span class="menuButton"><a class="home" href="${createLinkTo(dir:'')}">Home</a></span>--}%
-        <span class="menuButton"><g:link class="list" action="list">ChangeRequest List</g:link></span>
+        <span class="menuButton"><g:link class="list" action="list">Change Request List</g:link></span>
     </div>
     <g:if test="${flash.message}">
         <div class="message">${flash.message}</div>
@@ -23,7 +22,6 @@
         <div class="dialog">
             <table>
                 <tbody>
-
                     <tr class='prop'>
                         <td valign='top' class='name'>
                             <label for='name'>Name:</label>
@@ -32,7 +30,6 @@
                             <input type="text" id='name' name='name' value="${fieldValue(bean: changeRequest, field: 'name')}"/>
                         </td>
                     </tr>
-
                     <tr class='prop'>
                         <td valign='top' class='name'>
                             <label for='description'>Description:</label>
@@ -41,7 +38,6 @@
                             <textarea rows='5' cols='40' name='description'>${changeRequest?.description?.encodeAsHTML()}</textarea>
                         </td>
                     </tr>
-
                     <tr class='prop'>
                         <td valign='top' class='name'>
                             <label for='author'>Author:</label>
@@ -50,7 +46,6 @@
                             <input type="text" id='author' name='author' value="${fieldValue(bean: changeRequest, field: 'author')}"/>
                         </td>
                     </tr>
-
                     <tr class='prop'>
                         <td valign='top' class='name'>
                             <label for='ownerName'>Owner Name:</label>
@@ -59,7 +54,6 @@
                             <input type="text" id='ownerName' name='ownerName' value="${fieldValue(bean: changeRequest, field: 'ownerName')}"/>
                         </td>
                     </tr>
-
                     <tr class='prop'>
                         <td valign='top' class='name'>
                             <label for='ownerEmail'>Owner Email:</label>
@@ -68,7 +62,6 @@
                             <input type="text" id='ownerEmail' name='ownerEmail' value="${fieldValue(bean: changeRequest, field: 'ownerEmail')}"/>
                         </td>
                     </tr>
-
                     <tr class='prop'>
                         <td valign='top' class='name'>
                             <label for='parent'>Parent:</label>
@@ -77,7 +70,6 @@
                             <g:select optionKey="id" from="${ConfigurationItem.list()}" name='parent.id' value="${changeRequest?.parent?.id}" noSelection="['null':'']"></g:select>
                         </td>
                     </tr>
-
                     <tr class='prop'>
                         <td valign='top' class='name'>
                             <label for='document'>Document:</label>
@@ -86,25 +78,6 @@
                             <input type='file' id='document' name='document'/>
                         </td>
                     </tr>
-
-                    %{--<tr class='prop'>
-                        <td valign='top' class='name'>
-                            <label for='fileType'>File Type:</label>
-                        </td>
-                        <td valign='top' class='value ${hasErrors(bean:changeRequest,field:'fileType','errors')}'>
-                    <input type="text" id='fileType' name='fileType' value="${fieldValue(bean:changeRequest,field:'fileType')}"/>
-                    </td>
-                    </tr>
-
-                    <tr class='prop'>
-                        <td valign='top' class='name'>
-                            <label for='fileName'>File Name:</label>
-                        </td>
-                        <td valign='top' class='value ${hasErrors(bean:changeRequest,field:'fileName','errors')}'>
-                    <input type="text" id='fileName' name='fileName' value="${fieldValue(bean:changeRequest,field:'fileName')}"/>
-                    </td>
-                    </tr>--}%
-
                     <tr class='prop'>
                         <td valign='top' class='name'>
                             <label for='requestType'>Request Type:</label>
@@ -113,7 +86,6 @@
                             <g:select optionKey="id" from="${RequestType.findAllByType('Change Request')}" name='requestType.id' value="${changeRequest?.requestType?.id}"></g:select>
                         </td>
                     </tr>
-
                 </tbody>
             </table>
         </div>
