@@ -3,6 +3,10 @@ class RelationReference
     String name
     String description
     Set relations
+
+    Date dateCreated
+    Date lastUpdated
+    
     static hasMany = [relations: Relation]
     static constraints = {
         name(nullable: false, blank:false)

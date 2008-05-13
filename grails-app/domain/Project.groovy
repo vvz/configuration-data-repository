@@ -5,8 +5,11 @@ class Project
     String ownerName
     String ownerEmail
     Set environments
+
+    Date dateCreated
+    Date lastUpdated
+
     static hasMany = [environments: Environment]
-    //static belongsTo = []
     static constraints = {
         name(nullable:false)
         description(nullable:true, maxSize:1000)

@@ -5,6 +5,9 @@ class TestResult extends ConfigurationItem{
     String fileSize
     TestResultType testResultType
 
+    Date dateCreated
+    Date lastUpdated
+
     static belongsTo = TestResultType
     static constraints = {
         document(nullable:true)

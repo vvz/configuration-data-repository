@@ -6,6 +6,9 @@ class ChangeRequest extends ConfigurationItem{
     String fileSize
     RequestType requestType
 
+    Date dateCreated
+    Date lastUpdated
+
     static belongsTo = RequestType
     static constraints = {
         document(nullable:true)

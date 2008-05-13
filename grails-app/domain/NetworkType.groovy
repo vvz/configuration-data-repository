@@ -3,6 +3,9 @@ class NetworkType{
     String type = 'Network'
     Set networks
 
+    Date dateCreated
+    Date lastUpdated
+
     static hasMany = [networks:Network]
     static constraints = {
         description(nullable:false, blank:false)

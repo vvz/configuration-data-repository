@@ -7,6 +7,9 @@ class ConfigurationItem
     String ownerEmail
     ConfigurationItem parent
 
+    Date dateCreated
+    Date lastUpdated
+
     /*Set configurationItems
     Set environments
     Set statuses

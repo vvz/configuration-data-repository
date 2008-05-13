@@ -5,7 +5,9 @@ class Status
     ConfigurationItem configurationItem
     StatusReference reference
 
-    //static hasMany = []
+    Date dateCreated
+    Date lastUpdated
+
     static belongsTo = [ConfigurationItem, StatusReference]
     static constraints = {
         startDate(nullable: false, blank:false)
