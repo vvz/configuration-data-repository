@@ -11,7 +11,7 @@ class Network extends ConfigurationItem{
         macAddress(nullable:true)
         element(nullable:true)
         location(nullable:true)
-        networkType(nullable:false)
+        networkType(nullable:false, blank:false)
     }
     static mapping = {
         tablePerHierarchy false

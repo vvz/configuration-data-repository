@@ -8,8 +8,8 @@ class DocumentationType{
 
     static hasMany = [documents:Documentation]
     static constraints = {
-        description(nullable:false)
-        order(nullable:false)
+        description(nullable:false, blank:false)
+        order(nullable:false, blank:false)
         documents(nullable:true)
     }
 

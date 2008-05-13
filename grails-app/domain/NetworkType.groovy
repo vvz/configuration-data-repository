@@ -6,8 +6,8 @@ class NetworkType{
 
     static hasMany = [networks:Network]
     static constraints = {
-        description(nullable:false)
-        order(nullable:false)
+        description(nullable:false, blank:false)
+        order(nullable:false, blank:false)
         networks(nullable:true)
     }
 

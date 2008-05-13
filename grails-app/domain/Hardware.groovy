@@ -10,7 +10,7 @@ class Hardware extends ConfigurationItem{
         purchaseDate(nullable: true)
         macAddress(maxSize: 50, nullable: true)
         hostName(maxSize: 50, nullable: true)
-        hardwareType(nullable:false)
+        hardwareType(nullable:false, blank:false)
         internetProtocolAddress(nullable:true)
     }
 

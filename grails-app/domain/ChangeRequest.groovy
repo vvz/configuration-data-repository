@@ -9,10 +9,10 @@ class ChangeRequest extends ConfigurationItem{
     static belongsTo = RequestType
     static constraints = {
         document(nullable:true)
-        fileType(nullable:false)
-        fileName(nullable:false)
-        fileSize(nullable:false)
-        requestType(nullable:false)
+        fileType(nullable:true)
+        fileName(nullable:true)
+        fileSize(nullable:true)
+        requestType(nullable:true)
     }
 
     String toString(){
