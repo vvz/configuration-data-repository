@@ -7,9 +7,9 @@ class StatusReference
     static hasMany = [statuses: Status]
     //static belongsTo = []
     static constraints = {
-        name(nullable: false)
+        name(nullable: false, blank:false)
         description(nullable: true)
-        order(nullable: false)
+        order(nullable: false, blank:false)
     }
 
     static mapping = {
