@@ -9,7 +9,6 @@
         <div class="body">
             <h1>Create JsecUser</h1>
             <div class="nav">
-                %{--<span class="menuButton"><a class="home" href="${createLinkTo(dir:'')}">Home</a></span>--}%
                 <span class="menuButton"><g:link class="list" action="list">User List</g:link></span>
             </div>
             <g:if test="${flash.message}">
@@ -27,7 +26,7 @@
                             
                             <tr class='prop'>
                                 <td valign='top' class='name'>
-                                    <label for='username'>Username:</label>
+                                    <label for='username'>Username:<span class="required">*</span></label>
                                 </td>
                                 <td valign='top' class='value ${hasErrors(bean:jsecUser,field:'username','errors')}'>
                             <input type="text" id='username' name='username' value="${fieldValue(bean:jsecUser,field:'username')}"/>
