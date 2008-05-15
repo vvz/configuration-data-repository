@@ -20,11 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/jsecUser/create.gsp" afterPath="$PROJECT_DIR$/grails-app/views/jsecUser/create.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/Config.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/jsecUser/edit.gsp" afterPath="$PROJECT_DIR$/grails-app/views/jsecUser/edit.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CDR.iws" afterPath="$PROJECT_DIR$/CDR.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/jsecUserRoleRel/show.gsp" afterPath="$PROJECT_DIR$/grails-app/views/jsecUserRoleRel/show.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/jsecUserRoleRel/list.gsp" afterPath="$PROJECT_DIR$/grails-app/views/jsecUserRoleRel/list.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/jsecUserRoleRel/create.gsp" afterPath="$PROJECT_DIR$/grails-app/views/jsecUserRoleRel/create.gsp" />
     </list>
     <ignored path="CDR.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -113,28 +114,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataSource.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="89" selection-start="1767" selection-end="1767" vertical-scroll-proportion="0.5648949">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/network/create.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="54" selection-start="1814" selection-end="1814" vertical-scroll-proportion="0.4480432">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="edit.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/network/edit.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="51" selection-start="1035" selection-end="1066" vertical-scroll-proportion="0.5111732">
+            <state line="28" column="51" selection-start="1035" selection-end="1066" vertical-scroll-proportion="0.5097493">
               <folding />
             </state>
           </provider>
@@ -143,7 +126,7 @@
       <file leaf-file-name="_tabs.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/network/_tabs.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="864" selection-end="864" vertical-scroll-proportion="0.4272487">
+            <state line="19" column="0" selection-start="864" selection-end="864" vertical-scroll-proportion="0.42612138">
               <folding />
             </state>
           </provider>
@@ -152,7 +135,7 @@
       <file leaf-file-name="main.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="10" selection-start="2322" selection-end="2322" vertical-scroll-proportion="1.0449735">
+            <state line="55" column="10" selection-start="2322" selection-end="2322" vertical-scroll-proportion="1.0422163">
               <folding />
             </state>
           </provider>
@@ -161,7 +144,7 @@
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-app/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="79" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.76885045">
+            <state line="52" column="79" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.76695436">
               <folding />
             </state>
           </provider>
@@ -170,25 +153,43 @@
       <file leaf-file-name="create.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/jsecUser/create.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="62" selection-start="581" selection-end="581" vertical-scroll-proportion="0.35978836">
+            <state line="16" column="62" selection-start="581" selection-end="581" vertical-scroll-proportion="0.35883906">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.gsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="edit.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/jsecUser/edit.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="79" selection-start="1081" selection-end="1081" vertical-scroll-proportion="0.6296296">
+            <state line="28" column="79" selection-start="1081" selection-end="1081" vertical-scroll-proportion="0.6279683">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/auth/login.gsp">
+      <file leaf-file-name="show.gsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/jsecUserRoleRel/show.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="10" selection-start="2182" selection-end="2182" vertical-scroll-proportion="0.7526455">
+            <state line="17" column="19" selection-start="528" selection-end="528" vertical-scroll-proportion="0.38896367">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/jsecUserRoleRel/list.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="21" selection-start="235" selection-end="235" vertical-scroll-proportion="0.20184697">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/jsecUserRoleRel/create.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="14" selection-start="207" selection-end="207" vertical-scroll-proportion="0.18304172">
               <folding />
             </state>
           </provider>
@@ -232,7 +233,7 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="jsecUser" />
+          <option name="myItemId" value="jsecUserRoleRel" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -623,7 +624,7 @@
     <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
     <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="-Added red stars to user create" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed &quot;New Role&quot; to &quot;Assign Role&quot; and &quot;Show Role&quot; to &quot;Show Role Assignment&quot;" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
@@ -634,7 +635,6 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="+ Updated CSS with Main Menu Horizontal Nav" />
     <MESSAGE value="Replacing lost files" />
     <MESSAGE value="Added menus to all pages" />
     <MESSAGE value="Ajaxy search capabilities to add Configuration Item screen" />
@@ -659,6 +659,7 @@
     <MESSAGE value="-Added red stars" />
     <MESSAGE value="-Added red stars to Network&#10;-removed copyright from login and main pages" />
     <MESSAGE value="-Added red stars to user create" />
+    <MESSAGE value="Changed &quot;New Role&quot; to &quot;Assign Role&quot; and &quot;Show Role&quot; to &quot;Show Role Assignment&quot;" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -699,30 +700,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/views/statusReference/edit.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="82" selection-start="1029" selection-end="1029" vertical-scroll-proportion="0.022486772">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/TestResultType.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/testResultType/create.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="55" selection-start="720" selection-end="720" vertical-scroll-proportion="0.3994709">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/testResultType/edit.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="117" selection-start="521" selection-end="521" vertical-scroll-proportion="0.022486772">
@@ -753,42 +730,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/network/create.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="54" selection-start="1814" selection-end="1814" vertical-scroll-proportion="0.4480432">
+        <state line="41" column="54" selection-start="1814" selection-end="1814" vertical-scroll-proportion="0.44683716">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/auth/login.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="10" selection-start="2182" selection-end="2182" vertical-scroll-proportion="0.7526455">
+        <state line="60" column="10" selection-start="2182" selection-end="2182" vertical-scroll-proportion="0.75329816">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/network/_tabs.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="864" selection-end="864" vertical-scroll-proportion="0.4272487">
+        <state line="19" column="0" selection-start="864" selection-end="864" vertical-scroll-proportion="0.42612138">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="10" selection-start="2322" selection-end="2322" vertical-scroll-proportion="1.0449735">
+        <state line="55" column="10" selection-start="2322" selection-end="2322" vertical-scroll-proportion="1.0422163">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-app/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="79" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.76885045">
+        <state line="52" column="79" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.76695436">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/network/edit.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="51" selection-start="1035" selection-end="1066" vertical-scroll-proportion="0.5111732">
+        <state line="28" column="51" selection-start="1035" selection-end="1066" vertical-scroll-proportion="0.5097493">
           <folding />
         </state>
       </provider>
@@ -805,14 +782,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/jsecUser/create.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="62" selection-start="581" selection-end="581" vertical-scroll-proportion="0.35978836">
+        <state line="16" column="62" selection-start="581" selection-end="581" vertical-scroll-proportion="0.35883906">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/jsecUser/edit.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="79" selection-start="1081" selection-end="1081" vertical-scroll-proportion="0.6296296">
+        <state line="28" column="79" selection-start="1081" selection-end="1081" vertical-scroll-proportion="0.6279683">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/jsecUserRoleRel/list.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="21" selection-start="235" selection-end="235" vertical-scroll-proportion="0.20184697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/jsecUserRoleRel/create.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="14" selection-start="207" selection-end="207" vertical-scroll-proportion="0.18304172">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/jsecUserRoleRel/show.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="19" selection-start="528" selection-end="528" vertical-scroll-proportion="0.38896367">
           <folding />
         </state>
       </provider>
