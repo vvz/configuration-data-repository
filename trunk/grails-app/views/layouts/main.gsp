@@ -53,7 +53,7 @@
         <a name="maincontent"></a><g:layoutBody/>
     </div>
     <div id="footer">
-    &copy; 2007 Delegata Corporation. All Rights Reserved. | <a href="http://www.delegata.com/contact_us/inquiry_form.php?a=6" title="Contact Us">Contact Us</a>
+    &nbsp;
     </div>
 </div>
 </body>
