@@ -8,7 +8,6 @@
 <div class="body">
     <h1>Edit Network</h1>
     <div class="nav">
-        %{--<span class="menuButton"><a class="home" href="${createLinkTo(dir:'')}">Home</a></span>--}%
         <span class="menuButton"><g:link class="list" action="list">Network List</g:link></span>
         <span class="menuButton"><g:link class="create" action="create">New Network</g:link></span>
     </div>
@@ -25,10 +24,9 @@
         <div class="dialog">
             <table>
                 <tbody>
-
                     <tr class='prop'>
                         <td valign='top' class='name'>
-                            <label for='name'>Name:</label>
+                            <label for='name'>Name:<span class="required">*</span></label>
                         </td>
                         <td valign='top' class='value ${hasErrors(bean: network, field: 'name', 'errors')}'>
                             <input type="text" id='name' name='name' value="${fieldValue(bean: network, field: 'name')}"/>
@@ -46,7 +44,7 @@
 
                     <tr class='prop'>
                         <td valign='top' class='name'>
-                            <label for='author'>Author:</label>
+                            <label for='author'>Author:<span class="required">*</span></label>
                         </td>
                         <td valign='top' class='value ${hasErrors(bean: network, field: 'author', 'errors')}'>
                             <input type="text" id='author' name='author' value="${fieldValue(bean: network, field: 'author')}"/>
