@@ -15,7 +15,7 @@ class ChangeRequest extends ConfigurationItem{
         fileType(nullable:true)
         fileName(nullable:true)
         fileSize(nullable:true)
-        requestType(nullable:true)
+        requestType(nullable:false, blank:false)
     }
 
     String toString(){

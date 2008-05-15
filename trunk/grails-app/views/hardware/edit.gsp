@@ -25,7 +25,7 @@
 
                     <tr class='prop'>
                         <td valign='top' class='name'>
-                            <label for='name'>Name:</label>
+                            <label for='name'>Name:<span class="required">*</span></label>
                         </td>
                         <td valign='top' class='value ${hasErrors(bean: hardware, field: 'name', 'errors')}'>
                             <input type="text" id='name' name='name' value="${fieldValue(bean: hardware, field: 'name')}"/>
@@ -43,7 +43,7 @@
 
                     <tr class='prop'>
                         <td valign='top' class='name'>
-                            <label for='author'>Author:</label>
+                            <label for='author'>Author:<span class="required">*</span></label>
                         </td>
                         <td valign='top' class='value ${hasErrors(bean: hardware, field: 'author', 'errors')}'>
                             <input type="text" id='author' name='author' value="${fieldValue(bean: hardware, field: 'author')}"/>
