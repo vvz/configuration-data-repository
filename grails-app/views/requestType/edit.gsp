@@ -28,7 +28,7 @@
 
                     <tr class='prop'>
                         <td valign='top' class='name'>
-                            <label for='description'>Description:</label>
+                            <label for='description'>Description:<span class="required">*</span></label>
                         </td>
                         <td valign='top' class='value ${hasErrors(bean: requestType, field: 'description', 'errors')}'>
                             <input type="text" id='description' name='description' value="${fieldValue(bean: requestType, field: 'description')}"/>

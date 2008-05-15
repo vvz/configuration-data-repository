@@ -8,8 +8,6 @@
 <div class="body">
     <h1>Edit Status Reference</h1>
     <div class="nav">
-        %{--<span class="menuButton"><a class="home" href="${createLinkTo(dir:'')}">Home</a></span>--}%
-        %{--<span class="menuButton"><g:link class="list" action="list">Status Reference List</g:link></span>--}%
         <span class="menuButton"><g:link class="create" action="create">New Status Reference</g:link></span>
     </div>
     <g:if test="${flash.message}">
@@ -28,7 +26,7 @@
 
                     <tr class='prop'>
                         <td valign='top' class='name'>
-                            <label for='name'>Name:</label>
+                            <label for='name'>Name:<span class="required">*</span></label>
                         </td>
                         <td valign='top' class='value ${hasErrors(bean: statusReference, field: 'name', 'errors')}'>
                             <input type="text" id='name' name='name' value="${fieldValue(bean: statusReference, field: 'name')}"/>

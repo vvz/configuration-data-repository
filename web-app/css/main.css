@@ -828,3 +828,7 @@ html>body tbody.scrollContent td + td + td + td + td + td {
 .remoteField {
     padding-bottom: 8px;
 }
+
+.required {
+    color: red;
+}

@@ -11,7 +11,7 @@ class Project
 
     static hasMany = [environments: Environment]
     static constraints = {
-        name(nullable:false)
+        name(nullable:false, blank:false)
         description(nullable:true, maxSize:1000)
         ownerName(nullable:true)
         ownerEmail(nullable:true, email:true)
