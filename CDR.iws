@@ -20,17 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/testResult/edit.gsp" afterPath="$PROJECT_DIR$/grails-app/views/testResult/edit.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/network/edit.gsp" afterPath="$PROJECT_DIR$/grails-app/views/network/edit.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/Config.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/software/edit.gsp" afterPath="$PROJECT_DIR$/grails-app/views/software/edit.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/status/show.gsp" afterPath="$PROJECT_DIR$/grails-app/views/status/show.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CDR.iws" afterPath="$PROJECT_DIR$/CDR.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
-      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\lib\ojdbc14.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/software/show.gsp" afterPath="$PROJECT_DIR$/grails-app/views/software/show.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/changeRequest/edit.gsp" afterPath="$PROJECT_DIR$/grails-app/views/changeRequest/edit.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/documentation/edit.gsp" afterPath="$PROJECT_DIR$/grails-app/views/documentation/edit.gsp" />
     </list>
     <ignored path="CDR.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -107,22 +99,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="JsecUser.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/JsecUser.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="158" selection-end="158" vertical-scroll-proportion="0.18085106">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataSource.groovy" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="DataSource.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="55" selection-start="1168" selection-end="1168" vertical-scroll-proportion="0.24227442">
+            <state line="50" column="54" selection-start="1549" selection-end="1549" vertical-scroll-proportion="0.6489493">
               <folding />
             </state>
           </provider>
@@ -131,7 +111,7 @@
       <file leaf-file-name="show.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/status/show.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="90" selection-start="1418" selection-end="1418" vertical-scroll-proportion="0.4385965">
+            <state line="31" column="90" selection-start="1418" selection-end="1418" vertical-scroll-proportion="0.4331984">
               <folding />
             </state>
           </provider>
@@ -140,7 +120,7 @@
       <file leaf-file-name="edit.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/hardware/edit.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="36" selection-start="549" selection-end="549" vertical-scroll-proportion="0.43589744">
+            <state line="19" column="36" selection-start="549" selection-end="549" vertical-scroll-proportion="0.022941971">
               <folding />
             </state>
           </provider>
@@ -149,7 +129,7 @@
       <file leaf-file-name="show.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/software/show.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="27" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.5276653">
+            <state line="23" column="27" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.022941971">
               <folding />
             </state>
           </provider>
@@ -158,7 +138,7 @@
       <file leaf-file-name="edit.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/software/edit.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="23" selection-start="898" selection-end="898" vertical-scroll-proportion="0.5735493">
+            <state line="25" column="23" selection-start="898" selection-end="898" vertical-scroll-proportion="0.022941971">
               <folding />
             </state>
           </provider>
@@ -167,7 +147,7 @@
       <file leaf-file-name="edit.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/network/edit.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="116" column="65" selection-start="6620" selection-end="6620" vertical-scroll-proportion="0.65587044">
+            <state line="116" column="65" selection-start="6620" selection-end="6620" vertical-scroll-proportion="0.68556005">
               <folding />
             </state>
           </provider>
@@ -176,7 +156,7 @@
       <file leaf-file-name="edit.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/documentation/edit.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="25" selection-start="6040" selection-end="6040" vertical-scroll-proportion="0.5964912">
+            <state line="104" column="25" selection-start="6040" selection-end="6040" vertical-scroll-proportion="0.61673415">
               <folding />
             </state>
           </provider>
@@ -185,16 +165,25 @@
       <file leaf-file-name="edit.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/changeRequest/edit.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="25" selection-start="4994" selection-end="4994" vertical-scroll-proportion="0.58704454">
+            <state line="88" column="25" selection-start="4994" selection-end="4994" vertical-scroll-proportion="0.61673415">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.gsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="edit.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/testResult/edit.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="84" selection-start="823" selection-end="823" vertical-scroll-proportion="0.5276653">
+            <state line="49" column="42" selection-start="2415" selection-end="2415" vertical-scroll-proportion="0.6194332">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BootStrap.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="110" column="74" selection-start="5655" selection-end="5655" vertical-scroll-proportion="0.3065513">
               <folding />
             </state>
           </provider>
@@ -342,98 +331,6 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-  </component>
-  <component name="RestoreUpdateTree">
-    <UpdateInfo date="5/16/08 1:49 PM" ActionInfo="_Update">
-      <UpdatedFiles>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated from server" />
-          <option name="myStatusName" value="Changed on server" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CHANGED_ON_SERVER" />
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Updated" />
-            <option name="myStatusName" value="Changed" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" value="UPDATED" />
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Created" />
-            <option name="myStatusName" value="Created" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" value="CREATED" />
-            <PATH vcs="svn" revision="37">C:\backup\projects\CDR_repo\CDR\test\reports</PATH>
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Deleted" />
-            <option name="myStatusName" value="Deleted" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="true" />
-            <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Restored" />
-            <option name="myStatusName" value="Will be restored" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" value="RESTORED" />
-            <PATH vcs="svn" revision="37">C:\backup\projects\CDR_repo\CDR\lib\ojdbc14.jar</PATH>
-          </FILE-GROUP>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Modified" />
-          <option name="myStatusName" value="Modified" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MODIFIED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Skipped" />
-          <option name="myStatusName" value="Skipped" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="SKIPPED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Merged with conflicts" />
-          <option name="myStatusName" value="Will be merged with conflicts" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MERGED_WITH_CONFLICTS" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Merged" />
-          <option name="myStatusName" value="Will be merged" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MERGED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Not in repository" />
-          <option name="myStatusName" value="Not in repository" />
-          <option name="mySupportsDeletion" value="true" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UNKNOWN" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Locally added" />
-          <option name="myStatusName" value="Locally added" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="LOCALLY_ADDED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Locally removed" />
-          <option name="myStatusName" value="Locally removed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="LOCALLY_REMOVED" />
-        </FILE-GROUP>
-      </UpdatedFiles>
-    </UpdateInfo>
   </component>
   <component name="RunManager" selected="Grails Application.Run CDR">
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails Application">
@@ -752,16 +649,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="115" selection-start="2139" selection-end="2139" vertical-scroll-proportion="0.9245983">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/JsecUser.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="158" selection-end="158" vertical-scroll-proportion="0.18085106">
+        <state line="8" column="0" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -769,65 +659,72 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="55" selection-start="1168" selection-end="1168" vertical-scroll-proportion="0.24227442">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/status/show.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="90" selection-start="1418" selection-end="1418" vertical-scroll-proportion="0.4385965">
+        <state line="31" column="90" selection-start="1418" selection-end="1418" vertical-scroll-proportion="0.4331984">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/hardware/edit.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="36" selection-start="549" selection-end="549" vertical-scroll-proportion="0.43589744">
+        <state line="19" column="36" selection-start="549" selection-end="549" vertical-scroll-proportion="0.022941971">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/software/show.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="27" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.5276653">
+        <state line="23" column="27" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.022941971">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/software/edit.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="23" selection-start="898" selection-end="898" vertical-scroll-proportion="0.5735493">
+        <state line="25" column="23" selection-start="898" selection-end="898" vertical-scroll-proportion="0.022941971">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/network/edit.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="65" selection-start="6620" selection-end="6620" vertical-scroll-proportion="0.65587044">
+        <state line="116" column="65" selection-start="6620" selection-end="6620" vertical-scroll-proportion="0.68556005">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/documentation/edit.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="25" selection-start="6040" selection-end="6040" vertical-scroll-proportion="0.5964912">
+        <state line="104" column="25" selection-start="6040" selection-end="6040" vertical-scroll-proportion="0.61673415">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/changeRequest/edit.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="25" selection-start="4994" selection-end="4994" vertical-scroll-proportion="0.58704454">
+        <state line="88" column="25" selection-start="4994" selection-end="4994" vertical-scroll-proportion="0.61673415">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/testResult/edit.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="84" selection-start="823" selection-end="823" vertical-scroll-proportion="0.5276653">
+        <state line="49" column="42" selection-start="2415" selection-end="2415" vertical-scroll-proportion="0.6194332">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="110" column="74" selection-start="5655" selection-end="5655" vertical-scroll-proportion="0.3065513">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="54" selection-start="1549" selection-end="1549" vertical-scroll-proportion="0.6489493">
           <folding />
         </state>
       </provider>
