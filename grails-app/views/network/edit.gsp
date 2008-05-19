@@ -32,7 +32,6 @@
                             <input type="text" id='name' name='name' value="${fieldValue(bean: network, field: 'name')}"/>
                         </td>
                     </tr>
-
                     <tr class='prop'>
                         <td valign='top' class='name'>
                             <label for='description'>Description:</label>
@@ -41,7 +40,6 @@
                             <textarea rows='5' cols='40' name='description'>${network?.description?.encodeAsHTML()}</textarea>
                         </td>
                     </tr>
-
                     <tr class='prop'>
                         <td valign='top' class='name'>
                             <label for='author'>Author:<span class="required">*</span></label>
@@ -50,7 +48,6 @@
                             <input type="text" id='author' name='author' value="${fieldValue(bean: network, field: 'author')}"/>
                         </td>
                     </tr>
-
                     <tr class='prop'>
                         <td valign='top' class='name'>
                             <label for='ownerName'>Owner Name:</label>
@@ -59,7 +56,6 @@
                             <input type="text" id='ownerName' name='ownerName' value="${fieldValue(bean: network, field: 'ownerName')}"/>
                         </td>
                     </tr>
-
                     <tr class='prop'>
                         <td valign='top' class='name'>
                             <label for='ownerEmail'>Owner Email:</label>
@@ -68,7 +64,6 @@
                             <input type="text" id='ownerEmail' name='ownerEmail' value="${fieldValue(bean: network, field: 'ownerEmail')}"/>
                         </td>
                     </tr>
-
                     <tr class='prop'>
                         <td valign='top' class='name'>
                             <label for='parent'>Parent:</label>
@@ -77,87 +72,6 @@
                             <g:select optionKey="id" from="${ConfigurationItem.list()}" name='parent.id' value="${network?.parent?.id}" noSelection="['null':'']"></g:select>
                         </td>
                     </tr>
-
-                    <tr class='prop'>
-                        <td valign='top' class='name'>
-                            <label for='configurationItems'>Configuration Items:</label>
-                        </td>
-                        <td valign='top' class='value ${hasErrors(bean: network, field: 'configurationItems', 'errors')}'>
-
-                            <ul>
-                                <g:each var='c' in='${network?.configurationItems?}'>
-                                    <li><g:link controller='configurationItem' action='show' id='${c.id}'>${c}</g:link></li>
-                                </g:each>
-                            </ul>
-                            <g:link controller='configurationItem' params='["network.id":network?.id]' action='create'>Add ConfigurationItem</g:link>
-
-                        </td>
-                    </tr>
-
-                    <tr class='prop'>
-                        <td valign='top' class='name'>
-                            <label for='environments'>Environments:</label>
-                        </td>
-                        <td valign='top' class='value ${hasErrors(bean: network, field: 'environments', 'errors')}'>
-
-                            <ul>
-                                <g:each var='e' in='${network?.environments?}'>
-                                    <li><g:link controller='environment' action='show' id='${e.id}'>${e}</g:link></li>
-                                </g:each>
-                            </ul>
-                            <g:link controller='environment' params='["network.id":network?.id]' action='create'>Add Environment</g:link>
-
-                        </td>
-                    </tr>
-
-                    <tr class='prop'>
-                        <td valign='top' class='name'>
-                            <label for='statuses'>Statuses:</label>
-                        </td>
-                        <td valign='top' class='value ${hasErrors(bean: network, field: 'statuses', 'errors')}'>
-
-                            <ul>
-                                <g:each var='s' in='${network?.statuses?}'>
-                                    <li><g:link controller='status' action='show' id='${s.id}'>${s}</g:link></li>
-                                </g:each>
-                            </ul>
-                            <g:link controller='status' params='["network.id":network?.id]' action='create'>Add Status</g:link>
-
-                        </td>
-                    </tr>
-
-                    <tr class='prop'>
-                        <td valign='top' class='name'>
-                            <label for='thisRelations'>This Relations:</label>
-                        </td>
-                        <td valign='top' class='value ${hasErrors(bean: network, field: 'thisRelations', 'errors')}'>
-
-                            <ul>
-                                <g:each var='t' in='${network?.thisRelations?}'>
-                                    <li><g:link controller='relation' action='show' id='${t.id}'>${t}</g:link></li>
-                                </g:each>
-                            </ul>
-                            <g:link controller='relation' params='["network.id":network?.id]' action='create'>Add Relation</g:link>
-
-                        </td>
-                    </tr>
-
-                    <tr class='prop'>
-                        <td valign='top' class='name'>
-                            <label for='thatRelations'>That Relations:</label>
-                        </td>
-                        <td valign='top' class='value ${hasErrors(bean: network, field: 'thatRelations', 'errors')}'>
-
-                            <ul>
-                                <g:each var='t' in='${network?.thatRelations?}'>
-                                    <li><g:link controller='relation' action='show' id='${t.id}'>${t}</g:link></li>
-                                </g:each>
-                            </ul>
-                            <g:link controller='relation' params='["network.id":network?.id]' action='create'>Add Relation</g:link>
-
-                        </td>
-                    </tr>
-
                     <tr class='prop'>
                         <td valign='top' class='name'>
                             <label for='internetProtocolAddress'>Internet Protocol Address:</label>
@@ -166,7 +80,6 @@
                             <input type="text" id='internetProtocolAddress' name='internetProtocolAddress' value="${fieldValue(bean: network, field: 'internetProtocolAddress')}"/>
                         </td>
                     </tr>
-
                     <tr class='prop'>
                         <td valign='top' class='name'>
                             <label for='macAddress'>Mac Address:</label>
@@ -175,7 +88,6 @@
                             <input type="text" id='macAddress' name='macAddress' value="${fieldValue(bean: network, field: 'macAddress')}"/>
                         </td>
                     </tr>
-
                     <tr class='prop'>
                         <td valign='top' class='name'>
                             <label for='element'>Element:</label>
@@ -184,7 +96,6 @@
                             <input type="text" id='element' name='element' value="${fieldValue(bean: network, field: 'element')}"/>
                         </td>
                     </tr>
-
                     <tr class='prop'>
                         <td valign='top' class='name'>
                             <label for='location'>Location:</label>
@@ -193,7 +104,6 @@
                             <input type="text" id='location' name='location' value="${fieldValue(bean: network, field: 'location')}"/>
                         </td>
                     </tr>
-
                     <tr class='prop'>
                         <td valign='top' class='name'>
                             <label for='networkType'>Network Type:</label>
@@ -202,7 +112,6 @@
                             <g:select optionKey="id" from="${NetworkType.findAllByType('Network')}" name='networkType.id' value="${network?.networkType?.id}"></g:select>
                         </td>
                     </tr>
-
                 </tbody>
             </table>
         </div>

@@ -58,5 +58,3 @@ log4j {
     }
     additivity.StackTrace=false
 }
-
-
