@@ -8,7 +8,6 @@
 <div class="body">
     <h1>Edit Software</h1>
     <div class="nav">
-        %{--<span class="menuButton"><a class="home" href="${createLinkTo(dir:'')}">Home</a></span>--}%
         <span class="menuButton"><g:link class="list" action="list">Software List</g:link></span>
         <span class="menuButton"><g:link class="create" action="create">New Software</g:link></span>
     </div>
@@ -25,7 +24,6 @@
         <div class="dialog">
             <table>
                 <tbody>
-
                     <tr class='prop'>
                         <td valign='top' class='name'>
                             <label for='name'>Name:<span class="required">*</span></label>
@@ -34,7 +32,6 @@
                             <input type="text" id='name' name='name' value="${fieldValue(bean: software, field: 'name')}"/>
                         </td>
                     </tr>
-
                     <tr class='prop'>
                         <td valign='top' class='name'>
                             <label for='description'>Description:</label>
@@ -43,7 +40,6 @@
                             <textarea rows='5' cols='40' name='description'>${software?.description?.encodeAsHTML()}</textarea>
                         </td>
                     </tr>
-
                     <tr class='prop'>
                         <td valign='top' class='name'>
                             <label for='author'>Author:<span class="required">*</span></label>
@@ -52,7 +48,6 @@
                             <input type="text" id='author' name='author' value="${fieldValue(bean: software, field: 'author')}"/>
                         </td>
                     </tr>
-
                     <tr class='prop'>
                         <td valign='top' class='name'>
                             <label for='ownerName'>Owner Name:</label>
@@ -61,7 +56,6 @@
                             <input type="text" id='ownerName' name='ownerName' value="${fieldValue(bean: software, field: 'ownerName')}"/>
                         </td>
                     </tr>
-
                     <tr class='prop'>
                         <td valign='top' class='name'>
                             <label for='ownerEmail'>Owner Email:</label>
@@ -70,7 +64,6 @@
                             <input type="text" id='ownerEmail' name='ownerEmail' value="${fieldValue(bean: software, field: 'ownerEmail')}"/>
                         </td>
                     </tr>
-
                     <tr class='prop'>
                         <td valign='top' class='name'>
                             <label for='parent'>Parent:</label>
@@ -79,52 +72,6 @@
                             <g:select optionKey="id" from="${ConfigurationItem.list()}" name='parent.id' value="${software?.parent?.id}" noSelection="['null':'']"></g:select>
                         </td>
                     </tr>
-
-                    <tr class='prop'>
-                        <td valign='top' class='name'>
-                            <label for='configurationItems'>Configuration Items:</label>
-                        </td>
-                        <td valign='top' class='value ${hasErrors(bean: software, field: 'configurationItems', 'errors')}'>
-
-                        </td>
-                    </tr>
-
-                    <tr class='prop'>
-                        <td valign='top' class='name'>
-                            <label for='environments'>Environments:</label>
-                        </td>
-                        <td valign='top' class='value ${hasErrors(bean: software, field: 'environments', 'errors')}'>
-
-                        </td>
-                    </tr>
-
-                    <tr class='prop'>
-                        <td valign='top' class='name'>
-                            <label for='statuses'>Statuses:</label>
-                        </td>
-                        <td valign='top' class='value ${hasErrors(bean: software, field: 'statuses', 'errors')}'>
-
-                        </td>
-                    </tr>
-
-                    <tr class='prop'>
-                        <td valign='top' class='name'>
-                            <label for='thisRelations'>This Relations:</label>
-                        </td>
-                        <td valign='top' class='value ${hasErrors(bean: software, field: 'thisRelations', 'errors')}'>
-
-                        </td>
-                    </tr>
-
-                    <tr class='prop'>
-                        <td valign='top' class='name'>
-                            <label for='thatRelations'>That Relations:</label>
-                        </td>
-                        <td valign='top' class='value ${hasErrors(bean: software, field: 'thatRelations', 'errors')}'>
-
-                        </td>
-                    </tr>
-
                     <tr class='prop'>
                         <td valign='top' class='name'>
                             <label for='versionNum'>Version Num:</label>
@@ -133,7 +80,6 @@
                             <input type="text" id='versionNum' name='versionNum' value="${fieldValue(bean: software, field: 'versionNum')}"/>
                         </td>
                     </tr>
-
                     <tr class='prop'>
                         <td valign='top' class='name'>
                             <label for='port'>Port:</label>
@@ -142,7 +88,6 @@
                             <input type="text" id='port' name='port' value="${fieldValue(bean: software, field: 'port')}"/>
                         </td>
                     </tr>
-
                     <tr class='prop'>
                         <td valign='top' class='name'>
                             <label for='release'>Release:</label>
@@ -151,7 +96,6 @@
                             <input type="text" id='releaseNum' name='release' value="${fieldValue(bean: software, field: 'releaseNum')}"/>
                         </td>
                     </tr>
-
                     <tr class='prop'>
                         <td valign='top' class='name'>
                             <label for='softwareType'>Software Type:</label>
@@ -160,7 +104,6 @@
                             <g:select optionKey="id" from="${SoftwareType.findAllByType('Software')}" name='softwareType.id' value="${software?.softwareType?.id}"></g:select>
                         </td>
                     </tr>
-
                 </tbody>
             </table>
         </div>

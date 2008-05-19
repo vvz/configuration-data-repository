@@ -43,7 +43,6 @@
             <div class="buttons">
                 <g:form controller="status">
                     <input type="hidden" name="id" value="${status?.id}" />
-                    <span class="button"><g:actionSubmit class="edit" value="Edit" /></span>
                     <span class="button"><g:actionSubmit class="delete" onclick="return confirm('Are you sure?');" value="Delete" /></span>
                 </g:form>
             </div>
