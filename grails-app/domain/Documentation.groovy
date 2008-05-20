@@ -13,8 +13,8 @@ class Documentation extends ConfigurationItem{
 
     static belongsTo = DocumentationType
     static constraints = {
-        docVersion(nullable:true, maxSize:10000000)
-        document(nullable:true)
+        docVersion(nullable:true)
+        document(nullable:true, maxSize:10000000)
         fileType(nullable:true)
         fileName(nullable:true)
         fileSize(nullable:true)
