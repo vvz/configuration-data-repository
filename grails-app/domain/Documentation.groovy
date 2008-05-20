@@ -23,6 +23,10 @@ class Documentation extends ConfigurationItem{
         documentationType(nullable:true)
     }
 
+    static mapping = {
+      document type:'binary'
+   }
+
     String toString(){
         return "${name}"
     }
