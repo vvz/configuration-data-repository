@@ -13,7 +13,7 @@ class Documentation extends ConfigurationItem{
 
     static belongsTo = DocumentationType
     static constraints = {
-        docVersion(nullable:true)
+        docVersion(nullable:true, maxSize:10000000)
         document(nullable:true)
         fileType(nullable:true)
         fileName(nullable:true)
@@ -22,10 +22,6 @@ class Documentation extends ConfigurationItem{
         abstraction(nullable:true)
         documentationType(nullable:true)
     }
-
-    static mapping = {
-      document type:'binary'
-   }
 
     String toString(){
         return "${name}"
