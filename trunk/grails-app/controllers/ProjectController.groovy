@@ -78,5 +78,4 @@ class ProjectController{
             render(view: 'create', model: [project: project])
         }
     }
-
 }
