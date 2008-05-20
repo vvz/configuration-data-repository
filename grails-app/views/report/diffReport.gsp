@@ -41,7 +41,6 @@
                     <g:datePicker id="endDate" name="STATUS_DATE_END" value="${new Date()}" precision="day" years="${2008..2020}"/>
                 </div>
             </fieldset>
-        %{--<input type="hidden" name="ENVIRONMENT_ID" value="${environment.id}"/>--}%
         </g:jasperReport>
     </div>
 </div>

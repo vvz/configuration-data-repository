@@ -112,4 +112,11 @@ class EnvironmentController {
         }
     }
 
+    def removeCI = {
+        ConfigurationItem ci = ConfigurationItem.get(params.ciID)
+        Environment environment = Environment.get(params.id)
+        environment.configurationItems -= ci
+        environment.save()
+        redirect(action: show, id: environment.id)
+    }
 }

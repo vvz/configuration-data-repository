@@ -274,6 +274,14 @@ margin-right: 0.5em;
 display: block
 }
 
+.ciLink{
+width: 9em;
+float: left;
+text-align: left;
+margin-left: 0.5em;
+display: block
+}
+
 /* TOP NAVIGATION */
 
 #top_nav_wrapper {
