@@ -24,14 +24,11 @@
       <sourceFolder url="file://$MODULE_DIR$/plugins/jasper-0.7.5/grails-app/services" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/jasper-0.7.5/grails-app/taglib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/jasper-0.7.5/grails-app/views" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/plugins/jsecurity-0.2-SNAPSHOT/grails-app/controllers" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/plugins/jsecurity-0.2-SNAPSHOT/grails-app/taglib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/jsecurity-0.2/grails-app/conf" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/jsecurity-0.2/grails-app/controllers" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/jsecurity-0.2/grails-app/taglib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/jsecurity-0.2/src/groovy" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/jsecurity-0.2/src/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/plugins/webtest-0.3/src/groovy" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/webtest-0.4/src/groovy" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/groovy" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/java" isTestSource="false" />

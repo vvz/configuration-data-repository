@@ -25,55 +25,38 @@
                     <td valign="top" class="name">Name:</td>
                     <td valign="top" class="value">${changeRequest.name}</td>
                 </tr>
-
                 <tr class="prop">
                     <td valign="top" class="name">Description:</td>
                     <td valign="top" class="value">${changeRequest.description}</td>
                 </tr>
                 <tr class="prop">
                     <td valign="top" class="name">Author:</td>
-
                     <td valign="top" class="value">${changeRequest.author}</td>
-
                 </tr>
-
                 <tr class="prop">
                     <td valign="top" class="name">Owner Name:</td>
-
                     <td valign="top" class="value">${changeRequest.ownerName}</td>
-
                 </tr>
-
                 <tr class="prop">
                     <td valign="top" class="name">Owner Email:</td>
-
                     <td valign="top" class="value">${changeRequest.ownerEmail}</td>
-
                 </tr>
-
                 <tr class="prop">
                     <td valign="top" class="name">Parent:</td>
-
-                    <td valign="top" class="value"><g:link controller="configurationItem" action="show" id="${changeRequest?.parent?.id}">${changeRequest?.parent}</g:link></td>
-
+                    <td valign="top" class="value"><g:link controller="${changeRequest?.parent ? cdr.className(name:changeRequest?.parent?.class?.name) : 'blah'}" action="show" id="${changeRequest?.parent?.id}">${changeRequest?.parent}</g:link></td>
                 </tr>
-
                 <tr class="prop">
                     <td valign="top" class="name">Configuration Items:</td>
-
                     <td valign="top" style="text-align:left;" class="value">
                         <ul>
                             <g:each var="c" in="${changeRequest.configurationItems}">
-                                <li><g:link controller="configurationItem" action="show" id="${c.id}">${c}</g:link></li>
+                                <li><g:link controller="${cdr.className(name:c.class.name)}" action="show" id="${c.id}">${c}</g:link></li>
                             </g:each>
                         </ul>
                     </td>
-
                 </tr>
-
                 <tr class="prop">
                     <td valign="top" class="name">Environments:</td>
-
                     <td valign="top" style="text-align:left;" class="value">
                         <ul>
                             <g:each var="e" in="${changeRequest.environments}">
@@ -81,12 +64,9 @@
                             </g:each>
                         </ul>
                     </td>
-
                 </tr>
-
                 <tr class="prop">
                     <td valign="top" class="name">Statuses:</td>
-
                     <td valign="top" style="text-align:left;" class="value">
                         <ul>
                             <g:each var="s" in="${changeRequest.statuses}">
@@ -94,12 +74,9 @@
                             </g:each>
                         </ul>
                     </td>
-
                 </tr>
-
                 <tr class="prop">
                     <td valign="top" class="name">This Relations:</td>
-
                     <td valign="top" style="text-align:left;" class="value">
                         <ul>
                             <g:each var="t" in="${changeRequest.thisRelations}">
@@ -107,12 +84,9 @@
                             </g:each>
                         </ul>
                     </td>
-
                 </tr>
-
                 <tr class="prop">
                     <td valign="top" class="name">That Relations:</td>
-
                     <td valign="top" style="text-align:left;" class="value">
                         <ul>
                             <g:each var="t" in="${changeRequest.thatRelations}">
@@ -120,29 +94,19 @@
                             </g:each>
                         </ul>
                     </td>
-
                 </tr>
                 <tr class="prop">
                     <td valign="top" class="name">File Type:</td>
-
                     <td valign="top" class="value">${changeRequest.fileType}</td>
-
                 </tr>
-
                 <tr class="prop">
                     <td valign="top" class="name">File Name:</td>
-
                     <td valign="top" class="value"><g:link action="downloadDocument" id="${changeRequest?.id}">${changeRequest.fileName}</g:link></td>
-
                 </tr>
-
                 <tr class="prop">
                     <td valign="top" class="name">Request Type:</td>
-
                     <td valign="top" class="value"><g:link controller="requestType" action="show" id="${changeRequest?.requestType?.id}">${changeRequest?.requestType}</g:link></td>
-
                 </tr>
-
             </tbody>
         </table>
     </div>
