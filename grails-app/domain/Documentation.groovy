@@ -1,6 +1,6 @@
 import java.sql.Blob
-import java.sql.SQLException
 import org.hibernate.Hibernate
+import com.delegata.utility.BlobUtil
 
 class Documentation extends ConfigurationItem {
     int docVersion
@@ -16,11 +16,11 @@ class Documentation extends ConfigurationItem {
     Date dateCreated
     Date lastUpdated
 
-    static transients = [ "document"] 
+    static transients = ["document"]
     static belongsTo = DocumentationType
     static constraints = {
         docVersion(nullable: true)
-        document(nullable: true, maxSize: 10000000)
+        document(nullable: true)
         documentBlob(nullable: true)
         fileType(nullable: true)
         fileName(nullable: true)
@@ -31,13 +31,13 @@ class Documentation extends ConfigurationItem {
     }
 
     static mapping = {
-      documentBlob type:'blob'
-   }
+        documentBlob type: 'blob'
+    }
 
     def getDocument() {
         if (documentBlob == null)
             return null;
-        return toByteArray(getDocumentBlob());
+        return BlobUtil.toByteArray(getDocumentBlob());
     }
 
     def setDocument(document) {
@@ -52,47 +52,6 @@ class Documentation extends ConfigurationItem {
 
     int hashCode() {
         return id ? id.hashCode() : super.hashCode()
-    }
-
-    private byte[] toByteArray(Blob fromBlob) {
-        ByteArrayOutputStream baos = new ByteArrayOutputStream();
-        try {
-            return toByteArrayImpl(fromBlob, baos);
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        } finally {
-            if (baos != null) {
-                try {
-                    baos.close();
-                } catch (IOException ex) {
-                }
-            }
-        }
-    }
-
-    private byte[] toByteArrayImpl(Blob fromBlob, ByteArrayOutputStream baos) {
-        byte[] buf = new byte[4000];
-        InputStream is = fromBlob.getBinaryStream();
-        try {
-            while (true) {
-                int dataSize = is.read(buf);
-
-                if (dataSize == -1)
-                    break;
-                baos.write(buf, 0, dataSize);
-            }
-        } finally {
-            if (is != null) {
-                try {
-                    is.close();
-                } catch (IOException ex) {
-                    throw ex;
-                }
-            }
-        }
-        return baos.toByteArray();
     }
 
     String toString() {
