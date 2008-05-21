@@ -20,8 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/TestResult.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/TestResult.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/Documentation.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/Documentation.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/groovy/com/delegata/utility" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CDR.iws" afterPath="$PROJECT_DIR$/CDR.iws" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/taglib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/groovy/com" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/groovy/com/delegata/utility/BlobUtil.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/ChangeRequest.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/ChangeRequest.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/taglib/CDRTagLib.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/groovy/com/delegata" />
     </list>
     <ignored path="CDR.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -99,36 +108,9 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="show.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/software/show.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="71" selection-start="1938" selection-end="2018" vertical-scroll-proportion="0.037117902">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/network/show.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="71" selection-start="1931" selection-end="2009" vertical-scroll-proportion="0.037117902">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/documentation/show.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="71" selection-start="1973" selection-end="2063" vertical-scroll-proportion="0.037117902">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/changeRequest/show.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="59" selection-start="2269" selection-end="2269" vertical-scroll-proportion="0.037117902">
+            <state line="48" column="59" selection-start="2269" selection-end="2269" vertical-scroll-proportion="0.023578363">
               <folding />
             </state>
           </provider>
@@ -137,7 +119,7 @@
       <file leaf-file-name="show.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/testResult/show.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="50" selection-start="2697" selection-end="2697" vertical-scroll-proportion="0.037117902">
+            <state line="57" column="50" selection-start="2697" selection-end="2697" vertical-scroll-proportion="0.023578363">
               <folding />
             </state>
           </provider>
@@ -146,19 +128,52 @@
       <file leaf-file-name="CDRTagLib.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/taglib/CDRTagLib.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="207" selection-end="207" vertical-scroll-proportion="0.25855514">
+            <state line="8" column="0" selection-start="207" selection-end="207" vertical-scroll-proportion="0.17237009">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Documentation.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Documentation.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/Documentation.groovy">
           <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="81" selection-start="481" selection-end="481" vertical-scroll-proportion="0.7249467">
+            <state line="23" column="8" selection-start="564" selection-end="592" vertical-scroll-proportion="0.44262296">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChangeRequest.groovy" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/ChangeRequest.groovy">
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="79" selection-start="289" selection-end="289" vertical-scroll-proportion="0.30191258">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestResult.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/TestResult.groovy">
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="36" selection-start="484" selection-end="484" vertical-scroll-proportion="0.44125682">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlobUtil.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/groovy/com/delegata/utility/BlobUtil.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="78" selection-start="704" selection-end="704" vertical-scroll-proportion="0.581749">
               <folding />
             </state>
           </provider>
@@ -167,7 +182,7 @@
       <file leaf-file-name="DataSource.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="90" selection-start="329" selection-end="329" vertical-scroll-proportion="0.4201521">
+            <state line="13" column="90" selection-start="329" selection-end="329" vertical-scroll-proportion="0.2801014">
               <folding />
             </state>
           </provider>
@@ -342,111 +357,15 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\plugins" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="CDR" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="CDR" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR" />
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\src" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\plugins" />
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\src\groovy" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\plugins\jasper-0.7.5" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="CDR" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="CDR" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\plugins" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\plugins\jasper-0.7.5" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\plugins\jasper-0.7.5\web-app" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="CDR" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="CDR" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\plugins" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\plugins\jasper-0.7.5" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\plugins\jasper-0.7.5\grails-app" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="CDR" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="CDR" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\plugins" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\plugins\jasper-0.7.5" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\plugins\jasper-0.7.5\grails-app" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\plugins\jasper-0.7.5\grails-app\taglib" />
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\src\groovy\com\delegata\utility" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -685,7 +604,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1288" height="998" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="4" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.3289941" order="8" />
@@ -696,7 +615,7 @@
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="10" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.3325444" order="11" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32779098" order="12" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32779098" order="12" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.3289941" order="7" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.2495935" order="1" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="0" />
@@ -727,7 +646,7 @@
     <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
     <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="-changed Documentation document maxSize to 10000000" />
+    <option name="LAST_COMMIT_MESSAGE" value="-Made additional changes to ChangeRequest and TestResult to handle documents in Oracle&#10;-added CDRTagLib&#10;-Added BlobUtil, utility class for byte[] to BLOB conversions" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
@@ -738,8 +657,6 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="-Changes to creating a Status&#10;-Changes to all show pages to only show &quot;New Status&quot; and &quot;New Relation&quot;" />
-    <MESSAGE value="Fixed Live Search so it works after search" />
     <MESSAGE value="Limited menus to be viewed only by correct roles" />
     <MESSAGE value="Committing the BSD License" />
     <MESSAGE value="Preliminary work on Reports" />
@@ -763,6 +680,8 @@
     <MESSAGE value="-changed all show.gsp pages for configuration items to fix the 'parent' and 'configuration items' links" />
     <MESSAGE value="-changed Documentation document type to binary" />
     <MESSAGE value="-changed Documentation document maxSize to 10000000" />
+    <MESSAGE value="-modified the Documentation to bypass the typical grails setting and use a BLOB object instead" />
+    <MESSAGE value="-Made additional changes to ChangeRequest and TestResult to handle documents in Oracle&#10;-added CDRTagLib&#10;-Added BlobUtil, utility class for byte[] to BLOB conversions" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -803,27 +722,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/views/environment/show.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="47" selection-start="456" selection-end="456" vertical-scroll-proportion="-0.2982456">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/project/show.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="91" selection-start="2036" selection-end="2036" vertical-scroll-proportion="1.0701058">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/jasper-0.7.5/grails-app/taglib/JasperTagLib.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="49" selection-start="654" selection-end="654" vertical-scroll-proportion="0.37824476">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/templates/scaffolding/Controller.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -847,35 +745,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/software/show.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="71" selection-start="1938" selection-end="2018" vertical-scroll-proportion="0.037117902">
+        <state line="45" column="71" selection-start="1938" selection-end="2018" vertical-scroll-proportion="0.022941971">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/network/show.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="71" selection-start="1931" selection-end="2009" vertical-scroll-proportion="0.037117902">
+        <state line="45" column="71" selection-start="1931" selection-end="2009" vertical-scroll-proportion="0.022941971">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/documentation/show.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="71" selection-start="1973" selection-end="2063" vertical-scroll-proportion="0.037117902">
+        <state line="45" column="71" selection-start="1973" selection-end="2063" vertical-scroll-proportion="0.023578363">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/changeRequest/show.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="59" selection-start="2269" selection-end="2269" vertical-scroll-proportion="0.037117902">
+        <state line="48" column="59" selection-start="2269" selection-end="2269" vertical-scroll-proportion="0.023578363">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/testResult/show.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="50" selection-start="2697" selection-end="2697" vertical-scroll-proportion="0.037117902">
+        <state line="57" column="50" selection-start="2697" selection-end="2697" vertical-scroll-proportion="0.023578363">
           <folding />
         </state>
       </provider>
@@ -897,16 +795,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/taglib/CDRTagLib.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="207" selection-end="207" vertical-scroll-proportion="0.25855514">
+        <state line="13" column="90" selection-start="329" selection-end="329" vertical-scroll-proportion="0.2801014">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
+    <entry file="file://$PROJECT_DIR$/src/groovy/com/delegata/utility/BlobUtil.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="90" selection-start="329" selection-end="329" vertical-scroll-proportion="0.4201521">
+        <state line="27" column="78" selection-start="704" selection-end="704" vertical-scroll-proportion="0.581749">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/taglib/CDRTagLib.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="207" selection-end="207" vertical-scroll-proportion="0.17237009">
           <folding />
         </state>
       </provider>
@@ -916,7 +821,27 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="81" selection-start="481" selection-end="481" vertical-scroll-proportion="0.7249467">
+        <state line="23" column="8" selection-start="564" selection-end="592" vertical-scroll-proportion="0.44262296">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/TestResult.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="36" selection-start="484" selection-end="484" vertical-scroll-proportion="0.44125682">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/ChangeRequest.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="79" selection-start="289" selection-end="289" vertical-scroll-proportion="0.30191258">
           <folding />
         </state>
       </provider>
