@@ -20,17 +20,94 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/TestResult.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/TestResult.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/Documentation.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/Documentation.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/groovy/com/delegata/utility" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/plugins/jasper-0.7.6.1/images/icons" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/grails-app/services/JasperService.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/JasperGrailsPlugin.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/web-app/images/icons/TEXT.gif" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jasper-0.7.5\images\icons\RTF.gif" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/web-app/reports/sample-jasper-plugin.jrxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CDR.iws" afterPath="$PROJECT_DIR$/CDR.iws" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/taglib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/groovy/com" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/groovy/com/delegata/utility/BlobUtil.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/ChangeRequest.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/ChangeRequest.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/taglib/CDRTagLib.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/groovy/com/delegata" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/plugins/jasper-0.7.6.1/images/icons/XLS.gif" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jasper-0.7.5\reports\Relation.jasper" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/plugins/jasper-0.7.6.1/images/icons/TEXT.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jasper-0.7.5\reports\Environment_Report.jrxml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/grails-app/taglib/JasperTagLib.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/grails-app" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/web-app/reports/Category.jasper" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/scripts/_Upgrade.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/web-app/index.gsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/web-app/images" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/grails-app/views/jasper" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/web-app/reports/sample-jasper-plugin.jasper" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/plugin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/plugins/jasper-0.7.6.1/images/icons/RTF.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/web-app/images/icons/PDF.gif" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jasper-0.7.5\images\icons\TEXT.gif" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/web-app/images/icons/XML.gif" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jasper-0.7.5\reports\Type.jrxml" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jasper-0.7.5\reports\diff_report.jrxml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/plugins/jasper-0.7.6.1/images/icons/XML.gif" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jasper-0.7.5\images\icons\HTML.gif" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/lib/poi-3.0.2-FINAL-20080204.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/web-app/images/icons/CSV.gif" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jasper-0.7.5\index.gsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jasper-0.7.5\images\icons\CSV.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jasper-0.7.5\reports\Relation.jrxml" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jasper-0.7.5\reports\sample-jasper-plugin.jrxml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/scripts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/grails-app/views/error.gsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/web-app/images/icons/XLS.gif" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jasper-0.7.5\images\icons\XML.gif" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/lib/jasperreports-2.0.5.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/web-app/images/icons" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/plugins/jasper-0.7.6.1/images" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/web-app/reports/diff_report.jasper" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/grails-app/views" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/web-app/reports/Environment_Report.jasper" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/plugins/jasper-0.7.5/reports" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jasper-0.7.5\reports\Configuration_Item.jrxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/plugins/jasper-0.7.5/images" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jasper-0.7.5\images\icons\PDF.gif" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/grails-app/controllers" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/plugins/jasper-0.7.6.1/reports/sample-jasper-plugin.jrxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/web-app/reports" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/grails-app/controllers/JasperController.groovy" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jasper-0.7.5\images\icons\XLS.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jasper-0.7.5\reports\Category.jasper" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/grails-app/taglib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/grails-app/views/jasper/admin.gsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/plugins/jasper-0.7.6.1/reports/sample-jasper-plugin.jasper" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/web-app/reports/classic_landscape.jasper" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/plugins/jasper-0.7.6.1/reports" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jasper-0.7.5\reports\sample-jasper-plugin.jasper" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/plugins/jasper-0.7.6.1/index.gsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/plugins/jasper-0.7.6.1/images/icons/HTML.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/grails-app/services" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/grails-app/views/jasper/howto.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CDR.iml" afterPath="$PROJECT_DIR$/CDR.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/plugins/jasper-0.7.5" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/lib/commons-digester-1.8.jar" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/plugins/jasper-0.7.5/images/icons" afterPath="" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jasper-0.7.5\reports\Category.jrxml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/web-app" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/grails-app/i18n/jasper.properties" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jasper-0.7.5\reports\Configuration_Item.jasper" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/web-app/reports/classic.jasper" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/lib" />
+      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\web-app\plugins\jasper-0.7.5\reports\Type.jasper" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/web-app/images/icons/HTML.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/web-app/reports/Configuration_Item.jasper" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/web-app/reports/Type.jasper" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/web-app/images/icons/RTF.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/plugins/jasper-0.7.6.1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/lib/iText-2.0.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/plugins/jasper-0.7.6.1/images/icons/PDF.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/grails-app/i18n" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/scripts/_Install.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/application.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/web-app/reports/Relation.jasper" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/plugins/jasper-0.7.6.1/images/icons/CSV.gif" />
     </list>
     <ignored path="CDR.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -107,24 +184,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="show.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/changeRequest/show.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="59" selection-start="2269" selection-end="2269" vertical-scroll-proportion="0.023578363">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/testResult/show.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="50" selection-start="2697" selection-end="2697" vertical-scroll-proportion="0.023578363">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CDRTagLib.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/taglib/CDRTagLib.groovy">
           <provider selected="true" editor-type-id="text-editor">
@@ -146,13 +205,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChangeRequest.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ChangeRequest.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/ChangeRequest.groovy">
           <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="79" selection-start="289" selection-end="289" vertical-scroll-proportion="0.30191258">
+            <state line="18" column="89" selection-start="410" selection-end="410" vertical-scroll-proportion="0.4180328">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReportController.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/controllers/ReportController.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="0" selection-start="533" selection-end="533" vertical-scroll-proportion="0.38177013">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="diffReport.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/report/diffReport.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JasperController.groovy" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/plugins/jasper-0.7.6.1/grails-app/controllers/JasperController.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="71" selection-start="750" selection-end="750" vertical-scroll-proportion="0.43092522">
               <folding />
             </state>
           </provider>
@@ -195,15 +281,6 @@
           </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="renderEditor.template" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/templates/scaffolding/renderEditor.template">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="32" selection-start="32" selection-end="33" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -291,11 +368,7 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\src" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\src\templates" />
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\web-app" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -313,33 +386,15 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\src" />
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\web-app" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\src\templates" />
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\web-app\plugins" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\src\templates\scaffolding" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="CDR" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="CDR" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\src" />
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\web-app\plugins\jasper-0.7.6.1" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -357,15 +412,167 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\src" />
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\web-app" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\src\groovy" />
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\web-app\plugins" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\src\groovy\com\delegata\utility" />
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\web-app\plugins\jasper-0.7.6.1" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\web-app\plugins\jasper-0.7.6.1\reports" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="CDR" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="CDR" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\web-app" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\web-app\plugins" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\web-app\plugins\jasper-0.7.5" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="CDR" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="CDR" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\plugins" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="CDR" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="CDR" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\plugins" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\plugins\jasper-0.7.6.1" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="CDR" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="CDR" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\plugins" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\plugins\jasper-0.7.6.1" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\plugins\jasper-0.7.6.1\web-app" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="CDR" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="CDR" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\plugins" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\plugins\jasper-0.7.6.1" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\plugins\jasper-0.7.6.1\web-app" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\plugins\jasper-0.7.6.1\web-app\reports" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="CDR" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="CDR" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\plugins" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\plugins\jasper-0.7.6.1" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\plugins\jasper-0.7.6.1\grails-app" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -406,6 +613,28 @@
         </PATH_ELEMENT>
         <PATH_ELEMENT>
           <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\grails-app\taglib" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="CDR" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="CDR" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\grails-app" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\backup\projects\CDR_repo\CDR\grails-app\controllers" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -615,7 +844,7 @@
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="10" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.3325444" order="11" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32779098" order="12" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32779098" order="12" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.3289941" order="7" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.2495935" order="1" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="0" />
@@ -722,27 +951,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/templates/scaffolding/Controller.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/EnvironmentController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="68" selection-start="2897" selection-end="2897" vertical-scroll-proportion="0.02225131">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/hardware/show.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="71" selection-start="2229" selection-end="2309" vertical-scroll-proportion="0.022106633">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/software/show.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="45" column="71" selection-start="1938" selection-end="2018" vertical-scroll-proportion="0.022941971">
@@ -766,7 +974,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/changeRequest/show.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="59" selection-start="2269" selection-end="2269" vertical-scroll-proportion="0.023578363">
+        <state line="48" column="59" selection-start="2269" selection-end="2269" vertical-scroll-proportion="0.038812786">
           <folding />
         </state>
       </provider>
@@ -816,16 +1024,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/Documentation.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="8" selection-start="564" selection-end="592" vertical-scroll-proportion="0.44262296">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/TestResult.groovy">
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
@@ -836,12 +1034,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/Documentation.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="8" selection-start="564" selection-end="592" vertical-scroll-proportion="0.44262296">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/ChangeRequest.groovy">
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="79" selection-start="289" selection-end="289" vertical-scroll-proportion="0.30191258">
+        <state line="18" column="89" selection-start="410" selection-end="410" vertical-scroll-proportion="0.4180328">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/ReportController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="533" selection-end="533" vertical-scroll-proportion="0.38177013">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/report/diffReport.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/jasper-0.7.6.1/grails-app/controllers/JasperController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="71" selection-start="750" selection-end="750" vertical-scroll-proportion="0.43092522">
           <folding />
         </state>
       </provider>
