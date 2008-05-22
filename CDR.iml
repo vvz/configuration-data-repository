@@ -24,6 +24,10 @@
       <sourceFolder url="file://$MODULE_DIR$/plugins/jasper-0.7.5/grails-app/services" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/jasper-0.7.5/grails-app/taglib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/jasper-0.7.5/grails-app/views" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/jasper-0.7.6.1/grails-app/controllers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/jasper-0.7.6.1/grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/jasper-0.7.6.1/grails-app/taglib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/jasper-0.7.6.1/grails-app/views" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/jsecurity-0.2/grails-app/conf" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/jsecurity-0.2/grails-app/controllers" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/jsecurity-0.2/grails-app/taglib" isTestSource="false" />
@@ -241,11 +245,13 @@
           <root url="file://$MODULE_DIR$/lib" />
           <root url="file://$MODULE_DIR$/plugins/jasper-0.7.5/lib" />
           <root url="file://$MODULE_DIR$/plugins/jsecurity-0.2/lib" />
+          <root url="file://$MODULE_DIR$/plugins/jasper-0.7.6.1/lib" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
         <jarDirectory url="file://$MODULE_DIR$/lib" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/plugins/jasper-0.7.5/lib" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/plugins/jasper-0.7.6.1/lib" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/plugins/jsecurity-0.2/lib" recursive="false" />
       </library>
     </orderEntry>
