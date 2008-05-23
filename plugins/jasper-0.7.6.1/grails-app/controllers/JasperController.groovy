@@ -25,6 +25,8 @@ class JasperController {
             println "jasper file 2: $jasperFile"
         }
 
+        params.JASPER_FILE = jasperFile
+
         def from = null
         if (params._from) {
             if (jasperService.existFrom(params._from)) {
