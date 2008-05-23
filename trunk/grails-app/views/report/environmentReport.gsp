@@ -10,8 +10,13 @@
     <g:if test="${flash.message}">
         <div class="message">${flash.message}</div>
     </g:if>
+    <g:hasErrors>
+        <div class="errors">
+            <g:renderErrors as="list"/>
+        </div>
+    </g:hasErrors>
     <div class="report">
-        <g:jasperReport id="1" jasper="Environment_Report" format="PDF,HTML,XML,CSV,XLS,RTF,TEXT" name="Environment Report-${new Date()}">
+        <g:jasperReport id="1" jasper="Environment_Report" format="PDF,HTML,XML,CSV,XLS,RTF,TEXT" name="Environment Report-${new Date()}" priorAction="environmentReport">
             <fieldset id="reportForm">
                 <legend>Report Builder</legend>
                 <div>
@@ -23,7 +28,7 @@
                         </g:each>
                     </select>
                 </div>
-                <div id="environmentSelect">
+                <div id="environmentSelect" class="value ${hasErrors(field: 'ENVIRONMENT_ID', 'errors')}">
                     <label class="report" for="environments">Environment</label>
                     <select id="environments" name="ENVIRONMENT_ID">
                         <option value="">--none--</option>
