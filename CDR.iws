@@ -21,21 +21,16 @@
   <component name="ChangeListManager">
     <list default="true" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/web-app/reports/Relation.jasper" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/web-app/reports/Relation.jasper" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/web-app/reports/Type.jasper" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/web-app/reports/Type.jasper" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/reports/Environment_Report.jasper" afterPath="$PROJECT_DIR$/web-app/reports/Environment_Report.jasper" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CDR.iws" afterPath="$PROJECT_DIR$/CDR.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/web-app/reports/Environment_Report.jasper" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/web-app/reports/Environment_Report.jasper" />
-      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jasper-0.7.6.1\web-app\reports\sample-jasper-plugin.jrxml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/web-app/reports/diff_report.jasper" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/web-app/reports/diff_report.jasper" />
-      <change type="DELETED" beforePath="C:\backup\projects\CDR_repo\CDR\plugins\jasper-0.7.6.1\web-app\reports\sample-jasper-plugin.jasper" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/reports/Configuration_Item.jasper" afterPath="$PROJECT_DIR$/web-app/reports/Configuration_Item.jasper" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/web-app/reports/Category.jasper" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/web-app/reports/Category.jasper" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/reports/Environment_Report.jasper" afterPath="$PROJECT_DIR$/web-app/reports/Environment_Report.jasper" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/web-app/reports/Type.jasper" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/web-app/reports/Type.jasper" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/web-app/reports/Configuration_Item.jasper" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/web-app/reports/Configuration_Item.jasper" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CDR.iws" afterPath="$PROJECT_DIR$/CDR.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/reports/Relation.jasper" afterPath="$PROJECT_DIR$/web-app/reports/Relation.jasper" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/web-app/reports/Environment_Report.jasper" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/web-app/reports/Environment_Report.jasper" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/reports/Category.jasper" afterPath="$PROJECT_DIR$/web-app/reports/Category.jasper" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/reports/Type.jasper" afterPath="$PROJECT_DIR$/web-app/reports/Type.jasper" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/reports/diff_report.jasper" afterPath="$PROJECT_DIR$/web-app/reports/diff_report.jasper" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/grails-app/controllers/JasperController.groovy" afterPath="$PROJECT_DIR$/plugins/jasper-0.7.6.1/grails-app/controllers/JasperController.groovy" />
     </list>
     <ignored path="CDR.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -112,18 +107,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Documentation.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/Documentation.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="8" selection-start="564" selection-end="592" vertical-scroll-proportion="0.05464481">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ChangeRequest.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/ChangeRequest.groovy">
           <provider selected="true" editor-type-id="text-editor">
@@ -154,10 +137,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JasperController.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="JasperController.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugins/jasper-0.7.6.1/grails-app/controllers/JasperController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="88" selection-start="1198" selection-end="1198" vertical-scroll-proportion="0.3231939">
+            <state line="41" column="50" selection-start="1734" selection-end="1734" vertical-scroll-proportion="0.8833967">
               <folding />
             </state>
           </provider>
@@ -168,18 +151,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="7" column="31" selection-start="347" selection-end="347" vertical-scroll-proportion="0.15803453">
               <folding>
-                <marker date="1211502138379" expanded="true" signature="3272:3352" placeholder="..." />
-                <marker date="1211502138379" expanded="true" signature="3272:3340" placeholder="..." />
-                <marker date="1211502138379" expanded="true" signature="3272:3329" placeholder="..." />
+                <marker date="1211504344352" expanded="true" signature="3289:3369" placeholder="..." />
+                <marker date="1211504344352" expanded="true" signature="3289:3357" placeholder="..." />
+                <marker date="1211504344352" expanded="true" signature="3289:3346" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JasperService.groovy" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="JasperService.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/plugins/jasper-0.7.6.1/grails-app/services/JasperService.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="46" selection-start="1395" selection-end="1395" vertical-scroll-proportion="0.81708944">
+            <state line="105" column="67" selection-start="3873" selection-end="3873" vertical-scroll-proportion="0.40987983">
               <folding />
             </state>
           </provider>
@@ -694,7 +677,7 @@
     <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
     <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="-altering the datatypes in the JasperController to handle the different data types other than String" />
+    <option name="LAST_COMMIT_MESSAGE" value="-altering reports to pass in subreport directory" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
@@ -705,7 +688,6 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="Work on Relation View" />
     <MESSAGE value="Removing jasper plugin version 0.5" />
     <MESSAGE value="Removed CDRTEST from all report files" />
     <MESSAGE value="-Changed Security module&#10;-Changed all Type names adding spaces between words&#10;-Changed Jasper Reports Module&#10;-Integrated New reports including create reports pages" />
@@ -730,6 +712,7 @@
     <MESSAGE value="-upgraded jasperreports plugin" />
     <MESSAGE value="-deleted jasper-0.7.5" />
     <MESSAGE value="-altering the datatypes in the JasperController to handle the different data types other than String" />
+    <MESSAGE value="-altering reports to pass in subreport directory" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -770,13 +753,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/views/changeRequest/show.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="59" selection-start="2269" selection-end="2269" vertical-scroll-proportion="0.038812786">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/testResult/show.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="57" column="50" selection-start="2697" selection-end="2697" vertical-scroll-proportion="0.023578363">
@@ -873,27 +849,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/jasper-0.7.6.1/grails-app/controllers/JasperController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="50" selection-start="1734" selection-end="1734" vertical-scroll-proportion="0.8833967">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/reports/Environment_Report.jrxml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="31" selection-start="347" selection-end="347" vertical-scroll-proportion="0.15803453">
           <folding>
-            <marker date="1211502138379" expanded="true" signature="3272:3352" placeholder="..." />
-            <marker date="1211502138379" expanded="true" signature="3272:3340" placeholder="..." />
-            <marker date="1211502138379" expanded="true" signature="3272:3329" placeholder="..." />
+            <marker date="1211504344352" expanded="true" signature="3289:3369" placeholder="..." />
+            <marker date="1211504344352" expanded="true" signature="3289:3357" placeholder="..." />
+            <marker date="1211504344352" expanded="true" signature="3289:3346" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.6.0_04/jre/lib/rt.jar!/java/io/File.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="145" selection-end="145" vertical-scroll-proportion="0.087855294">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/jasper-0.7.6.1/grails-app/services/JasperService.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="46" selection-start="1395" selection-end="1395" vertical-scroll-proportion="0.81708944">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/jasper-0.7.6.1/grails-app/controllers/JasperController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="88" selection-start="1198" selection-end="1198" vertical-scroll-proportion="0.3231939">
+        <state line="105" column="67" selection-start="3873" selection-end="3873" vertical-scroll-proportion="0.40987983">
           <folding />
         </state>
       </provider>
