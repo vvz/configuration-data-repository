@@ -20,9 +20,7 @@ environments {
             pooled = false
             dbCreate = "create-drop"
             driverClassName = "oracle.jdbc.OracleDriver"
-            username = "cdrint"
-            password = "cdrint"
-            url = "jdbc:oracle:thin:@192.168.0.235:1521:COAPS"
+            jndiName = "java:comp/env/jdbc/cdr"
 
         }
     }
