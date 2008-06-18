@@ -28,10 +28,10 @@
         <!--Navigation Items List-->
         <ul class="top_nav">
             <li><a href="#" title="Help">Help</a></li> |
-        <!--<li><g:link controller="project" action="list">Home</g:link></li> |-->
-        <!--<jsec:hasRole name="Administrator">-->
-                <!--<li><g:link controller="relationReference" action="list">Admin</g:link></li> |-->
-            <!--</jsec:hasRole>-->
+        %{--<li><g:link controller="project" action="list">Home</g:link></li> |-->
+        <jsec:hasRole name="Administrator">-->
+                <!--<li><g:link controller="relationReference" action="list">Admin</g:link></li> |
+            <!--</jsec:hasRole>--}%
             <li><a href="#maincontent" title="Click here to skip to main content">Skip to main content</a></li>
         </ul>
     </div>
