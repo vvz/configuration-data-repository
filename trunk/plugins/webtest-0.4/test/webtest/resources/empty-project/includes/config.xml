@@ -4,7 +4,7 @@ using the DTD (here &config;)
 -->
 <config 
 	host="localhost" 
-	port="80986"
+	port="8096"
 	protocol="http" 
 	basepath="" 
 	summary="true" 
