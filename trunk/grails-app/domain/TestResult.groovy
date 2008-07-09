@@ -14,7 +14,7 @@ class TestResult extends ConfigurationItem{
     Date lastUpdated
 
     static transients = ["document"]
-    static belongsTo = TestResultType
+    static belongsTo = [TestResultType, Environment]
     static constraints = {
         document(nullable:true)
         documentBlob(nullable: true)
@@ -29,13 +29,19 @@ class TestResult extends ConfigurationItem{
     }
 
     def getDocument() {
-        if (documentBlob == null)
-            return null;
-        return BlobUtil.toByteArray(getDocumentBlob());
+        if (this.document) return this.document
+        else if(this.documentBlob) return BlobUtil.toByteArray(getDocumentBlob())
+        else return null
     }
 
     def setDocument(document) {
-        setDocumentBlob(Hibernate.createBlob(document));
+        this.document = document
+        this.documentBlob = Hibernate.createBlob(document)
+    }
+
+    def setDocumentBlob(documentBlob) {
+        this.documentBlob = documentBlob
+        document = BlobUtil.toByteArray(getDocumentBlob())
     }
 
     boolean equals(obj) {

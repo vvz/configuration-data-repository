@@ -1,4 +1,4 @@
-class RequestType{
+class RequestType implements java.io.Serializable{
     String description
     String type = 'Change Request'
     Set requests

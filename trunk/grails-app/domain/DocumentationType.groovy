@@ -1,4 +1,4 @@
-class DocumentationType{
+class DocumentationType implements java.io.Serializable{
 
     String description
     String type = 'Documentation'

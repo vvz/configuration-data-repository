@@ -1,5 +1,4 @@
-class Environment
-{
+class Environment implements java.io.Serializable{
     String name
     String description
     String ownerName

@@ -6,7 +6,20 @@ class ChangeRequestController {
     }
 
 
-    def index = {redirect(action: list, params: params)}
+    def index = {
+        if (params["_action_Save"]) {
+            save()
+        }
+        else if (params["_action_Update"]) {
+            update()
+        }
+        else if (params["_action_Delete"]) {
+            delete()
+        }
+        else {
+            redirect(action: list, params: params)
+        }
+    }
 
     // the delete, save and update actions only accept POST requests
     def allowedMethods = [delete: 'POST', save: 'POST', update: 'POST']

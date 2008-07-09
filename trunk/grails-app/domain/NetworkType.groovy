@@ -1,4 +1,4 @@
-class NetworkType{
+class NetworkType implements java.io.Serializable{
     String description
     String type = 'Network'
     Set networks

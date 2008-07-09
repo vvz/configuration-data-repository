@@ -8,7 +8,7 @@ class Hardware extends ConfigurationItem{
     Date dateCreated
     Date lastUpdated
 
-    static belongsTo = HardwareType
+    static belongsTo = [HardwareType, Environment]
     static constraints = {
         purchaseDate(nullable: true)
         macAddress(maxSize: 50, nullable: true)

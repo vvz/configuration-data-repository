@@ -1,5 +1,4 @@
-class RelationReference
-{
+class RelationReference implements java.io.Serializable{
     String name
     String description
     Set relations

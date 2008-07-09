@@ -8,7 +8,7 @@ class Software extends ConfigurationItem{
     Date dateCreated
     Date lastUpdated
 
-    static belongsTo = SoftwareType
+    static belongsTo = [SoftwareType, Environment]
     static constraints = {
         versionNum(nullable:true)
         port(nullable:true)

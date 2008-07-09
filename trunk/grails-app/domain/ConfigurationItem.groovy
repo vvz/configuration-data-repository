@@ -1,5 +1,4 @@
-class ConfigurationItem
-{
+class ConfigurationItem implements java.io.Serializable {
     String name
     String description
     String author
@@ -12,17 +11,17 @@ class ConfigurationItem
 
     /*Set configurationItems
     Set environments
-    Set statuses
+    Set statuses*/
     Set thisRelations
-    Set thatRelations*/
+    Set thatRelations
 
     static hasMany = [thisRelations: Relation, thatRelations: Relation, environments: Environment, statuses: Status, configurationItems: ConfigurationItem]
     static mappedBy = [thisRelations: 'thisCI', thatRelations: 'thatCI', configurationItems: 'parent']
     static belongsTo = [Environment, ConfigurationItem]
     static constraints = {
-        name(nullable: false, blank:false)
+        name(nullable: false, blank: false)
         description(nullable: true, maxSize: 1000)
-        author(nullable: false, blank:false)
+        author(nullable: false, blank: false)
         ownerName(nullable: true)
         ownerEmail(nullable: true, email: true)
         parent(nullable: true)

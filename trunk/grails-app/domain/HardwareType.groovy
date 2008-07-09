@@ -1,4 +1,4 @@
-class HardwareType{
+class HardwareType implements java.io.Serializable{
 
     String description
     String type = 'Hardware'

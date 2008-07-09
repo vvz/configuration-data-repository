@@ -1,5 +1,4 @@
-class Relation
-{
+class Relation implements java.io.Serializable {
     RelationReference reference
     ConfigurationItem thisCI
     ConfigurationItem thatCI

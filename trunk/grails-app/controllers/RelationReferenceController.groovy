@@ -1,4 +1,5 @@
-            
+import grails.converters.XML
+
 class RelationReferenceController{
 
     static accessControl = {
@@ -11,7 +12,7 @@ class RelationReferenceController{
     def index = { redirect(action:list,params:params) }
 
     // the delete, save and update actions only accept POST requests
-    def allowedMethods = [delete:'POST', save:'POST', update:'POST']
+    def allowedMethods = [delete:'POST', save:'POST', update:'POST', referenceList:'GETrender RelationReference.list( params ) as XML ']
 
     def list = {
         if(!params.max) params.max = 10
@@ -80,5 +81,10 @@ class RelationReferenceController{
         else {
             render(view:'create',model:[relationReference:relationReference])
         }
+    }
+
+    def referenceList = {
+        def reference = new RelationReference(params)
+        render StatusReference.findAll(reference) as XML
     }
 }

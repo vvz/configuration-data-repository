@@ -1,5 +1,4 @@
-class Status
-{
+class Status implements java.io.Serializable {
     Date startDate
     Date endDate
     ConfigurationItem configurationItem

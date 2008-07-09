@@ -1,5 +1,4 @@
-class SoftwareType
-{
+class SoftwareType implements java.io.Serializable{
     String description
     Set softwares
     String type = 'Software'

@@ -1,5 +1,4 @@
-class Project
-{
+class Project implements java.io.Serializable{
     String name
     String description
     String ownerName

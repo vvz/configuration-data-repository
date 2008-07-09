@@ -1,8 +1,9 @@
 import java.sql.Blob
 import org.hibernate.Hibernate
 import com.delegata.utility.BlobUtil
+import org.hibernate.lob.SerializableBlob
 
-class Documentation extends ConfigurationItem {
+class Documentation extends ConfigurationItem implements java.io.Serializable {
     int docVersion
     byte[] document
     Blob documentBlob
@@ -17,7 +18,7 @@ class Documentation extends ConfigurationItem {
     Date lastUpdated
 
     static transients = ["document"]
-    static belongsTo = DocumentationType
+    static belongsTo = [DocumentationType, Environment]
     static constraints = {
         docVersion(nullable: true)
         document(nullable: true)
@@ -35,13 +36,19 @@ class Documentation extends ConfigurationItem {
     }
 
     def getDocument() {
-        if (documentBlob == null)
-            return null;
-        return BlobUtil.toByteArray(getDocumentBlob());
+        if (this.document) return this.document
+        else if(this.documentBlob) return BlobUtil.toByteArray(getDocumentBlob())
+        else return null
     }
 
     def setDocument(document) {
-        setDocumentBlob(Hibernate.createBlob(document));
+        this.document = document
+        this.documentBlob = Hibernate.createBlob(document)
+    }
+
+    def setDocumentBlob(documentBlob) {
+        this.documentBlob = documentBlob
+        document = BlobUtil.toByteArray(getDocumentBlob())
     }
 
     boolean equals(obj) {

@@ -5,7 +5,22 @@ class DocumentationController{
         // All actions require the 'Observer' role.
         role(name: 'Observer')
     }
-    def index = {redirect(action: list, params: params)}
+    def index = {  // temporary hack since g.actionSubmit does not work with multipart forms
+        if (params["_action_Save"]) {
+            save()
+        }
+        else if (params["_action_Update"]) {
+            update()
+        }
+        else if (params["_action_Delete"]) {
+            delete()
+        }
+        else {
+            redirect(action: list, params: params)
+        }
+
+        redirect(action: list, params: params)
+    }
 
     // the delete, save and update actions only accept POST requests
     def allowedMethods = [delete: 'POST', save: 'POST', update: 'POST']
@@ -45,6 +60,7 @@ class DocumentationController{
     }
 
     def update = {
+        println "in update"
         def documentation = Documentation.get(params.id)
         if (documentation) {
             documentation.properties = params

@@ -27,7 +27,7 @@
                         <tr class="prop">
                             <td valign="top" class="name">Configuration Item:</td>
                             
-                            <td valign="top" class="value"><g:link controller="${status?.configurationItem?.class.name.toString().toLowerCase()}" action="show" id="${status?.configurationItem?.id}">${status?.configurationItem}</g:link></td>
+                            <td valign="top" class="value"><g:link controller="${status?.configurationItem?.class.name.toString()[0].toLowerCase() + status?.configurationItem?.class.name.toString()[1..status?.configurationItem?.class.name.toString().length() - 1]}" action="show" id="${status?.configurationItem?.id}">${status?.configurationItem}</g:link></td>
                             
                         </tr>
                     

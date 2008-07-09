@@ -1,5 +1,4 @@
-class StatusReference
-{
+class StatusReference implements java.io.Serializable{
     String name
     String description
     Set statuses

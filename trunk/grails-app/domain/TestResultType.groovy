@@ -1,4 +1,4 @@
-class TestResultType{
+class TestResultType implements java.io.Serializable{
     String description
     Set results
     String type = 'Test Result'
