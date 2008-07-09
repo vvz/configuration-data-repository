@@ -37,13 +37,14 @@ class BootStrap {
         if (!references) {
             new RelationReference(name: "depends on", description: "depends on").save()
             new RelationReference(name: "exists in", description: "exists in").save()
-            new RelationReference(name: "is documented by", description: "is documented by").save()
+            new RelationReference(name: "documents", description: "is documented by").save()
             new RelationReference(name: "BOM", description: "exclusively owned by").save()
             new RelationReference(name: "is installed on", description: "is installed on").save()
-            new RelationReference(name: "is baselined by", description: "is baselined by").save()
-            new RelationReference(name: "is certified by", description: "is certified by").save()
+            new RelationReference(name: "baselines", description: "baselines").save()
+            new RelationReference(name: "certifies", description: "certifies").save()
             new RelationReference(name: "is prepared by", description: "is prepared by").save()
             new RelationReference(name: "is configured by", description: "is configured by").save()
+            new RelationReference(name: "tests", description: "tests").save()
 
             new StatusReference(name: "Planned", description: "Planned").save()
             new StatusReference(name: "Implemented", description: "Implemented").save()
@@ -63,13 +64,15 @@ class BootStrap {
             new SoftwareType(description: 'Database Server').save(flush: true)
             new SoftwareType(description: 'Application Server').save(flush: true)
             new SoftwareType(description: 'Web Server').save(flush: true)
-            new SoftwareType(description: 'Application').save(flush: true)
+            def application = new SoftwareType(description: 'Application').save(flush: true)
             new SoftwareType(description: 'Database Schema').save(flush: true)
             new SoftwareType(description: 'Script').save(flush: true)
             def networkType = new NetworkType(description: 'Network').save(flush: true)
             def documentationType = new DocumentationType(description: 'asdfasdf').save(flush: true)
             new RequestType(description: 'Requirements').save(flush: true)
-            new TestResultType(description: 'Unit Tests').save(flush: true)
+            new TestResultType(description: 'Unit').save(flush: true)
+            new TestResultType(description: 'Acceptance').save(flush: true)
+            new TestResultType(description: 'Functional').save(flush: true)
 
             new Hardware(
                     name: "Solutions",
@@ -120,6 +123,18 @@ class BootStrap {
             if (!windows.save(flush: true)) {
                 windows.errors.each {error -> println error}
             }
+
+            def build = new Software(
+                    name: "build",
+                    author: "Steve Holmes",
+                    softwareType: application)
+            if (!build.save(flush: true)) {
+                build.errors.each {error -> println error}
+            }
+
+            testing.configurationItems << build
+            testing.save(flush:true)
+            new Status(startDate: startDate,endDate: startDate + 10000, configurationItem: build, reference:active).save(flush:true)
 
             new Network(name: 'network 1', author: "Steve Holmes", networkType: networkType).save(flush: true)
 
