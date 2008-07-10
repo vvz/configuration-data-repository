@@ -60,7 +60,7 @@
 
                             <tr class='prop'>
                                 <td valign='top' class='name'>
-                                    <label for='project'>Project:</label>
+                                    <label for='project'>Application:</label>
                                 </td>
                                 <td valign='top' class='value ${hasErrors(bean: environment, field: 'project', 'errors')}'>
                                     <g:select optionKey="id" from="${Project.list()}" name='project.id' value="${environment?.project?.id}"></g:select>

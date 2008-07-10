@@ -2,11 +2,11 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <meta name="layout" content="main"/>
-        <title>Create Project</title>
+        <title>Create Application</title>
     </head>
     <body>
         <div class="body">
-            <h1>Create Project</h1>
+            <h1>Create Application</h1>
 			<!-- New Location of nav menu - Tab specific functions go here --> 
 			<div class="nav">
             </div>

@@ -2,7 +2,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="layout" content="main"/>
-    <title>Project Environment Difference Report</title>
+    <title>Application Environment Difference Report</title>
 </head>
 <body>
 <div class="body">
@@ -20,7 +20,7 @@
             <fieldset id="reportForm">
                 <legend>Report Builder</legend>
                 <div>
-                    <label class="report" for="projects">Project</label>
+                    <label class="report" for="projects">Application</label>
                     <select id="projects" name="project.id" onchange="${remoteFunction(action: 'environmentSelect', update: "environmentSelect", params: '\'project.id=\' + this.value')}">
                         <option value="">--none--</option>
                         <g:each in="${projects}">

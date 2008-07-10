@@ -10,7 +10,7 @@
 <ul>
     <li><a href="#configuration">Configuration</a>
         <ul>
-            <li class="yuimenuitem"><g:link class="main_sub_item" controller="project" action="list">Project</g:link></li>
+            <li class="yuimenuitem"><g:link class="main_sub_item" controller="project" action="list">Application</g:link></li>
             <li class="yuimenuitem"><g:link class="main_sub_item" controller="environment" action="list">Environment</g:link></li>
             <li class="yuimenuitem"><g:link class="main_sub_item" controller="hardware" action="list">Hardware</g:link></li>
             <li class="yuimenuitem"><g:link class="main_sub_item" controller="software" action="list">Software</g:link></li>
@@ -22,7 +22,7 @@
     </li>
     <li><a href="#reports">Reports</a>
         <ul>
-            <li class="yuimenuitem"><g:link class="main_sub_item" controller="project" action="list">Project</g:link></li>
+            <li class="yuimenuitem"><g:link class="main_sub_item" controller="project" action="list">Application</g:link></li>
             <li class="yuimenuitem"><g:link class="main_sub_item" controller="environment" action="list">Configuration Item</g:link></li>
         </ul>
     </li>

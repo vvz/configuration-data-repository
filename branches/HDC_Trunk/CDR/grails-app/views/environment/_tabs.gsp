@@ -8,7 +8,7 @@
 
 <div id="main_nav">
     <ul>
-        <li><g:link controller="project" action="list">Project</g:link></li>
+        <li><g:link controller="project" action="list">Application</g:link></li>
         <li id="current"><g:link controller="environment" action="list">Environment</g:link></li>
         <li><g:link controller="hardware" action="list">Hardware</g:link></li>
         <li><g:link controller="software" action="list">Software</g:link></li>

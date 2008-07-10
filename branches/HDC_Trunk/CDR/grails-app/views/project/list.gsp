@@ -2,13 +2,13 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <meta name="layout" content="main"/>
-        <title>Project List</title>
+        <title>Application List</title>
     </head>
     <body>
         <div class="body">
-            <h1>Project List</h1>
+            <h1>Application List</h1>
 			<div class="nav">    
-                <span class="menuButton"><g:link class="create" action="create">New Project</g:link></span>
+                <span class="menuButton"><g:link class="create" action="create">New Application</g:link></span>
    			</div>
 
             <g:if test="${flash.message}">

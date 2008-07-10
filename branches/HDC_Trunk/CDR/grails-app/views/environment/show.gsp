@@ -35,7 +35,7 @@
                     <td valign="top" class="value">${environment.ownerEmail}</td>
                 </tr>
                 <tr class="prop">
-                    <td valign="top" class="name">Project:</td>
+                    <td valign="top" class="name">Application:</td>
                     <td valign="top" class="value"><g:link controller="project" action="show" id="${environment.project?.id}">${environment.project}</g:link></td>
                 </tr>
                 <tr class="prop">

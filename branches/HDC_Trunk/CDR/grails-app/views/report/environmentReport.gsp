@@ -20,7 +20,7 @@
             <fieldset id="reportForm">
                 <legend>Report Builder</legend>
                 <div>
-                    <label class="report" for="projects">Project</label>
+                    <label class="report" for="projects">Application</label>
                     <select id="projects" name="project.id" onchange="${remoteFunction(action: 'environmentSelect', update: "environmentSelect", params: '\'project.id=\' + this.value')}">
                         <option value="">--none--</option>
                         <g:each in="${projects}">
