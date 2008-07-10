@@ -20,7 +20,7 @@
                             <g:sortableColumn property="description" title="Description"/>
                             <g:sortableColumn property="ownerName" title="Owner Name"/>
                             <g:sortableColumn property="ownerEmail" title="Owner Email"/>
-                            <th>Project</th>
+                            <th>Application</th>
                         </tr>
                     </thead>
                     <tbody>

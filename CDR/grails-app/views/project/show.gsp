@@ -2,11 +2,11 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="layout" content="main"/>
-    <title>Show Project</title>
+    <title>Show Application</title>
 </head>
 <body>
 <div class="body">
-    <h1>Show Project</h1>
+    <h1>Show Application</h1>
     <div class="nav">
         <span class="menuButton">
             <g:link controller="environment" params='["project.id":params.id]' class="create" action="create">New Environment</g:link>
