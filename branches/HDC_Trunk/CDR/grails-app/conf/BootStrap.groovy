@@ -56,6 +56,8 @@ class BootStrap {
             Project aps = new Project(name: "APS").save()
 
             def testing = new Environment(name: "Testing", project: aps).save()
+            def staging = new Environment(name: "Staging", project: aps).save()
+            def production = new Environment(name: "Production", project: aps).save()
 
 
             def server = new HardwareType(description: 'Server').save(flush: true)
@@ -134,6 +136,31 @@ class BootStrap {
 
             testing.configurationItems << build
             testing.save(flush:true)
+
+            def stagingBuild = new Software(
+                    name: "build",
+                    description: "Staging Build",
+                    author: "Steve Holmes",
+                    softwareType: application)
+            if (!build.save(flush: true)) {
+                build.errors.each {error -> println error}
+            }
+
+            staging.configurationItems << stagingBuild
+            staging.save(flush:true)
+
+            def prodBuild = new Software(
+                    name: "build",
+                    description: "Production Build",
+                    author: "Steve Holmes",
+                    softwareType: application)
+            if (!build.save(flush: true)) {
+                build.errors.each {error -> println error}
+            }
+
+            production.configurationItems << stagingBuild
+            production.save(flush:true)
+
             new Status(startDate: startDate,endDate: startDate + 10000, configurationItem: build, reference:active).save(flush:true)
 
             new Network(name: 'network 1', author: "Steve Holmes", networkType: networkType).save(flush: true)
