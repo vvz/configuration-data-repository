@@ -148,7 +148,7 @@ class BootStrap {
             staging.configurationItems = [stagingBuild]
             staging.save(flush:true)
 
-            def prodBuild = new Software(
+            def productionBuild = new Software(
                     name: "build",
                     description: "Production Build",
                     author: "Steve Holmes",
@@ -157,10 +157,13 @@ class BootStrap {
                 build.errors.each {error -> println error}
             }
 
-            production.configurationItems = [prodBuild]
+            production.configurationItems = [productionBuild]
             production.save(flush:true)
 
             new Status(startDate: startDate,endDate: startDate + 10000, configurationItem: build, reference:active).save(flush:true)
+            new Status(startDate: startDate,endDate: startDate + 10000, configurationItem: stagingBuild, reference:active).save(flush:true)
+            new Status(startDate: startDate,endDate: startDate + 10000, configurationItem: productionBuild, reference:active).save(flush:true)
+
 
             new Network(name: 'network 1', author: "Steve Holmes", networkType: networkType).save(flush: true)
 
