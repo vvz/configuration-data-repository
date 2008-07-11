@@ -145,8 +145,7 @@ class BootStrap {
             if (!build.save(flush: true)) {
                 build.errors.each {error -> println error}
             }
-
-            staging.configurationItems << stagingBuild
+            staging.configurationItems = [stagingBuild]
             staging.save(flush:true)
 
             def prodBuild = new Software(
@@ -158,7 +157,7 @@ class BootStrap {
                 build.errors.each {error -> println error}
             }
 
-            production.configurationItems << stagingBuild
+            production.configurationItems = [prodBuild]
             production.save(flush:true)
 
             new Status(startDate: startDate,endDate: startDate + 10000, configurationItem: build, reference:active).save(flush:true)
