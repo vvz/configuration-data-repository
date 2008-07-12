@@ -1,5 +1,4 @@
 import com.delegata.domain.ServiceOrder
-import org.hibernate.Hibernate
 
 class ServiceOrderService implements java.io.Serializable{
 
