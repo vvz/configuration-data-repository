@@ -21,9 +21,9 @@ def buildCiType = "Application"
 def buildCiStatusName = "Active"
 
 def testResultCiName = "User Acceptance Test Results"
-def testResultCiAuthor = "Steve the man"
+def testResultCiAuthor = "Beckie"
 def testResultCiType = "Acceptance"
-def testResultFileAddress = "/export/home/tomcat/tools/CDRClient/test_results.txt"
+def testResultFileAddress = "Test_Results.pdf"
 def testResultStatus = "Active"
 
 def relationType = "tests"

@@ -21,9 +21,9 @@ def buildCiType = "Application"
 def buildCiStatusName = "Active"
 
 def requirementCiName = "Requirements Document"
-def requirementCiAuthor = "Steve the man"
+def requirementCiAuthor = "beckie"
 def requirementCiType = "Requirements"
-def requirementFileAddress = "/export/home/tomcat/tools/CDRClient/requirements.txt"
+def requirementFileAddress = "Requirements.csv"
 def requirementStatus = "Active"
 
 def relationType = "baselines"
