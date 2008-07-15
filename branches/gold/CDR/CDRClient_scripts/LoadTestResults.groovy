@@ -6,7 +6,7 @@ import com.delegata.cdr.client.domain.*
  * Date: Jul 9, 2008
  * Time: 9:57:29 AM
  */
-def root = "http://solutions.delegata.com:8086/CDR"
+def root = "http://solutions.delegata.com:8085/CDR"
 
 def username = "admin"
 def password = "changeit"
