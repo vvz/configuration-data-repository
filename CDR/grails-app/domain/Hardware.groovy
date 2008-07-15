@@ -14,7 +14,7 @@ class Hardware extends ConfigurationItem{
         macAddress(maxSize: 50, nullable: true)
         hostName(maxSize: 50, nullable: true)
         hardwareType(nullable:false, blank:false)
-        internetProtocolAddress(nullable:true)
+        internetProtocolAddress(nullable:true, maxSize: 75)
     }
 
     String toString() {
