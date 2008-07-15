@@ -18,9 +18,9 @@ class TestResult extends ConfigurationItem{
     static constraints = {
         document(nullable:true)
         documentBlob(nullable: true)
-        fileType(nullable:true)
-        fileName(nullable:true)
-        fileSize(nullable:true)
+        fileType(nullable:true, maxSize: 255)
+        fileName(nullable:true, maxSize: 255)
+        fileSize(nullable:true, maxSize: 255)
         testResultType(nullable:false, blank:false)
     }
 

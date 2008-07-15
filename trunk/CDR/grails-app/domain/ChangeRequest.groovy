@@ -19,9 +19,9 @@ class ChangeRequest extends ConfigurationItem{
     static constraints = {
         document(nullable:true)
         documentBlob(nullable: true)
-        fileType(nullable:true)
-        fileName(nullable:true)
-        fileSize(nullable:true)
+        fileType(nullable:true, maxSize: 255)
+        fileName(nullable:true, maxSize: 255)
+        fileSize(nullable:true, maxSize: 255)
         requestType(nullable:false, blank:false)
     }
 
