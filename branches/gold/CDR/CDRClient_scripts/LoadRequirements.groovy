@@ -11,7 +11,7 @@ def root = "http://solutions.delegata.com:8085/CDR"
 def username = "admin"
 def password = "changeit"
 
-def projectName = "APS"
+def projectName = "DROS"
 def environmentName = "Staging"
 
 
@@ -21,9 +21,9 @@ def buildCiType = "Application"
 def buildCiStatusName = "Active"
 
 def requirementCiName = "Requirements Document"
-def requirementCiAuthor = "Steve the man"
+def requirementCiAuthor = "Corita Henderson"
 def requirementCiType = "Requirements"
-def requirementFileAddress = "/export/home/tomcat/tools/CDRClient/requirements.txt"
+def requirementFileAddress = "/usr/local/hudson_home/jobs/HDC_CDR_Integration_Corita/workspace/CDR/CDR/CDRClient_scripts/Requirements.csv"
 def requirementStatus = "Active"
 
 def relationType = "baselines"

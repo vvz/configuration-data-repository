@@ -11,7 +11,7 @@ def root = "http://solutions.delegata.com:8085/CDR"
 def username = "admin"
 def password = "changeit"
 
-def projectName = "APS"
+def projectName = "DROS"
 def environmentName = "Staging"
 
 
@@ -21,9 +21,9 @@ def buildCiType = "Application"
 def buildCiStatusName = "Active"
 
 def testResultCiName = "User Acceptance Test Results"
-def testResultCiAuthor = "Steve the man"
+def testResultCiAuthor = "Corita Henderson"
 def testResultCiType = "Acceptance"
-def testResultFileAddress = "/export/home/tomcat/tools/CDRClient/test_results.txt"
+def testResultFileAddress = "/usr/local/hudson_home/jobs/HDC_CDR_Integration_Corita/workspace/CDR/CDR/CDRClient_scripts/Test_Results.pdf"
 def testResultStatus = "Active"
 
 def relationType = "tests"
