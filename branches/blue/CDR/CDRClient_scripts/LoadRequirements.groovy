@@ -23,7 +23,7 @@ def buildCiStatusName = "Active"
 def requirementCiName = "Requirements Document"
 def requirementCiAuthor = "Jennifer Le"
 def requirementCiType = "Requirements"
-def requirementFileAddress = "/usr/local/hudson_home/jobs/HDC_CDR_Production_Blue/workspace/cdr/CDR/CDR/CDRClient_scripts/Requirements.csv"
+def requirementFileAddress = "/usr/local/hudson_home/jobs/HDC_CDR_Staging_Blue/workspace/cdr/CDR/CDR/CDRClient_scripts/Requirements.csv"
 def requirementStatus = "Active"
 
 def relationType = "baselines"
