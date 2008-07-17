@@ -21,7 +21,7 @@ def buildCiType = "Application"
 def buildCiStatusName = "Active"
 
 def requirementCiName = "Requirements Document"
-def requirementCiAuthor = "James Mar"
+def requirementCiAuthor = "David Matlock"
 def requirementCiType = "Requirements"
 def requirementFileAddress = "/usr/local/hudson_home/jobs/HDC_CDR_Staging_green/workspace/CDR/CDRClient_scripts/Requirements.csv"
 def requirementStatus = "Active"

@@ -21,7 +21,7 @@ def buildCiType = "Application"
 def buildCiStatusName = "Active"
 
 def testResultCiName = "User Acceptance Test Results"
-def testResultCiAuthor = "James Mar"
+def testResultCiAuthor = "David Matlock"
 def testResultCiType = "Acceptance"
 def testResultFileAddress = "/usr/local/hudson_home/jobs/HDC_CDR_Production_green/workspace/CDR/CDRClient_scripts/Test_Results.pdf"
 def testResultStatus = "Active"
