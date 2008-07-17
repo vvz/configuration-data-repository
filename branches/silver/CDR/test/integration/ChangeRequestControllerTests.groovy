@@ -7,6 +7,7 @@ class ChangeRequestControllerTests extends GroovyTestCase {
         //assertEquals "this", "that" //test failure
         //assertEquals "this", "this" //legitimate change to test, should work
         println "Debbie"
+        println "Darren"
 
     }
 }
