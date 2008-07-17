@@ -6,7 +6,7 @@ class ChangeRequestControllerTests extends GroovyTestCase {
         assertEquals "/changeRequest/list", controller.response.redirectedUrl
         //assertEquals "this", "that" //test failure
         //assertEquals "this", "this" //legitimate change to test, should work
-        println "Cheryl yoshida "
+        println "Make changes to this line so that it causes a ct in subversion with another users changes to this line"
 
     }
 }
