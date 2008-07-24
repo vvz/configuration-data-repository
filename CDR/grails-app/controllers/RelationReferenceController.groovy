@@ -9,10 +9,15 @@ class RelationReferenceController {
         // Alternatively, several actions can be specified.
         role(name: 'Administrator', only: ['create', 'edit', 'save', 'update'])
     }
-    def index = { redirect(action: list, params: params) }
+
+    def defaultAction = "list"
+    
+    def index = {
+        redirect(action: list, params: params)
+    }
 
     // the delete, save and update actions only accept POST requests
-    def allowedMethods = [delete: 'POST', save: 'POST', update: 'POST', referenceList: 'GETrender RelationReference.list( params ) as XML ']
+    def allowedMethods = [delete:'POST', save:'POST', update:'POST']
 
     def list = {
         if (!params.max) params.max = 10
@@ -90,6 +95,6 @@ class RelationReferenceController {
 
     def referenceList = {
         def reference = new RelationReference(params)
-        render StatusReference.findAll(reference) as XML
+        render RelationReference.findAll(reference) as XML
     }
 }
