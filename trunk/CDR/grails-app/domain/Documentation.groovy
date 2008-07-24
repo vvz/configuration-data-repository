@@ -17,7 +17,7 @@ class Documentation extends ConfigurationItem implements java.io.Serializable {
     Date lastUpdated
 
     static transients = ["document"]
-    static belongsTo = [DocumentationType, Environment]
+    static belongsTo = [Environment]
     static constraints = {
         docVersion(nullable: true)
         document(nullable: true)

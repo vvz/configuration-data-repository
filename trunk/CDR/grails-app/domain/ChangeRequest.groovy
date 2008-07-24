@@ -15,7 +15,7 @@ class ChangeRequest extends ConfigurationItem{
     Date lastUpdated
 
     static transients = ["document"]
-    static belongsTo = [RequestType, Environment]
+    static belongsTo = [Environment]
     static constraints = {
         document(nullable:true)
         documentBlob(nullable: true)
