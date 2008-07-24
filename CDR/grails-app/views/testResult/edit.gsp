@@ -84,7 +84,7 @@
                             <label for='testResultType'>Test Result Type:</label>
                         </td>
                         <td valign='top' class='value ${hasErrors(bean: testResult, field: 'testResultType', 'errors')}'>
-                            <g:select optionKey="id" from="${TestResultType.list()}" name='testResultType.id' value="${testResult?.testResultType?.id}"></g:select>
+                            <g:select optionKey="id" from="${HardwareType.findAllByType('Test Result')}" name='testResultType.id' value="${testResult?.testResultType?.id}"></g:select>
                         </td>
                     </tr>
                 </tbody>
