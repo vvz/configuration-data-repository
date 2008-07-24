@@ -13,7 +13,7 @@ class Environment implements java.io.Serializable{
     static hasMany = [configurationItems: ConfigurationItem]
     static belongsTo = [Project]
     static constraints = {
-        name(nullable: false, blank:false, maxSize: 50)
+        name(nullable: false, blank:false, maxSize: 50,unique:['project'])
         description(nullable: true, maxSize: 1000)
         ownerName(nullable: true, maxSize: 50)
         ownerEmail(nullable: true, email: true, maxSize: 75)

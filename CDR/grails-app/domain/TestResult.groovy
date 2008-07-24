@@ -14,7 +14,7 @@ class TestResult extends ConfigurationItem{
     Date lastUpdated
 
     static transients = ["document"]
-    static belongsTo = [TestResultType, Environment]
+    static belongsTo = [Environment]
     static constraints = {
         document(nullable:true)
         documentBlob(nullable: true)
