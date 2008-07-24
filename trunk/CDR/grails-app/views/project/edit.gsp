@@ -7,11 +7,9 @@
     <body>
         <div class="body">
             <h1>Edit Project</h1>
-			
 			<!-- New Location of nav menu - Tab specific functions go here --> 
 			<div class="nav">
-            %{--<span class="menuButton"><a class="home" href="${createLinkTo(dir:'')}">Home</a></span>
-            <span class="menuButton"><g:link class="list" action="list">Project List</g:link></span>--}%
+                <span class="menuButton"><g:link class="list" action="list">Project List</g:link></span>
         	</div>
             
 			<g:if test="${flash.message}">
