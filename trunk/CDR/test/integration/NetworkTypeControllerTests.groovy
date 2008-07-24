@@ -13,6 +13,15 @@ class NetworkTypeControllerTests extends GroovyTestCase {
         assert controller.response.redirectedUrl.startsWith("/networkType/show/")
     }
 
+    public void testDuplicateSave() {
+        def controller = new NetworkTypeController()
+        new NetworkType(description:'records').save(flush: true)
+        controller.params.description = "records"
+        controller.save()
+        assert controller.modelAndView.model.networkType
+        assert !controller.modelAndView.model.networkType.id
+    }
+
     public void testDelete() {
         def controller = new NetworkTypeController()
         NetworkType networkType = new NetworkType(description: "records")

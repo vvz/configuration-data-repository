@@ -13,6 +13,15 @@ class TestResultTypeControllerTests extends GroovyTestCase {
         assert controller.response.redirectedUrl.startsWith("/testResultType/show/")
     }
 
+    public void testDuplicateSave() {
+        def controller = new TestResultTypeController()
+        new TestResultType(description:'records').save(flush: true)
+        controller.params.description = "records"
+        controller.save()
+        assert controller.modelAndView.model.testResultType
+        assert !controller.modelAndView.model.testResultType.id
+    }
+
     public void testDelete() {
         def controller = new TestResultTypeController()
         TestResultType testResultType = new TestResultType(description: "records")

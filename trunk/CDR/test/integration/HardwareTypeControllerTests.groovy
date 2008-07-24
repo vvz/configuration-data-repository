@@ -13,6 +13,15 @@ class HardwareTypeControllerTests extends GroovyTestCase {
         assert controller.response.redirectedUrl.startsWith("/hardwareType/show/")
     }
 
+    public void testDuplicateSave() {
+        def controller = new HardwareTypeController()
+        new HardwareType(description:'records').save(flush: true)
+        controller.params.description = "records"
+        controller.save()
+        assert controller.modelAndView.model.hardwareType
+        assert !controller.modelAndView.model.hardwareType.id
+    }
+
     public void testDelete() {
         def controller = new HardwareTypeController()
         HardwareType hardwareType = new HardwareType(description: "records")

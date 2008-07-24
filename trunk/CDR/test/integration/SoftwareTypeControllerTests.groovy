@@ -13,6 +13,15 @@ class SoftwareTypeControllerTests extends GroovyTestCase {
         assert controller.response.redirectedUrl.startsWith("/softwareType/show/")
     }
 
+    public void testDuplicateSave() {
+        def controller = new SoftwareTypeController()
+        new SoftwareType(description:'records').save(flush: true)
+        controller.params.description = "records"
+        controller.save()
+        assert controller.modelAndView.model.softwareType
+        assert !controller.modelAndView.model.softwareType.id
+    }
+
     public void testDelete() {
         def controller = new SoftwareTypeController()
         SoftwareType softwareType = new SoftwareType(name: "records")

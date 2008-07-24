@@ -5,7 +5,15 @@ class DocumentationTypeControllerTests extends GroovyTestCase {
         controller.save()
         assert controller.flash.message.startsWith("Documentation Type")
         assert controller.response.redirectedUrl.startsWith("/documentationType/show/")
-        controller.response.redirectedUrl
+    }
+
+    public void testDuplicateSave() {
+        def controller = new DocumentationTypeController()
+        new DocumentationType(description:'records').save(flush: true)
+        controller.params.description = "records"
+        controller.save()
+        assert controller.modelAndView.model.documentationType
+        assert !controller.modelAndView.model.documentationType.id
     }
 
     public void testDelete() {
