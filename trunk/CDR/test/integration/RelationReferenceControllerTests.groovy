@@ -13,6 +13,17 @@ class RelationReferenceControllerTests extends GroovyTestCase{
         assert controller.response.redirectedUrl.startsWith("/relationReference/show/")
     }
 
+    public void testDuplicateSave() {
+        def controller = new RelationReferenceController()
+        RelationReference reference = new RelationReference(name: "duplicate")
+        reference.save(flush: true)
+        controller.params.name = "duplicate"
+        controller.save()
+
+        assert controller.modelAndView.model.relationReference
+        assert !controller.modelAndView.model.relationReference.id
+    }
+
     public void testDelete() {
         def controller = new RelationReferenceController()
         RelationReference relationReference = new RelationReference(name: "records")
