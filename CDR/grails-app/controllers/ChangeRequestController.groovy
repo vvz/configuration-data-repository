@@ -61,17 +61,34 @@ class ChangeRequestController {
     def update = {
         def changeRequest = ChangeRequest.get(params.id)
         if (changeRequest) {
-            changeRequest.properties = params
-            def upload = request.getFile('document')
-            changeRequest.document = upload.getBytes()
-            changeRequest.fileType = upload.getContentType()
-            changeRequest.fileName = upload.getOriginalFilename()
-            if (!changeRequest.hasErrors() && changeRequest.save()) {
-                flash.message = "ChangeRequest ${params.id} updated"
-                redirect(action: show, id: changeRequest.id)
+            def circular = false
+            if (params.get('parent.id') != 'null') {
+                def parent = ChangeRequest.get(Long.parseLong(params.get('parent.id')))
+                println "parent: ${parent}"
+                changeRequest.configurationItems.each {child ->
+                    println "child: ${child}"
+                    if (child.id == parent.id) {
+                        circular = true
+                    }
+                }
             }
-            else {
+
+            if (circular) {
+                flash.message = "Cannot choose a child as a parent."
                 render(view: 'edit', model: [changeRequest: changeRequest])
+            } else {
+                def upload = request.getFile('document')
+                changeRequest.document = upload.getBytes()
+                changeRequest.fileType = upload.getContentType()
+                changeRequest.fileName = upload.getOriginalFilename()
+                changeRequest.properties = params
+                if (!changeRequest.hasErrors() && changeRequest.save()) {
+                    flash.message = "ChangeRequest ${params.id} updated"
+                    redirect(action: show, id: changeRequest.id)
+                }
+                else {
+                    render(view: 'edit', model: [changeRequest: changeRequest])
+                }
             }
         }
         else {
@@ -88,7 +105,7 @@ class ChangeRequestController {
 
     def save = {
         def changeRequest = new ChangeRequest(params)
-        def  upload = request.getFile('document')
+        def upload = request.getFile('document')
         changeRequest.document = upload.getBytes()
         changeRequest.fileType = upload.getContentType()
         changeRequest.fileName = upload.getOriginalFilename()
