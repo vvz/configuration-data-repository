@@ -81,7 +81,8 @@ class TestResultController {
                 testResult.fileName = upload.getOriginalFilename()
                 testResult.properties = params
                 if (testResult.save()) {
-                    flash.message = "TestResult ${params.id} updated."
+                    if(!testResult.fileName) flash.message = "Test Result ${params.id} updated.  No document was saved.  This may be due to a bad Path."
+                    else flash.message = "TestResult ${params.id} updated."
                     redirect(action: show, id: testResult.id)
                 }
                 else {
@@ -110,7 +111,8 @@ class TestResultController {
         testResult.fileName = upload.getOriginalFilename()
         testResult.fileSize = upload.getSize()
         if (testResult.save()) {
-            flash.message = "TestResult ${testResult.id} created."
+            if(!testResult.fileName) flash.message = "Test Result ${testResult.id} created.  No document was saved.  This may be due to a bad Path."
+            else flash.message = "TestResult ${testResult.id} created."
             redirect(action: show, id: testResult.id)
         }
         else {

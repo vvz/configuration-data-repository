@@ -83,7 +83,8 @@ class DocumentationController {
                 documentation.fileName = upload.getOriginalFilename()
                 documentation.docVersion += 1
                 if (documentation.save()) {
-                    flash.message = "Documentation ${params.id} updated."
+                    if(!documentation.fileName) flash.message = "Documentation ${params.id} updated.  No document was saved.  This may be due to a bad Path."
+                    else flash.message = "Documentation ${params.id} updated."
                     redirect(action: show, id: documentation.id)
                 }
                 else {
@@ -113,6 +114,7 @@ class DocumentationController {
         documentation.fileSize = upload.getSize()
         documentation.docVersion = 1
         if (documentation.save()) {
+            if(!documentation.fileName) flash.message = "Documentation ${documentation.id} created.  No document was saved.  This may be due to a bad Path."
             flash.message = "Documentation ${documentation.id} created."
             redirect(action: show, id: documentation.id)
         }

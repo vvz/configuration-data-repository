@@ -83,7 +83,8 @@ class ChangeRequestController {
                 changeRequest.fileName = upload.getOriginalFilename()
                 changeRequest.properties = params
                 if (!changeRequest.hasErrors() && changeRequest.save()) {
-                    flash.message = "ChangeRequest ${params.id} updated"
+                    if(!changeRequest.fileName) flash.message = "Change Request ${params.id} updated.  No document was saved.  This may be due to a bad Path."
+                    else flash.message = "ChangeRequest ${params.id} updated"
                     redirect(action: show, id: changeRequest.id)
                 }
                 else {
@@ -111,7 +112,8 @@ class ChangeRequestController {
         changeRequest.fileName = upload.getOriginalFilename()
         changeRequest.fileSize = upload.getSize()
         if (!changeRequest.hasErrors() && changeRequest.save()) {
-            flash.message = "ChangeRequest ${changeRequest.id} created"
+            if(!changeRequest.fileName) flash.message = "Change Request ${changeRequest.id} created.  No document was saved.  This may be due to a bad Path."
+            else flash.message = "ChangeRequest ${changeRequest.id} created"
             redirect(action: show, id: changeRequest.id)
         }
         else {
