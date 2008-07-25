@@ -9,9 +9,9 @@ class ConfigurationItem implements java.io.Serializable {
     Date dateCreated
     Date lastUpdated
 
-    /*Set configurationItems
+    Set configurationItems
     Set environments
-    Set statuses*/
+    Set statuses
     Set thisRelations
     Set thatRelations
 
