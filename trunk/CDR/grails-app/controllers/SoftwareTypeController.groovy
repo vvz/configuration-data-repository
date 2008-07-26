@@ -13,8 +13,8 @@ class SoftwareTypeController{
     def allowedMethods = [delete:'POST', save:'POST', update:'POST']
 
     def list = {
-        if(!params.max)params.max = 10
-        [ softwareTypeList: SoftwareType.findAllByType('Software') ]
+        if(!params.max) params.max = 10
+        [ softwareTypeList: SoftwareType.findAllByType('Software', params) ]
     }
 
     def show = {
