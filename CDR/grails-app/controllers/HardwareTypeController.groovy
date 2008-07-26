@@ -14,7 +14,7 @@ class HardwareTypeController{
 
     def list = {
         if(!params.max)params.max = 10
-        [ hardwareTypeList: HardwareType.findAllByType('Hardware') ]
+        [ hardwareTypeList: HardwareType.findAllByType('Hardware', params) ]
     }
 
     def show = {

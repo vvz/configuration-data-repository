@@ -14,7 +14,7 @@ class TestResultTypeController{
 
     def list = {
         if(!params.max)params.max = 10
-        [ testResultTypeList: TestResultType.findAllByType('Test Result') ]
+        [ testResultTypeList: TestResultType.findAllByType('Test Result', params) ]
     }
 
     def show = {

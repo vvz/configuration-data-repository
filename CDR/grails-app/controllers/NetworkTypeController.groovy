@@ -14,7 +14,7 @@ class NetworkTypeController{
 
     def list = {
         if(!params.max)params.max = 10
-        [ networkTypeList: NetworkType.findAllByType('Network') ]
+        [ networkTypeList: NetworkType.findAllByType('Network', params) ]
     }
 
     def show = {

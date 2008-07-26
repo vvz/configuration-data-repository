@@ -15,7 +15,7 @@ class DocumentationTypeController{
 
     def list = {
         if(!params.max)params.max = 10
-        [ documentationTypeList: DocumentationType.findAllByType('Documentation') ]
+        [ documentationTypeList: DocumentationType.findAllByType('Documentation', params) ]
     }
 
     def show = {

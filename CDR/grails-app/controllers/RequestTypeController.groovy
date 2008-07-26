@@ -14,7 +14,7 @@ class RequestTypeController {
 
     def list = {
         if (!params.max) params.max = 10
-        [requestTypeList: RequestType.findAllByType('Change Request')]
+        [requestTypeList: RequestType.findAllByType('Change Request',params)]
     }
 
     def show = {
