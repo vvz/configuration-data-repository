@@ -6,7 +6,7 @@ import com.delegata.cdr.client.domain.*
  * Date: Jul 9, 2008
  * Time: 9:57:29 AM
  */
-def root = "http://localhost:8080/CDR"
+def root = "http://solutions.delegata.com:8086/CDR"
 
 def username = "admin"
 def password = "changeit"
@@ -23,7 +23,7 @@ def buildCiStatusName = "Active"
 def testResultCiName = "User Acceptance Test Results"
 def testResultCiAuthor = "Steve the man"
 def testResultCiType = "Acceptance"
-def testResultFileAddress = "C:/backup/testResult.txt"
+def testResultFileAddress = "/export/home/tomcat/tools/CDRClient/test_results.txt"
 def testResultStatus = "Active"
 
 def relationType = "tests"
