@@ -6,7 +6,7 @@ import com.delegata.cdr.client.domain.*
  * Date: Jul 8, 2008
  * Time: 11:38:40 AM
  */
-def root = "http://localhost:8080/CDR"
+def root = "http://solutions.delegata.com:8086/CDR"
 
 def username = "admin"
 def password = "changeit"
@@ -23,7 +23,7 @@ def buildCiStatusName = "Active"
 def requirementCiName = "Requirements Document"
 def requirementCiAuthor = "Steve the man"
 def requirementCiType = "Requirements"
-def requirementFileAddress = "C:/backup/requirement.txt"
+def requirementFileAddress = "/export/home/tomcat/tools/CDRClient/requirements.txt"
 def requirementStatus = "Active"
 
 def relationType = "baselines"
