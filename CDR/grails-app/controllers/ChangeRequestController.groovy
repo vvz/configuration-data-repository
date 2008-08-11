@@ -61,36 +61,43 @@ class ChangeRequestController {
     def update = {
         def changeRequest = ChangeRequest.get(params.id)
         if (changeRequest) {
-            def circular = false
-            if (params.get('parent.id') != 'null') {
-                def parent = ChangeRequest.get(Long.parseLong(params.get('parent.id')))
-                println "parent: ${parent}"
-                changeRequest.configurationItems.each {child ->
-                    println "child: ${child}"
-                    if (child.id == parent.id) {
-                        circular = true
+            println "changeRequest.version: ${changeRequest.version}"
+            println "params.version: ${params.version}"
+            if (Long.valueOf(changeRequest.version) != Long.valueOf(params.version)) {
+                    flash.message = "${changeRequest.name} has modified this record since you last saw it.  Please try updating again."
+                    redirect(action: show, id: changeRequest.id)
+            } else {
+                def circular = false
+                if (params.get('parent.id') != 'null') {
+                    def parent = ChangeRequest.get(Long.parseLong(params.get('parent.id')))
+                    println "parent: ${parent}"
+                    changeRequest.configurationItems.each {child ->
+                        println "child: ${child}"
+                        if (child.id == parent.id) {
+                            circular = true
+                        }
+                    }
+                }
+                if (circular) {
+                    flash.message = "Cannot choose a child as a parent."
+                    render(view: 'edit', model: [changeRequest: changeRequest])
+                } else {
+                    def upload = request.getFile('document')
+                    changeRequest.document = upload.getBytes()
+                    changeRequest.fileType = upload.getContentType()
+                    changeRequest.fileName = upload.getOriginalFilename()
+                    changeRequest.properties = params
+                    if (!changeRequest.hasErrors() && changeRequest.save()) {
+                        if (!changeRequest.fileName) flash.message = "Change Request ${params.id} updated.  No document was saved.  This may be due to a bad Path."
+                        else flash.message = "ChangeRequest ${params.id} updated"
+                        redirect(action: show, id: changeRequest.id)
+                    }
+                    else {
+                        render(view: 'edit', model: [changeRequest: changeRequest])
                     }
                 }
             }
 
-            if (circular) {
-                flash.message = "Cannot choose a child as a parent."
-                render(view: 'edit', model: [changeRequest: changeRequest])
-            } else {
-                def upload = request.getFile('document')
-                changeRequest.document = upload.getBytes()
-                changeRequest.fileType = upload.getContentType()
-                changeRequest.fileName = upload.getOriginalFilename()
-                changeRequest.properties = params
-                if (!changeRequest.hasErrors() && changeRequest.save()) {
-                    if(!changeRequest.fileName) flash.message = "Change Request ${params.id} updated.  No document was saved.  This may be due to a bad Path."
-                    else flash.message = "ChangeRequest ${params.id} updated"
-                    redirect(action: show, id: changeRequest.id)
-                }
-                else {
-                    render(view: 'edit', model: [changeRequest: changeRequest])
-                }
-            }
         }
         else {
             flash.message = "ChangeRequest not found with id ${params.id}"
@@ -112,7 +119,7 @@ class ChangeRequestController {
         changeRequest.fileName = upload.getOriginalFilename()
         changeRequest.fileSize = upload.getSize()
         if (!changeRequest.hasErrors() && changeRequest.save()) {
-            if(!changeRequest.fileName) flash.message = "Change Request ${changeRequest.id} created.  No document was saved.  This may be due to a bad Path."
+            if (!changeRequest.fileName) flash.message = "Change Request ${changeRequest.id} created.  No document was saved.  This may be due to a bad Path."
             else flash.message = "ChangeRequest ${changeRequest.id} created"
             redirect(action: show, id: changeRequest.id)
         }

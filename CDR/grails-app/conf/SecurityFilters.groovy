@@ -8,7 +8,7 @@ class SecurityFilters {
         security(controller: '*', action: '*') {
             before = {
                 accessControl {
-                    role('Administrator') || role('Observer')
+                    return role('Administrator') || role('Observer')
                 }
             }
         }
