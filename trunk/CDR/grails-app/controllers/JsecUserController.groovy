@@ -1,4 +1,4 @@
-import org.apache.commons.codec.digest.DigestUtils
+
 
 class JsecUserController {
     
@@ -44,7 +44,8 @@ class JsecUserController {
 
     def update = {
         def jsecUser = JsecUser.get(params.id)
-        jsecUser.passwordHash = DigestUtils.shaHex(params.passwordHash)
+        jsecUser.passwordHash = new org.jsecurity.crypto.hash.Sha1Hash(params.passwordHash).toHex()
+        //jsecUser.passwordHash = DigestUtils.shaHex(params.passwordHash)
         params.passwordHash = jsecUser.passwordHash
         if(jsecUser) {
             jsecUser.properties = params
@@ -70,7 +71,8 @@ class JsecUserController {
 
     def save = {
         def jsecUser = new JsecUser(params)
-        jsecUser.passwordHash = DigestUtils.shaHex(params.passwordHash) 
+        //jsecUser.passwordHash = DigestUtils.shaHex(params.passwordHash)
+        jsecUser.passwordHash = new org.jsecurity.crypto.hash.Sha1Hash(params.passwordHash).toHex()
         if(!jsecUser.hasErrors() && jsecUser.save()) {
             flash.message = "User ${jsecUser.username} created"
             redirect(action:show,id:jsecUser.id)
