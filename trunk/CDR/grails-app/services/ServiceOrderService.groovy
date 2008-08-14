@@ -1,6 +1,6 @@
 import com.delegata.domain.ServiceOrder
 
-class ServiceOrderService implements java.io.Serializable{
+class ServiceOrderService{
 
     boolean transactional = true
 
