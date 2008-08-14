@@ -3,7 +3,7 @@ import org.springframework.web.multipart.commons.CommonsMultipartFile
 /*import grails.converters.XML*/
 
 class ServiceOrderController {
-    ServiceOrderService serviceOrderService
+    def serviceOrderService
 
     /*def index = { }*/
 
@@ -27,22 +27,22 @@ class ServiceOrderController {
                     def ci
                     if (params.category == "hardware") {
                         ci = new Hardware(params)
-                        if(!ci.hardwareType.id && ci.hardwareType.description){
+                        if (!ci.hardwareType.id && ci.hardwareType.description) {
                             ci.hardwareType = HardwareType.find(ci.hardwareType)
                         }
                     } else if (params.category == "software") {
                         ci = new Software(params)
-                        if(!ci.softwareType.id && ci.softwareType.description){
+                        if (!ci.softwareType.id && ci.softwareType.description) {
                             ci.softwareType = SoftwareType.find(ci.softwareType)
                         }
                     } else if (params.category == "network") {
                         ci = new Network(params)
-                        if(!ci.networkType.id && ci.networkType.description){
+                        if (!ci.networkType.id && ci.networkType.description) {
                             ci.networkType = NetworkType.find(ci.networkType)
                         }
                     } else if (params.category == "documentation") {
                         ci = new Documentation()
-                        if(!ci.documentationType.id && ci.documentationType.description){
+                        if (!ci.documentationType.id && ci.documentationType.description) {
                             ci.documentationType = DocumentationType.find(ci.documentationType)
                         }
                         ci.properties = params
@@ -55,7 +55,7 @@ class ServiceOrderController {
                         ci.docVersion = 1
                     } else if (params.category == "testResult") {
                         ci = new TestResult(params)
-                        if(!ci.testResultType.id && ci.testResultType.description){
+                        if (!ci.testResultType.id && ci.testResultType.description) {
                             ci.testResultType = TestResultType.find(ci.testResultType)
                         }
                         def documentMap = session.getAttribute("documentMap")
@@ -66,7 +66,7 @@ class ServiceOrderController {
                         ci.fileSize = documentMap.fileSize
                     } else if (params.category == "changeRequest") {
                         ci = new ChangeRequest(params)
-                        if(!ci.requestType.id && ci.requestType.description){
+                        if (!ci.requestType.id && ci.requestType.description) {
                             ci.requestType = RequestType.find(ci.requestType)
                         }
                         def documentMap = session.getAttribute("documentMap")
@@ -78,10 +78,10 @@ class ServiceOrderController {
                     } else {
                         return error()
                     }
-                    prinln params
-                    if(params.environmentName && params.projectName){
+
+                    if (params.environmentName && params.projectName) {
                         ci.environments = new HashSet()
-                        ci.environments << Environment.find("from Environment e where e.name=:environmentName and e.project.name=:projectName", [environmentName:params.environmentName, projectName:params.projectName])
+                        ci.environments << Environment.find("from Environment e where e.name=:environmentName and e.project.name=:projectName", [environmentName: params.environmentName, projectName: params.projectName])
                     }
                     if (!ci?.validate()) {
                         ci?.errors.allErrors.each {
@@ -128,9 +128,9 @@ class ServiceOrderController {
                 Relation relation = new Relation()
                 println params
                 relation.properties = params
-                if(!params['thisCI.id']) relation.thisCI = flow.serviceOrder.configurationItems[Integer.parseInt(params.ciListId)]
-                else if(!params['thatCI.id']) relation.thatCI = flow.serviceOrder.configurationItems[Integer.parseInt(params.ciListId)]
-                if(!relation?.reference?.id && (relation?.reference?.name || relation?.reference?.description)) relation.reference = RelationReference.find(relation.reference)
+                if (!params['thisCI.id']) relation.thisCI = flow.serviceOrder.configurationItems[Integer.parseInt(params.ciListId)]
+                else if (!params['thatCI.id']) relation.thatCI = flow.serviceOrder.configurationItems[Integer.parseInt(params.ciListId)]
+                if (!relation?.reference?.id && (relation?.reference?.name || relation?.reference?.description)) relation.reference = RelationReference.find(relation.reference)
                 flow.serviceOrder.relations << relation
             }.to "proposed"
 
@@ -141,10 +141,10 @@ class ServiceOrderController {
 
             on("createStatus") {
                 Status status = new Status(params)
-                if(!status?.configurationItem?.id) {
-                    status.configurationItem =  flow.serviceOrder.configurationItems[Integer.parseInt(params.ciListId)]
+                if (!status?.configurationItem?.id) {
+                    status.configurationItem = flow.serviceOrder.configurationItems[Integer.parseInt(params.ciListId)]
                 }
-                if(!status?.reference?.id && (status?.reference?.name || status?.reference?.description)) status.reference = StatusReference.find(status.reference)
+                if (!status?.reference?.id && (status?.reference?.name || status?.reference?.description)) status.reference = StatusReference.find(status.reference)
                 flow.serviceOrder.statusus << status
             }.to "proposed"
 

@@ -52,8 +52,8 @@ class RestFilters {
         createRelation(uri: '/serviceOrder/configurationItem/**/this') {
             before = {
                 if (request.method == "POST"){
-                    params._eventId_createRelation = 'createRelation'
                     println "here 6"
+                    params._eventId_createRelation = 'createRelation'
                     redirect(action: 'serviceOrder', params:params)
                 }
             }
