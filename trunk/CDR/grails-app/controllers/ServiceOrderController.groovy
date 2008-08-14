@@ -140,12 +140,21 @@ class ServiceOrderController {
             }.to "proposed"
 
             on("createStatus") {
-                Status status = new Status(params)
-                if (!status?.configurationItem?.id) {
-                    status.configurationItem = flow.serviceOrder.configurationItems[Integer.parseInt(params.ciListId)]
+                try {
+                    Status status = new Status(params)
+                    println "status crated: $status"
+                    if (!status?.configurationItem?.id) {
+                        status.configurationItem = flow.serviceOrder.configurationItems[Integer.parseInt(params.ciListId)]
+                    }
+                    println "status.configurationItem: ${status.configurationItem}"
+                    if (!status?.reference?.id && (status?.reference?.name || status?.reference?.description)) status.reference = StatusReference.find(status.reference)
+                    println "status.references: ${status.references}"
+                    flow.serviceOrder.statusus << status
+                } catch (Exception e) {
+                    e.printStackTrace()
+                    return error()
                 }
-                if (!status?.reference?.id && (status?.reference?.name || status?.reference?.description)) status.reference = StatusReference.find(status.reference)
-                flow.serviceOrder.statusus << status
+
             }.to "proposed"
 
             on("cancel").to "end"
@@ -153,7 +162,6 @@ class ServiceOrderController {
                 println "persist"
                 serviceOrderService.persistServiceOrder(flow.serviceOrder)
             }.to "end"
-
         }
 
         end {
