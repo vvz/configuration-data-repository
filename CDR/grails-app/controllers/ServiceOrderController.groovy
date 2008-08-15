@@ -148,7 +148,7 @@ class ServiceOrderController {
                     }
                     println "status.configurationItem: ${status.configurationItem}"
                     if (!status?.reference?.id && (status?.reference?.name || status?.reference?.description)) status.reference = StatusReference.find(status.reference)
-                    println "status.references: ${status.references}"
+                    println "status.reference: ${status.reference}"
                     flow.serviceOrder.statusus << status
                 } catch (Exception e) {
                     e.printStackTrace()
