@@ -8,6 +8,7 @@ class Status{
     Date endDate
     ConfigurationItem configurationItem
     StatusReference reference
+    int listId
 
     List getParams(){
         def params = []
@@ -20,10 +21,6 @@ class Status{
     }
 
     String toString() {
-        if (reference) {
-            return "${reference.name}"
-        } else {
-            return ""
-        }
+        return "configurationItem?.id: ${configurationItem?.id} ${reference?.name} listId: $listId"
     }
 }

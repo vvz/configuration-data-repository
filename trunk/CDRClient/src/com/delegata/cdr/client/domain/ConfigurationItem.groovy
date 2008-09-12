@@ -17,8 +17,8 @@ class ConfigurationItem {
     Set configurationItems
     Set environments
     Set statuses
-    Set thisRelations
-    Set thatRelations
+    List thisRelations = []
+    List thatRelations = []
 
     List getParams(){
         def params = []

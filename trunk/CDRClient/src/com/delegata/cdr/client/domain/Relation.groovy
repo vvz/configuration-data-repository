@@ -7,6 +7,7 @@ class Relation{
     RelationReference reference
     ConfigurationItem thisCI
     ConfigurationItem thatCI
+    int listId
 
     List getParams(){
         def params = []
@@ -19,10 +20,6 @@ class Relation{
     }
 
     String toString() {
-        if (thisCI && reference && thatCI) {
-            return "${thisCI.name} ${reference.name} ${thatCI.name}"
-        } else {
-            return ""
-        }
+        return "thisCI?.id: ${thisCI?.id} ${reference?.name} ${reference?.description} thatCI?.id: ${thatCI?.id} listId: $listId"
     }
 }
