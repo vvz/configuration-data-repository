@@ -33,11 +33,22 @@ class CDRClient {
 
     void authenticate(String username, String password){
         NameValuePair[] params = [
-        new NameValuePair("action", "/CDR/auth/signIn/loginform"),
+        new NameValuePair("action", "/CDR/auth/signIn"),
         new NameValuePair("username", username),
         new NameValuePair("password", password)
 ]
-        new Post(client: client, url:"${root}/auth/signIn", params:params).execute()
+        Post post = new Post(client: client, url:"${root}/auth/signIn", params:params)
+        post.execute()
+        this.body = post.responseBody
+    }
+
+    void signOut(){
+        NameValuePair[] params = [
+        new NameValuePair("action", "/CDR/auth/signOut"),
+]
+        Post post = new Post(client: client, url:"${root}/auth/signOut", params:params)
+        post.execute()
+        this.body = post.responseBody
     }
 
     void cancelServiceOrder(){
