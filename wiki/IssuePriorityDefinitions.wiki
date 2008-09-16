@@ -1,6 +1,6 @@
 =Definitions of Issue Priorities=
 
-*Low* - The issue does not present itself often or at all in normal usage.  The issue does not prevent normal everyday work with the product.  There is an known work-around (that does not require a DBA or Toad in normal usage).  The issue is unlikely to cause problems if users are moderately careful.
+*Low* - The issue does not present itself often or at all in normal usage.  The issue does not prevent normal everyday work with the product.  There is a known work-around (that does not require a DBA or Toad in normal usage).  The issue is unlikely to cause problems if users are moderately careful.
 
 *Medium* - The issue may present itself often but there is a known work-around or it does not prevent the user from doing his/her job.  The work-around may result in changes later on after the issue is fixed.  The issue may not occur often in normal usage but can prevent users from doing there job.  It is likely that users will be affected by this issue although careful users may prevent or mitigate issues. 
    
