@@ -1,6 +1,6 @@
 =Definitions of Issue Priorities=
 
-Issue priorities should be prioritized based on the level of impact and likelihood of occurrence TODAY. If the level of impact or likelihood of occurrence changes then the priority can likewise be changed.
+This page is meant to apply only to defect issues.  Issue priorities should be prioritized based on the level of impact and likelihood of occurrence TODAY. If the level of impact or likelihood of occurrence changes then the priority can likewise be changed.
 
 *Low* - The issue does not present itself often or at all in normal usage.  The issue does not prevent normal everyday work with the product.  There is a known work-around (that does not require a DBA or Toad in normal usage).  The issue is unlikely to cause problems if users are moderately careful.
 
